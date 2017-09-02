@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# cache dir for zip files
+cached_zip
+
+# downloaded htmls
+downloaded_html

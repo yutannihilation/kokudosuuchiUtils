@@ -1,2 +1,13 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.travis\.yml$
+^\.circleci$
+^appveyor\.yml$
+^cran-comments\.md$
+^README\.Rmd$
+^README-.*\.png$
+^scripts$
+^data-raw$
+^docs$
+^cached_zip$
+^downloaded_html$
