@@ -14,7 +14,8 @@ Imports:
     xml2,
     rlang,
     stringr,
-    sf
+    sf,
+    tibble
 Suggests:
     testthat
 License: MIT + file LICENSE
