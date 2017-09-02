@@ -8,14 +8,15 @@ Depends:
     R (>= 2.10)
 Imports:
     curl,
-    purrr (>= 0.2.3),
     dplyr,
-    rvest,
-    xml2,
+    purrr (>= 0.2.3),
     rlang,
+    rvest,
     stringr,
     sf,
-    tibble
+    tibble,
+    magrittr,
+    xml2
 Suggests:
     testthat
 License: MIT + file LICENSE
