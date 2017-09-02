@@ -1,5 +1,7 @@
 # kokudosuuchiUtils
 
+[![CircleCI](https://circleci.com/gh/yutannihilation/kokudosuuchiUtils.svg?style=svg)](https://circleci.com/gh/yutannihilation/kokudosuuchiUtils)
+
 ## Installation
 
 ``` r
