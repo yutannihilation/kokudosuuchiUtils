@@ -1,11 +1,22 @@
 Package: kokudosuuchiUtils
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Utilities For 'kokudosuuchi' Package
+Version: 0.0.1
+Authors@R: person("Hiroaki", "Yutani", , "yutani.ini@gmail.com", c("aut", "cre"))
+Description: Download, extract, and join metadata from kokudosuuchi websites.
+Depends:
+    R (>= 2.10)
+Imports:
+    curl,
+    purrr (>= 0.2.3),
+    dplyr,
+    rvest,
+    xml2,
+    rlang,
+    stringr,
+    sf
+Suggests:
+    testthat
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
