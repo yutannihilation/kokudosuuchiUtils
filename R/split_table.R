@@ -2,6 +2,10 @@
 #'
 #' @export
 split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
+  # remove empty tr
+  tr_nodeset <- tr_nodeset %>%
+    purrr::keep(~ length(rvest::html_nodes(., "td")) > 0)
+
   has_bgcolor_tr <- !is.na(purrr::map_chr(tr_nodeset, rvest::html_attr, "bgcolor"))
 
   has_bgcolor_tds <- tr_nodeset %>%
