@@ -13,7 +13,7 @@ devtools::install_github("yutannihilation/kokudosuuchiUtils")
 ### Update list of description URLs
 
 ```r
-KSJIdentifierDescriptionURL <- fetch_description_urls()
+KSJIdentifierDescriptionURL <- fetch_datalist_urls()
 devtools::use_data(KSJIdentifierDescriptionURL, overwrite = TRUE)
 file.copy("data/KSJIdentifierDescriptionURL.rda", "/path/to/kokudosuuchi/data/")
 ```
