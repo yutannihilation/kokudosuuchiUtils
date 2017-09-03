@@ -9,12 +9,15 @@ Depends:
 Imports:
     curl,
     dplyr,
+    glue,
     purrr (>= 0.2.3),
     rlang,
     rvest,
+    stringi,
     stringr,
     sf,
     tibble,
+    tidyr,
     magrittr,
     xml2
 Suggests:
