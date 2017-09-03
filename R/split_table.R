@@ -1,7 +1,7 @@
 #' Split Tables
 #'
 #' @export
-split_table <- function(tr_nodeset) {
+split_table <- function(tr_nodeset, pattern_lefttop_cell = "\u5c5e\u6027\u60c5\u5831|\u5730\u7269\u60c5\u5831") {
   has_bgcolor_tr <- !is.na(purrr::map_chr(tr_nodeset, rvest::html_attr, "bgcolor"))
 
   has_bgcolor_tds <- tr_nodeset %>%
@@ -11,18 +11,22 @@ split_table <- function(tr_nodeset) {
 
   has_bgcolor_first_td <- purrr::map_lgl(has_bgcolor_tds, dplyr::first)
   is_start_of_different_table <- has_bgcolor_tr | has_bgcolor_first_td
-  table_top_indices <- which(is_start_of_different_table)
+  indices_of_table_top <- which(is_start_of_different_table)
 
   # filter out rows without bgcolor ----------------
-  expected_rows <- tr_nodeset[is_start_of_different_table] %>%
-    purrr::map(rvest::html_node, "td") %>%
-    purrr::map_chr(rvest::html_attr, "rowspan", default = "1") %>%
+  td_nodeset_lefttop_of_table <- rvest::html_node(tr_nodeset[is_start_of_different_table], "td")
+
+  td_nodeset_lefttop_of_table <- td_nodeset_lefttop_of_table %>%
+    purrr::keep(stringr::str_detect, pattern = pattern_lefttop_cell)
+
+  expected_rows <- td_nodeset_lefttop_of_table %>%
+    rvest::html_attr("rowspan", default = "1") %>%
     as.integer()
 
   # expected_rows can overwrap
   preserve_row <- rep(FALSE, length(tr_nodeset))
   for (i in seq_along(expected_rows)) {
-    preserve_row[table_top_indices[i]:(table_top_indices[i] + expected_rows[i] - 1)] <- TRUE
+    preserve_row[indices_of_table_top[i]:(indices_of_table_top[i] + expected_rows[i] - 1)] <- TRUE
   }
 
   tr_nodeset <- tr_nodeset[preserve_row]
@@ -34,7 +38,7 @@ split_table <- function(tr_nodeset) {
   table_id <- cumsum(is_start_of_different_table)
   tr_nodeset_list <- split(tr_nodeset, table_id)
 
-  # filter out tables without header -----------------
+  # filter out tables if it doesn't have a header or the filter_pattern doesn't match -----------------
   has_bgcolor_all_td <- purrr::map_lgl(has_bgcolor_tds, all)
   is_header <- has_bgcolor_tr | has_bgcolor_all_td
   has_header <- is_header[is_start_of_different_table]
@@ -43,7 +47,11 @@ split_table <- function(tr_nodeset) {
 }
 
 #' @export
-split_tables <- function(tr_nodeset_list) {
-  purrr::map(tr_nodeset_list, split_tables) %>%
+split_tables <- function(tr_nodeset_list, pattern_lefttop_cell = "\u5c5e\u6027\u60c5\u5831|\u5730\u7269\u60c5\u5831") {
+  purrr::map(tr_nodeset_list, split_tables, pattern_lefttop_cell = pattern_lefttop_cell) %>%
     purrr::flatten()
+}
+
+get_metadata_for_split <- function(tr_nodeset) {
+
 }
