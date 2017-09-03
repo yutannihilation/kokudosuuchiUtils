@@ -15,7 +15,7 @@ devtools::install_github("yutannihilation/kokudosuuchiUtils")
 ```r
 KSJIdentifierDescriptionURL <- fetch_datalist_urls()
 devtools::use_data(KSJIdentifierDescriptionURL, overwrite = TRUE)
-file.copy("data/KSJIdentifierDescriptionURL.rda", "/path/to/kokudosuuchi/data/")
+file.copy("data/KSJIdentifierDescriptionURL.rda", "/path/to/kokudosuuchi/data/", overwrite = TRUE)
 ```
 
 ### Update the list of code description URLs
@@ -23,5 +23,5 @@ file.copy("data/KSJIdentifierDescriptionURL.rda", "/path/to/kokudosuuchi/data/")
 ```r
 KSJCodesDescriptionURL <- extract_all_codelist_urls()
 devtools::use_data(KSJCodesDescriptionURL, overwrite = TRUE)
-file.copy("data/KSJCodesDescriptionURL.rda", "/path/to/kokudosuuchi/data/")
+file.copy("data/KSJCodesDescriptionURL.rda", "/path/to/kokudosuuchi/data/", overwrite = TRUE)
 ```

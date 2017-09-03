@@ -74,6 +74,6 @@ extract_codelist_urls <- function(html_file) {
 #' @export
 extract_all_codelist_urls <- function() {
   datalist_files <- list.files(HTML_DIR, pattern = "datalist-.*\\.html", full.names = TRUE)
-  rlang::set_names(datalist_files, basename(datalist_files))
+  datalist_files <- rlang::set_names(datalist_files, basename(datalist_files))
   purrr::map_dfr(datalist_files, extract_codelist_urls, .id = "source")
 }
