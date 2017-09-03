@@ -1,6 +1,5 @@
 # kokudosuuchiUtils
 
-[![CircleCI](https://circleci.com/gh/yutannihilation/kokudosuuchiUtils.svg?style=svg)](https://circleci.com/gh/yutannihilation/kokudosuuchiUtils)
 [![Travis-CI Build Status](https://travis-ci.org/yutannihilation/kokudosuuchiUtils.svg?branch=master)](https://travis-ci.org/yutannihilation/kokudosuuchiUtils)
 
 ## Installation
