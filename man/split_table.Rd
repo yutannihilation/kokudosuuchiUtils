@@ -2,10 +2,10 @@
 % Please edit documentation in R/split_table.R
 \name{split_table}
 \alias{split_table}
-\title{Split tables}
+\title{Split Tables}
 \usage{
 split_table(tr_nodeset)
 }
 \description{
-Split tables
+Split Tables
 }

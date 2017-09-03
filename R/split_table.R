@@ -1,4 +1,4 @@
-#' Split tables
+#' Split Tables
 #'
 #' @export
 split_table <- function(tr_nodeset) {
@@ -40,4 +40,10 @@ split_table <- function(tr_nodeset) {
   has_header <- is_header[is_start_of_different_table]
 
   tr_nodeset_list[has_header]
+}
+
+#' @export
+split_tables <- function(tr_nodeset_list) {
+  purrr::map(tr_nodeset_list, split_tables) %>%
+    purrr::flatten()
 }
