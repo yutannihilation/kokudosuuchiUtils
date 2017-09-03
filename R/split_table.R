@@ -1,7 +1,7 @@
 #' Split Tables
 #'
 #' @export
-split_table <- function(tr_nodeset, pattern_lefttop_cell = "\u5c5e\u6027\u60c5\u5831|\u5730\u7269\u60c5\u5831") {
+split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
   has_bgcolor_tr <- !is.na(purrr::map_chr(tr_nodeset, rvest::html_attr, "bgcolor"))
 
   has_bgcolor_tds <- tr_nodeset %>%
@@ -47,11 +47,7 @@ split_table <- function(tr_nodeset, pattern_lefttop_cell = "\u5c5e\u6027\u60c5\u
 }
 
 #' @export
-split_tables <- function(tr_nodeset_list, pattern_lefttop_cell = "\u5c5e\u6027\u60c5\u5831|\u5730\u7269\u60c5\u5831") {
+split_tables <- function(tr_nodeset_list, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
   purrr::map(tr_nodeset_list, split_tables, pattern_lefttop_cell = pattern_lefttop_cell) %>%
     purrr::flatten()
-}
-
-get_metadata_for_split <- function(tr_nodeset) {
-
 }

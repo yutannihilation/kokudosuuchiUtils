@@ -4,7 +4,7 @@
 \alias{split_table}
 \title{Split Tables}
 \usage{
-split_table(tr_nodeset)
+split_table(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN)
 }
 \description{
 Split Tables
