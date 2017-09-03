@@ -50,7 +50,6 @@ parse_table <- function(tr_nodeset) {
   # Construct character matrix with cells extracted ------------------------
 
   result <- matrix(NA_character_, ncol = number_of_cols,  nrow = number_of_rows)
-  colnames(result)[indices_header_col] <- header_col_names
   result[cbind(table_data_adjusted$row_index, table_data_adjusted$col_index)] <- table_data_adjusted$text
 
   for (idx in indices_vertically_long_cells) {
