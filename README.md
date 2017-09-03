@@ -18,6 +18,17 @@ devtools::use_data(KSJIdentifierDescriptionURL, overwrite = TRUE)
 file.copy("data/KSJIdentifierDescriptionURL.rda", "/path/to/kokudosuuchi/data/", overwrite = TRUE)
 ```
 
+### Parse all data description HTMLs
+
+```r
+library(purrr)
+
+download_all_datalist_html()
+
+datalist_files <- list.files("downloaded_html", pattern = "datalist-.*\\.html", full.names = TRUE)
+map(datalist_files, read_kokudosuuchi_table)
+```
+
 ### Update the list of code description URLs
 
 ```r
