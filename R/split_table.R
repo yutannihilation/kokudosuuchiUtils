@@ -43,11 +43,11 @@ split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
   is_header <- has_bgcolor_tr | has_bgcolor_all_td
   has_header <- is_header[is_start_of_different_table]
 
-  tr_nodeset_list[has_header]
+  unname(tr_nodeset_list[has_header])
 }
 
 #' @export
 split_tables <- function(tr_nodeset_list, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
-  purrr::map(tr_nodeset_list, split_tables, pattern_lefttop_cell = pattern_lefttop_cell) %>%
+  purrr::map(tr_nodeset_list, split_table, pattern_lefttop_cell = pattern_lefttop_cell) %>%
     purrr::flatten()
 }
