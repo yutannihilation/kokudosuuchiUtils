@@ -46,6 +46,14 @@ download_all_datalist_html <- function() {
 }
 
 #' @export
+download_all_codelist_html <- function() {
+  codelist_urls <- KSJCodesDescriptionURL$url
+  codelist_destfiles <- file.path(HTML_DIR, paste0("datalist-", basename(codelist_urls)))
+  download_all_html(codelist_urls, codelist_destfiles)
+}
+
+
+#' @export
 extract_codelist_urls <- function(html_file) {
   td_nodes <- xml2::read_html(html_file, encoding = "CP932") %>%
     rvest::html_nodes(xpath = "//td[a]")
@@ -68,10 +76,4 @@ extract_all_codelist_urls <- function() {
   datalist_files <- list.files(HTML_DIR, pattern = "datalist-.*\\.html", full.names = TRUE)
   rlang::set_names(datalist_files, basename(datalist_files))
   purrr::map_dfr(datalist_files, extract_codelist_urls, .id = "source")
-}
-
-#' @export
-download_all_codelist_html <- function() {
-  datalist_files <- list.files(HTML_DIR, pattern = "datalist-.*\\.html", full.names = TRUE)
-
 }
