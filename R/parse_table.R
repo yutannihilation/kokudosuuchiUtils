@@ -38,7 +38,7 @@ parse_table <- function(tr_nodeset) {
 
     table_data_adjusted <- dplyr::mutate(
       table_data_adjusted,
-      col_index = if_else(
+      col_index = dplyr::if_else(
         col_index >= col_index_left &
           dplyr::between(row_index, row_index_top, row_index_bottom),
         col_index + table_data_adjusted$colspan[idx],
