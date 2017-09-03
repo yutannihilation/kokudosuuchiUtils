@@ -12,3 +12,12 @@ test_that("parse_table() works", {
   expect_equal(nrow(l[[2]]), 3L)
   expect_equal(colnames(l[[2]]), c("\u5c5e\u6027\u540d", "\u8aac\u660e", "\u5c5e\u6027\u306e\u578b"))
 })
+
+test_that("parse_table() works", {
+  d <- parse_test_table("test-parse.html")[[1]]
+
+  expect_equal(nrow(d), 7L)
+  expect_equal(colnames(d), c("\u5c5e\u6027\u540d", "\u8aac\u660e", "\u5c5e\u6027\u306e\u578b"))
+  expect_equal(d$"\u5c5e\u6027\u540d"[4], "\u5927\u9805\u76ee1_\u4e2d\u9805\u76ee1_\u5c0f\u9805\u76ee1")
+  expect_equal(d$"\u5c5e\u6027\u540d"[5], "\u5927\u9805\u76ee1_\u4e2d\u9805\u76ee1_\u5c0f\u9805\u76ee2")
+})
