@@ -12,6 +12,7 @@ defaults: &defaults
              >> ${BASH_ENV}
 
      # build and test
+     - run: Rscript -e "devtools::install_deps()"
      - run: R CMD build .
      - run: R CMD check "${PKG_TARBALL}" --as-cran --no-manual
      - run: Rscript -e "message(devtools::check_failures(path = '${RCHECK_DIR}'))"
