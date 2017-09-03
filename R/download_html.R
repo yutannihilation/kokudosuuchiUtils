@@ -55,15 +55,15 @@ download_all_codelist_html <- function() {
 
 #' @export
 extract_codelist_urls <- function(html_file) {
-  td_nodes <- xml2::read_html(html_file, encoding = "CP932") %>%
+  td_nodeset <- xml2::read_html(html_file, encoding = "CP932") %>%
     rvest::html_nodes(xpath = "//td[a]")
 
-  text <- rvest::html_text(td_nodes)
+  text <- rvest::html_text(td_nodeset)
 
-  a_nodes_list <- purrr::map(td_nodes, rvest::html_nodes, xpath = "./a")
+  a_nodeset_list <- purrr::map(td_nodeset, rvest::html_nodes, xpath = "./a")
 
-  url <- purrr::map(a_nodes_list, rvest::html_attr, "href")
-  name <- purrr::map(a_nodes_list, rvest::html_text)
+  url <- purrr::map(a_nodeset_list, rvest::html_attr, "href")
+  name <- purrr::map(a_nodeset_list, rvest::html_text)
 
   tibble::tibble(text, url, name) %>%
     tidyr::unnest() %>%
