@@ -1,6 +1,6 @@
 Package: kokudosuuchiUtils
 Type: Package
-Title: Utilities For 'kokudosuuchi' Package
+Title: Utilities for 'kokudosuuchi' Package
 Version: 0.0.1
 Authors@R: person("Hiroaki", "Yutani", , "yutani.ini@gmail.com", c("aut", "cre"))
 Description: Download, extract, and join metadata from kokudosuuchi websites.
