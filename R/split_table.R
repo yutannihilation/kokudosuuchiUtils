@@ -6,6 +6,31 @@ split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
   tr_nodeset <- tr_nodeset %>%
     purrr::keep(~ length(rvest::html_nodes(., "td")) > 0)
 
+  metadata <- get_tr_metadata(tr_nodeset)
+
+  # preserve tables matched the pattern only
+  indices_table_top <- which(metadata$is_start_of_different_table &
+                               stringr::str_detect(metadata$row_label, pattern = pattern_lefttop_cell))
+
+  # filter out rows without bgcolor ----------------
+  # expected_rows can overwrap
+  preserve_row <- rep(FALSE, length(tr_nodeset))
+  for (i in indices_table_top) {
+    preserve_row[i:(i + metadata$expected_rows[i] - 1)] <- TRUE
+  }
+
+  metadata <- metadata[preserve_row, ]
+
+  # split table ----------------------
+  table_id <- cumsum(metadata$is_start_of_different_table)
+  tr_nodeset_list <- split(tr_nodeset[preserve_row], table_id)
+
+  # filter out tables if it doesn't have a header -----------------
+  unname(tr_nodeset_list[metadata$is_header[metadata$is_start_of_different_table]])
+}
+
+
+get_tr_metadata <- function(tr_nodeset) {
   is_tr_headerish <- !is.na(purrr::map_chr(tr_nodeset, rvest::html_attr, "bgcolor"))
 
   are_tds_headerish <- tr_nodeset %>%
@@ -17,47 +42,30 @@ split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
   are_all_tds_headerish  <- purrr::map_lgl(are_tds_headerish, all)
 
   is_start_of_different_table <- is_tr_headerish | is_first_td_headerish
-  indices_table_top <- which(is_start_of_different_table)
 
-  # filter out rows without bgcolor ----------------
-  td_nodeset_lefttop_of_table <- rvest::html_node(tr_nodeset[is_start_of_different_table], "td")
+  leftmost_td_nodeset <- rvest::html_node(tr_nodeset, "td")
 
-  td_nodeset_lefttop_of_table <- td_nodeset_lefttop_of_table %>%
-    purrr::keep(stringr::str_detect, pattern = pattern_lefttop_cell)
+  row_label <- rvest::html_text(leftmost_td_nodeset)
 
-  expected_rows <- td_nodeset_lefttop_of_table %>%
+  expected_rows <- leftmost_td_nodeset %>%
     rvest::html_attr("rowspan", default = "1") %>%
     as.integer()
 
-  # expected_rows can overwrap
-  preserve_row <- rep(FALSE, length(tr_nodeset))
-  for (i in seq_along(expected_rows)) {
-    preserve_row[indices_table_top[i]:(indices_table_top[i] + expected_rows[i] - 1)] <- TRUE
-  }
-
-  tr_nodeset <- tr_nodeset[preserve_row]
-  is_start_of_different_table <- is_start_of_different_table[preserve_row]
-  is_tr_headerish <- is_tr_headerish[preserve_row]
-  are_all_tds_headerish <- are_all_tds_headerish[preserve_row]
-  expected_rows <- expected_rows[preserve_row]
-
-  # split table ----------------------
   is_header <- is_tr_headerish | are_all_tds_headerish
-  is_header_without_rows <- is_header & expected_rows == 1L
+
   # if it is next to the table without rows, it is probably the part of the table
-  is_start_of_different_table <- is_start_of_different_table & !c(FALSE, dplyr::lag(is_header_without_rows)[-1])
-  table_id <- cumsum(is_start_of_different_table)
-  tr_nodeset_list <- split(tr_nodeset, table_id)
+  is_header_without_rows <- is_header & expected_rows == 1L
+  is_next_to_header_without_rows <- c(FALSE, dplyr::lag(is_header_without_rows)[-1])
+  expected_rows[is_header_without_rows] <- expected_rows[is_header_without_rows] + expected_rows[is_next_to_header_without_rows]
+  is_start_of_different_table <- is_start_of_different_table & !is_next_to_header_without_rows
 
-  # filter out tables if it doesn't have a header or the filter_pattern doesn't match -----------------
-  has_header <- is_header[is_start_of_different_table]
-
-  unname(tr_nodeset_list[has_header])
-}
-
-
-get_tr_metadata <- function(tr_nodeset) {
-
+  tibble::tibble(is_tr_headerish,
+                 is_first_td_headerish,
+                 are_all_tds_headerish,
+                 is_start_of_different_table,
+                 is_header,
+                 expected_rows,
+                 row_label)
 }
 
 
