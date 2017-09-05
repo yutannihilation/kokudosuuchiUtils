@@ -26,7 +26,9 @@ library(purrr)
 download_all_datalist_html()
 
 datalist_files <- list.files("downloaded_html", pattern = "datalist-.*\\.html", full.names = TRUE)
-map(datalist_files, read_kokudosuuchi_table)
+datalist_files <- purrr::set_names(datalist_files)
+result <- purrr::map(datalist_files, purrr::safely(read_kokudosuuchi_table))
+purrr::discard(result, ~ is.null(.$error))
 ```
 
 ### Update the list of code description URLs
