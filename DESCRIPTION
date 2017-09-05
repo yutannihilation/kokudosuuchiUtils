@@ -18,6 +18,7 @@ Imports:
     tibble,
     tidyr,
     magrittr,
+    utils,
     xml2
 Suggests:
     testthat
