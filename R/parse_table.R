@@ -5,9 +5,7 @@ parse_table <- function(tr_nodeset) {
   header_row <- tr_nodeset[[1]]
   content_rows <- tr_nodeset[-1]
 
-  try_trim_first_td(header_row)
-  # e.g. http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S10a-v1_2.html
-  try_trim_first_td(content_rows[[1]])
+  try_remove_lefttop_cells(header_row, content_rows)
 
   header_col_names <- header_row %>%
     rvest::html_nodes("td") %>%
@@ -98,14 +96,20 @@ parse_tables <- function(tr_nodeset_list) {
   purrr::map(tr_nodeset_list, parse_table)
 }
 
-# first td can be removed as it has no useful infomation
-try_trim_first_td <- function(tr_node) {
-  first_td_node <- rvest::html_node(tr_node, "td")
+# see design/when-to-remove-top-left-cell.md
+try_remove_lefttop_cells <- function(header_row, content_rows) {
+  header_lefttop_td_node <- rvest::html_node(header_row, "td")
+  content_lefttop_td_node <- rvest::html_node(content_rows[[1]], "td")
 
-  # in almost all cases, we can remove first td. One exception is this:
-  #    http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P33.html
-  if (stringr::str_detect(rvest::html_text(first_td_node), ZOKUSEI_PATTERN)) {
-    xml2::xml_remove(first_td_node)
+  # 1) The top-left header cell is vertically long
+  if (!is.na(rvest::html_attr(header_lefttop_td_node, "rowspan"))) {
+    xml2::xml_remove(header_lefttop_td_node)
+  } else {
+    # 2) The top-left header cell is NOT vertically long (and is not overwrapped by the last table)
+    if (!is.na(rvest::html_attr(content_lefttop_td_node, "bgcolor"))) {
+      xml2::xml_remove(header_lefttop_td_node)
+      xml2::xml_remove(content_lefttop_td_node)
+    }
   }
 }
 
@@ -113,7 +117,7 @@ extract_data_from_row <- function(row_node, row_index) {
   cells     <- rvest::html_nodes(row_node, "td")
 
   colspan   <- as.integer(purrr::map_chr(cells, rvest::html_attr, "colspan", default = "1"))
-  col_index <- head(cumsum(c(1L, colspan)), length(cells))
+  col_index <- utils::head(cumsum(c(1L, colspan)), length(cells))
 
   rowspan   <- as.integer(purrr::map_chr(cells, rvest::html_attr, "rowspan", default = "1"))
 
