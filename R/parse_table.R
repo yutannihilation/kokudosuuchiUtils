@@ -9,7 +9,8 @@ parse_table <- function(tr_nodeset) {
 
   header_col_names <- header_row %>%
     rvest::html_nodes("td") %>%
-    rvest::html_text()
+    rvest::html_text() %>%
+    stringr::str_replace(COLNAME_FRILL_PATTERN, "")
 
   header_col_widths <- header_row %>%
     rvest::html_nodes("td") %>%
