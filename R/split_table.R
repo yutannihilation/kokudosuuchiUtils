@@ -2,10 +2,6 @@
 #'
 #' @export
 split_table <- function(tr_nodeset, pattern_lefttop_cell = ZOKUSEI_PATTERN) {
-  # remove empty tr
-  tr_nodeset <- tr_nodeset %>%
-    purrr::keep(~ length(rvest::html_nodes(., "td")) > 0)
-
   metadata <- get_tr_metadata(tr_nodeset)
 
   # preserve tables matched the pattern only
@@ -36,7 +32,9 @@ get_tr_metadata <- function(tr_nodeset) {
   are_tds_headerish <- tr_nodeset %>%
     purrr::map(rvest::html_nodes, "td") %>%
     purrr::map(purrr::map_chr, rvest::html_attr, "bgcolor") %>%
-    purrr::map(~ !is.na(.))
+    purrr::map(~ !is.na(.)) %>%
+    # workaround for empty row
+    purrr::map_if(rlang::is_empty, ~ FALSE)
 
   is_first_td_headerish <- purrr::map_lgl(are_tds_headerish, 1L)
   are_all_tds_headerish  <- purrr::map_lgl(are_tds_headerish, all)
@@ -56,7 +54,7 @@ get_tr_metadata <- function(tr_nodeset) {
   # if it is next to the table without rows, it is probably the part of the table
   is_header_without_rows <- is_header & expected_rows == 1L
   is_next_to_header_without_rows <- c(FALSE, dplyr::lag(is_header_without_rows)[-1])
-  expected_rows[is_header_without_rows] <- expected_rows[is_header_without_rows] + expected_rows[is_next_to_header_without_rows]
+  expected_rows[is_header_without_rows] <- expected_rows[is_next_to_header_without_rows] + 1L
   is_start_of_different_table <- is_start_of_different_table & !is_next_to_header_without_rows
 
   tibble::tibble(is_tr_headerish,

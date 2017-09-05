@@ -6,6 +6,8 @@ parse_table <- function(tr_nodeset) {
   content_rows <- tr_nodeset[-1]
 
   try_trim_first_td(header_row)
+  # e.g. http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S10a-v1_2.html
+  try_trim_first_td(content_rows[[1]])
 
   header_col_names <- header_row %>%
     rvest::html_nodes("td") %>%
@@ -66,6 +68,9 @@ parse_table <- function(tr_nodeset) {
     result[row_idx:(row_idx + rowspan - 1L), col_idx:(col_idx + colspan - 1L)] <- cell_text
   }
 
+  # remove empty rows
+  result <- result[rowSums(!is.na(result)) > 0, ]
+
   # Construct the result data.frame ------------------------
   result_list <- list()
   col_index_groups <- split(seq_len(number_of_cols),
@@ -99,8 +104,7 @@ try_trim_first_td <- function(tr_node) {
 
   # in almost all cases, we can remove first td. One exception is this:
   #    http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P33.html
-  if (stringr::str_detect(rvest::html_text(first_td_node), ZOKUSEI_PATTERN) &&
-      !is.na(rvest::html_attr(first_td_node, "rowspan"))) {
+  if (stringr::str_detect(rvest::html_text(first_td_node), ZOKUSEI_PATTERN)) {
     xml2::xml_remove(first_td_node)
   }
 }

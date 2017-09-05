@@ -21,3 +21,9 @@ test_that("parse_table() works", {
   expect_equal(d$"\u5c5e\u6027\u540d"[4], "\u5927\u9805\u76ee1_\u4e2d\u9805\u76ee1_\u5c0f\u9805\u76ee1")
   expect_equal(d$"\u5c5e\u6027\u540d"[5], "\u5927\u9805\u76ee1_\u4e2d\u9805\u76ee1_\u5c0f\u9805\u76ee2")
 })
+
+test_that("parse_table() works", {
+  d <- parse_table(rvest::html_nodes(xml2::read_html("test-split5.html"), "tr"))
+
+  expect_equal(nrow(d), 2L)
+})
