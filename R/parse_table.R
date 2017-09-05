@@ -69,7 +69,7 @@ parse_table <- function(tr_nodeset) {
   }
 
   # remove empty rows
-  result <- result[rowSums(!is.na(result)) > 0, ]
+  result <- result[rowSums(!is.na(result)) > 0, , drop = FALSE]
 
   # Construct the result data.frame ------------------------
   result_list <- list()
