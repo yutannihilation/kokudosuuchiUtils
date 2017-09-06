@@ -124,7 +124,8 @@ extract_data_from_row <- function(row_node, row_index) {
 
   text <- rvest::html_text(cells, trim = TRUE) %>%
     # replace empty cell with NA
-    dplyr::if_else(stringr::str_detect(., "^\\s*$"), NA_character_, .)
+    # "&nbsp" is a typo of &nbsp;, which is not translated as no-break space.
+    dplyr::if_else(stringr::str_detect(., "^(\\s|&nbsp)*$"), NA_character_, .)
 
   tibble::tibble(row_index,
                  col_index,
