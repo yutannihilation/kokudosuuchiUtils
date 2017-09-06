@@ -768,7 +768,8 @@ N05,1,事業者種別,N05_001,コードリスト「事業者種別コード」,N
 N05,1,路線名,N05_002,文字列型(CharacterString),NA
 N05,1,運営会社,N05_003,文字列型(CharacterString),NA
 N05,1,供用開始年,N05_004,時間型（TM_Instant）,NA
-N05,1,設置期間（設置開始）(N05_005b)設置期間（設置終了）,N05_005e,時間型（TM_Instant）,NA
+N05,1,設置期間（設置開始）,N05_005b,時間型（TM_Instant）,NA
+N05,1,設置期間（設置終了）,N05_005e,時間型（TM_Instant）,NA
 N05,1,関係ID,N05_006,文字列型(CharacterString),NA
 N05,1,変遷ID,N05_007,コードリスト「変遷IDコード」,NA
 N05,1,変遷備考,N05_008,文字列型(CharacterString),NA
