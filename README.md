@@ -72,6 +72,43 @@ readr::write_csv(zokusei_tables, path = "zokusei.csv")
 readr::write_csv(chibutsu_tables, path = "chibutsu.csv")
 ```
 
+### Extract codes and names from `zokusei_tables`
+
+```r
+library(dplyr)
+library(kokudosuuchiUtils)
+
+zokusei_table <- readr::read_csv("zokusei.csv")
+
+d <- KSJIdentifierDescriptionURL %>%
+  mutate(html_file = basename(.data$url)) %>% 
+  inner_join(zokusei_table, by = "html_file") %>%
+  select(identifier,
+         table_num,
+         attributes = 属性名,
+         type = 属性の型)
+
+
+linebreak_pattern <- "\\s*[\\n\\r]+\\s*"
+comment_pattern <- "(?<=[\\)）])[^\\(（]+$"
+
+d <- d %>%
+  # remove unneeded rows
+  filter(!is.na(.data$type)) %>% 
+  mutate(attributes = stringr::str_replace_all(.data$attributes, linebreak_pattern, "")) %>%
+  # extract comments
+  mutate(note = stringr::str_extract(.data$attributes, comment_pattern),
+         attributes = stringr::str_replace(.data$attributes, comment_pattern, "")) %>%
+  # extract code
+  tidyr::extract(attributes,
+                 into = c("name", "code"),
+                 regex = "^(.*?)([（\\(][A-Z][^）\\)]+[）\\)])?$") %>%
+  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", "")) 
+
+readr::write_csv(d, "codes.csv")
+```
+
+
 ### Update the list of code description URLs
 
 ```r
