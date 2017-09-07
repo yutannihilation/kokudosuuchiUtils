@@ -118,7 +118,7 @@ d <- d %>%
          note = stringr::str_trim(note),
          note = dplyr::if_else(note == "", NA_character_, note))
 
-readr::write_csv(select(d, identifier, table_num, name, code, type, note), "codes.csv")
+readr::write_csv(d, "codes.csv")
 ```
 
 
