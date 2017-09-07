@@ -1,7 +1,7 @@
 ---
 title: "Fetch description URLs"
 author: "Hiroaki Yutani"
-date: "`Sys.Date()`"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 

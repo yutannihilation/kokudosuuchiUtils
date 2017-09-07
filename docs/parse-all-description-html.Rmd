@@ -1,9 +1,11 @@
 ---
 title: "Parse all data description HTMLs"
 author: "Hiroaki Yutani"
-date: "`Sys.Date()`"
+date: "`r Sys.Date()`"
 output: html_document
 ---
+
+**knitting this Rmd is a heavy job and takes some time.**
 
 ```{r}
 library(kokudosuuchiUtils)
@@ -109,6 +111,6 @@ Write data
 ----------
 
 ```{r}
-readr::write_csv(zokusei, path = rprojroot::find_package_root_file("zokusei.csv"))
-readr::write_csv(chibutsu, path = rprojroot::find_package_root_file("chibutsu.csv"))
+readr::write_csv(zokusei, path = rprojroot::find_package_root_file("inst/extdata/zokusei.csv"))
+readr::write_csv(chibutsu, path = rprojroot::find_package_root_file("inst/extdata/chibutsu.csv"))
 ```
