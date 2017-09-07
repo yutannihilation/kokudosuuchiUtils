@@ -24,8 +24,8 @@ d <- data.frame(
 
 It is very difficult to extract name, code, and note at once, due to constraints of regular expressions; we have to take the following steps.
 
-0. Clean up data
-----------------
+Step 0. Clean up data
+---------------------
 
 (This step is not needed for the example data above, though)
 
@@ -37,8 +37,8 @@ d %>%
   mutate(attributes = stringr::str_replace_all(.data$attributes, "\\s*[\\n\\r]+\\s*", ""))
 ```
 
-1. Extract notes
-----------------
+Step 1. Extract notes
+---------------------
 
 Notes can be extracted by the following regex
 
@@ -58,8 +58,8 @@ d <- dplyr::mutate(d,
                    x    = stringr::str_replace(.data$x, "(?<=[\\)）])[^\\(（]+$", ""))
 ```
 
-2. Extract names and codes
---------------------------
+Step 2. Extract names and codes
+-------------------------------
 
 ```r
 d <- tidyr::extract(d,
@@ -92,8 +92,8 @@ d <- tidyr::extract(d,
 #> 11 ※シェープファイルのみ
 ```
 
-3. Clean up codes
------------------
+Step 3. Clean up codes
+----------------------
 
 Remove parenthesis and astarisk.
 
