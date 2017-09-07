@@ -40,7 +40,7 @@ download_all_html <- function(urls, destfiles) {
 
 #' @export
 download_all_datalist_html <- function() {
-  datalist_urls <- KSJIdentifierDescriptionURL$url
+  datalist_urls <- KSJMetadata_description_url$url
   datalist_destfiles <- file.path(HTML_DIR, paste0("datalist-", basename(datalist_urls)))
   download_all_html(datalist_urls, datalist_destfiles)
 }
