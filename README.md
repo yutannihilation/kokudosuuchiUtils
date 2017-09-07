@@ -104,16 +104,21 @@ d <- d %>%
   # remove unneeded rows
   filter(!is.na(.data$type)) %>% 
   mutate(attributes = stringr::str_replace_all(.data$attributes, linebreak_pattern, "")) %>%
-  # extract comments
-  mutate(note = stringr::str_extract(.data$attributes, comment_pattern),
-         attributes = stringr::str_replace(.data$attributes, comment_pattern, "")) %>%
-  # extract code
-  tidyr::extract(attributes,
-                 into = c("name", "code"),
-                 regex = "^(.*?)([（\\(][A-Z][^）\\)]+[）\\)])?$") %>%
-  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", "")) 
+  # insert separators
+  mutate(attributes = stringr::str_replace(.data$attributes,
+                                           "([\\(（][A-Z][0-9a-z\\-]+[\\*※]?[_\\-][A-Za-z0-9\\-_ 〜]+[\\)）])", 
+                                           "%NINJA%\\1%NINJA%")) %>%
+  # separate by the separators
+  tidyr::separate(col = attributes,
+                  into = c("name", "code", "note"),
+                  sep = "%NINJA%",
+                  fill = "right") %>%
+  # clean up codes
+  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", ""),
+         note = stringr::str_trim(note),
+         note = dplyr::if_else(note == "", NA_character_, note))
 
-readr::write_csv(d, "codes.csv")
+readr::write_csv(select(d, identifier, table_num, name, code, type, note), "codes.csv")
 ```
 
 
