@@ -88,14 +88,15 @@ d <- KSJIdentifierDescriptionURL %>%
          attributes = 属性名,
          type = 属性の型)
 
+
 ## workaround for https://github.com/yutannihilation/kokudosuuchiUtils/issues/3#issuecomment-327374894
-index_double_code <- which(d$attributes == "設置期間（設置開始）(N05_005b)設置期間（設置終了）(N05_005e)")
-row_double_code <- d[index_double_code,] %>%
+indices_double_code <- d$attributes == "設置期間（設置開始）(N05_005b)設置期間（設置終了）(N05_005e)"
+d_part_double_code <- d[indices_double_code, ] %>%
   mutate(attributes = stringr::str_split(attributes, "(?<!^)(?=設置期間)")) %>%
   tidyr::unnest(attributes)
-d <- bind_rows(d[1:(index_double_code - 1), ],
-               row_double_code,
-               d[(index_double_code + 1):nrow(d), ])
+
+d <- bind_rows(d[!indices_double_code, ],
+               d_part_double_code)
 
 linebreak_pattern <- "\\s*[\\n\\r]+\\s*"
 comment_pattern <- "(?<=[\\)）])[^\\(（]+$"
@@ -117,6 +118,26 @@ d <- d %>%
   mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", ""),
          note = stringr::str_trim(note),
          note = dplyr::if_else(note == "", NA_character_, note))
+
+indices_tilda <- dplyr::coalesce(stringr::str_detect(d$code, "〜"), FALSE)
+indices_XX <- dplyr::coalesce(stringr::str_detect(d$code, "(?<=[^X])XX$"), FALSE)
+indices_XXXX <- dplyr::coalesce(stringr::str_detect(d$code, "(?<=[^X])XXXX$"), FALSE)
+
+# extract tilda
+d_part_tilda <- d[indices_tilda, ] %>%
+  # trim numbers (this cannot matched)
+  mutate(name = stringr::str_replace(.data$name, "（?\\d+[\\-〜][\\dn]+）?", "")) %>% 
+  tidyr::separate(code, into = c("prefix", "begin", "end"), regex = "_|〜", fill = "right") %>%
+  mutate_at(c("begin", "end"), funs(readr::parse_integer)) %>%
+  mutate(end = dplyr::coalesce(.data$end, 30L)) %>% 
+  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%03d", prefix, seq(begin, end)))) %>%
+  tidyr::unnest(code) %>%
+  group_by(identifier) %>%
+  mutate(name = paste0(name, row_number())) %>%
+  select(-(prefix:end))
+
+# XX can be ignored as they are layer names. XXXX should be treated specially, but not here.
+d <- bind_rows(d[!(indices_tilda | indices_XX | indices_XXXX), ], d_part_tilda)
 
 readr::write_csv(d, "codes.csv")
 ```
