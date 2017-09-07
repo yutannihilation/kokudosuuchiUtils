@@ -16,7 +16,21 @@ See [Fetch description URLs](docs/fetch-description-url.Rmd)
 
 ### Parse all data description HTMLs
 
+See [Parse all data description HTMLs](docs/parse-all-description-html.Rmd)
 
+### Update the list of codes from `shape_property_table.xls`
+
+```r
+# verify
+library(dplyr)
+KSJShapeProperty %>%
+  mutate(category = stringr::str_replace_all(category, "-.*", "")) %>%
+  mutate(category = stringr::str_replace_all(category, stringr::regex("\n.*", multiline = TRUE), "")) %>%
+  filter(!stringr::str_detect(code, category))
+
+readr::write_csv(KSJShapeProperty, "data-raw/KSJShapeProperty.csv")
+devtools::use_data(KSJShapeProperty, overwrite = TRUE)
+```
 
 ### Extract codes and names from `zokusei_tables`
 
