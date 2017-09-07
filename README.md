@@ -90,12 +90,12 @@ d <- KSJIdentifierDescriptionURL %>%
 
 ## workaround for https://github.com/yutannihilation/kokudosuuchiUtils/issues/3#issuecomment-327374894
 index_double_code <- which(d$attributes == "設置期間（設置開始）(N05_005b)設置期間（設置終了）(N05_005e)")
-row_double_code <- d[765,] %>%
+row_double_code <- d[index_double_code,] %>%
   mutate(attributes = stringr::str_split(attributes, "(?<!^)(?=設置期間)")) %>%
   tidyr::unnest(attributes)
-d <- bind_rows(d[1:764, ],
+d <- bind_rows(d[1:(index_double_code - 1), ],
                row_double_code,
-               d[766:nrow(d), ])
+               d[(index_double_code + 1):nrow(d), ])
 
 linebreak_pattern <- "\\s*[\\n\\r]+\\s*"
 comment_pattern <- "(?<=[\\)）])[^\\(（]+$"
