@@ -1,0 +1,24 @@
+---
+title: "Fetch shape_property_table.xls"
+author: "Hiroaki Yutani"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+```
+
+### Download
+
+```{r}
+shape_property_table_xls <- fetch_shape_property_table_xls()
+```
+
+### Save
+
+```{r, message=FALSE}
+readr::write_csv(shape_property_table_xls,
+                 path = rprojroot::find_package_root_file("inst/extdata/shape_property_table_xls.csv"))
+```

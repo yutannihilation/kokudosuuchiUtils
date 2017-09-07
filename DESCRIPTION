@@ -13,6 +13,7 @@ Imports:
     purrr (>= 0.2.3),
     rlang,
     rvest,
+    readxl,
     stringi,
     stringr,
     tibble,
