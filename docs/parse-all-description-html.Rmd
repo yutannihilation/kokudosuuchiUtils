@@ -5,3 +5,110 @@ date: "`Sys.Date()`"
 output: html_document
 ---
 
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+
+library(purrr)
+```
+
+Download all datalist
+---------------------
+
+This should be run manually
+
+```{r, eval=FALSE}
+download_all_datalist_html()
+```
+
+List description HTML files
+---------------------------
+
+```{r}
+KSJMetadata_description_url <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/KSJMetadata_description_url.csv"))
+
+datalist_files <- list.files(rprojroot::find_package_root_file("downloaded_html"),
+                             pattern = "datalist-.*\\.html",
+                             full.names = TRUE)
+
+url_basename_to_identifier <- set_names(KSJMetadata_description_url$identifier,
+                                        basename(KSJIdentifierDescriptionURL$url))
+url_basenames <- stringr::str_replace(basename(datalist_files), "^datalist-", "")
+
+datalist_files <- set_names(datalist_files, url_basename_to_identifier[url_basenames])
+```
+
+Extract data from description HTML files
+----------------------------------------
+
+**This takes some time.**
+
+```{r}
+result_wrapped <- map(datalist_files, safely(read_kokudosuuchi_table))
+```
+
+Confirm no errors happened
+--------------------------
+
+```{r}
+discard(result_wrapped, ~ is.null(.$error))
+
+result <- map(result_wrapped, "result")
+```
+
+Do some wranglings
+------------------
+
+```{r}
+normalize_colnames <- function(d) {
+  colnames_orig <- colnames(d)
+  colnames_normalized <- dplyr::recode(
+    colnames_orig,
+    "属性項目"   = "属性名",
+    "地物名"     = "属性名",
+    "関連役割名" = "属性名",
+    "形状"       = "属性の型",
+    "関連先"     = "属性の型"
+  )
+  `colnames<-`(d, colnames_normalized)
+}
+
+zokusei <- result %>%
+  map(keep, ~ ncol(.) == 3) %>%
+  map(map_dfr, normalize_colnames, .id = "table_num") %>%
+  dplyr::bind_rows(.id = "identifier")
+
+chibutsu <- result %>%
+  map(keep, ~ ncol(.) == 2) %>%
+  map(dplyr::bind_rows, .id = "table_num") %>%
+  dplyr::bind_rows(.id = "identifier")
+```
+
+Confirm the results are expected
+--------------------------------
+
+```{r}
+# confirm colnames are expected
+identical(colnames(zokusei), c("identifier", "table_num", "属性名", "説明", "属性の型"))
+identical(colnames(chibutsu), c("identifier", "table_num", "地物名", "説明"))
+
+# confirm there are no other tables
+result %>%
+  map(discard, ~ ncol(.) %in% c(2L, 3L)) %>% 
+  flatten
+```
+```{r}
+dplyr::glimpse(zokusei)
+```
+
+```{r}
+dplyr::glimpse(chibutsu)
+```
+
+Write data
+----------
+
+```{r}
+readr::write_csv(zokusei, path = rprojroot::find_package_root_file("zokusei.csv"))
+readr::write_csv(chibutsu, path = rprojroot::find_package_root_file("chibutsu.csv"))
+```
