@@ -1,0 +1,32 @@
+---
+title: "Parse all data description HTMLs"
+author: "Hiroaki Yutani"
+date: "`Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+```
+
+### Download
+
+```{r}
+KSJMetadata_description_url <- fetch_datalist_urls()
+```
+
+### Save
+
+```{r, message=FALSE}
+devtools::use_data(KSJMetadata_description_url, overwrite = TRUE)
+readr::write_csv(KSJMetadata_description_url,
+                 path = rprojroot::find_package_root_file("inst/extdata/KSJMetadata_description_url.csv"))
+```
+
+This should be manually done:
+
+```{r, eval=FALSE}
+file.copy(rprojroot::find_package_root_file("data/KSJMetadata_description_url.rda"),
+          "../kokudosuuchi/data/", overwrite = TRUE)
+```
