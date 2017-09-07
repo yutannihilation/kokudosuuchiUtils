@@ -28,5 +28,6 @@ This should be manually done:
 
 ```{r, eval=FALSE}
 file.copy(rprojroot::find_package_root_file("data/KSJMetadata_description_url.rda"),
-          "../kokudosuuchi/data/", overwrite = TRUE)
+          rprojroot::find_package_root_file("../kokudosuuchi/data/"),
+          overwrite = TRUE)
 ```
