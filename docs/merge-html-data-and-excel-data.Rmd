@@ -1,0 +1,164 @@
+---
+title: "Merge HTML Data And Excel Data"
+author: "Hiroaki Yutani"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+**Due to encoding problem, this Rmd cannot be knitted by "Knit" button**
+
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+```
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+```
+
+Read data
+---------
+
+### Data from HTML files
+
+```{r}
+html_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/zokusei.csv"))
+
+colnames(html_data) <-(c("identifier", "table_num", "name", "description", "type"))
+html_data <- html_data %>%
+  # remove rows without types
+  filter(!is.na(.data$type)) %>%
+  # remove description
+  select(-.data$description)
+```
+
+### Data from Excel file
+
+```{r}
+excel_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/shape_property_table_xls.csv"))
+```
+
+
+Do some workarounds
+-------------------
+
+### `N05_005b` and `N05_005e` are crammed into one cell
+
+See https://github.com/yutannihilation/kokudosuuchiUtils/issues/3#issuecomment-327374894
+
+```{r}
+indices_double_code <- html_data$name == "設置期間（設置開始）(N05_005b)設置期間（設置終了）(N05_005e)"
+html_data_part_double_code <- html_data[indices_double_code, ] %>%
+  mutate(name = stringr::str_split(.data$name, "(?<!^)(?=設置期間)")) %>%
+  tidyr::unnest(.data$name)
+
+html_data <- bind_rows(html_data[!indices_double_code, ],
+                       html_data_part_double_code)
+```
+
+Separate codes into name, code and notes
+----------------------------------------
+
+```{r}
+linebreak_pattern <- "\\s*[\\n\\r]+\\s*"
+comment_pattern <- "(?<=[\\)）])[^\\(（]+$"
+
+html_data <- html_data %>%
+  # remove unneeded rows
+  filter(!is.na(.data$type)) %>% 
+  mutate(name = stringr::str_replace_all(.data$name, linebreak_pattern, "")) %>%
+  # insert separators
+  mutate(name = stringr::str_replace(.data$name,
+                                     "([\\(（][A-Z][0-9a-z\\-]+[\\*※]?[_\\-][A-Za-z0-9\\-_ 〜]+[\\)）])", 
+                                     "%NINJA%\\1%NINJA%")) %>%
+  # separate by the separators
+  tidyr::separate(col = .data$name,
+                  into = c("name", "code", "note"),
+                  sep = "%NINJA%",
+                  fill = "right") %>%
+  # clean up codes
+  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", ""),
+         note = stringr::str_trim(note),
+         note = dplyr::if_else(note == "", NA_character_, note))
+```
+
+Do some workarounds again
+-------------------------
+
+### Tilda
+
+(See [Extract Attribute Names And Codes](../design/extract-code-name-note-from-attributes.md))
+
+Tilda represents a sequence of numbers like:
+
+```
+P16_015～026
+P17_006～
+```
+
+We need to translate this to the corresponding sequence of codes like:
+
+```
+P16_015
+P16_016
+P16_017
+...
+```
+
+(Be careful: "〜"(`\u301c`) is not "~" or "～"(`\uff5e`).)
+
+```{r}
+indices_tilda <- dplyr::coalesce(stringr::str_detect(html_data$code, "〜"), FALSE)
+
+# extract tilda
+html_data_part_tilda <- html_data[indices_tilda, ] %>%
+  # trim numbers from name
+  mutate(name = stringr::str_replace(.data$name, "（?\\d+[\\-〜][\\dn]+）?", "")) %>% 
+  # e.g. P16_015～026 -> prefix: P16, begin: 015, end: 026
+  tidyr::separate(code, into = c("prefix", "begin", "end"), regex = "_|〜", fill = "right") %>%
+  mutate_at(c("begin", "end"), funs(readr::parse_integer)) %>%
+  # fill NAs with appropriate end numbers
+  mutate(end = dplyr::coalesce(.data$end, 30L)) %>% 
+  # expand rows
+  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%03d", prefix, seq(begin, end)))) %>%
+  tidyr::unnest(.data$code) %>%
+  # add sequencial numbers to names (e.g. 備考 -> 備考1, 備考2, ...)
+  group_by(identifier) %>%
+  mutate(name = paste0(name, row_number())) %>%
+  # we don't need prefix, begin and end anymore
+  select(-(prefix:end))
+```
+
+```{r}
+html_data_part_tilda
+```
+
+```{r}
+html_data <- bind_rows(html_data,
+                       html_data_part_tilda)
+```
+
+### `XX`
+
+`XX` represents prefecture codes. But the codes with this seems only used for layer names, not for property names. So we ignore this here.
+
+```{r}
+html_data <- html_data %>%
+  filter(!coalesce(stringr::str_detect(.data$code, "(?<=[^X])XX$"), FALSE))
+```
+
+### `XXXX`
+
+`XXXX` represents year and needs special considerations. We ignore this here.
+
+```{r}
+html_data <- html_data %>%
+  filter(!coalesce(stringr::str_detect(.data$code, "(?<=[^X])XXXX$"), FALSE))
+```
+
+Write intermediate data
+-----------------------
+
+```{r}
+readr::write_csv(html_data, rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
+```
