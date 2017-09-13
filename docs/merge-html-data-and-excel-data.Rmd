@@ -153,8 +153,24 @@ html_data <- html_data %>%
 
 ```{r}
 # paste this result on kokudosuuchi
-stringr::str_subset(html_data$code, "(?<=[^X])XXXX$") %>% stringr::str_replace("XXXX", "") %>% stringr::str_c(collapse = "|")
+KSJMetadata_code_year_cols <- html_data %>% 
+  filter(stringr::str_detect(.data$code, "(?<=[^X])XXXX$")) %>%
+  {
+    tibble::tibble(
+      pattern = stringr::str_replace(.$code, "XXXX", "\\(\\\\d{4}\\)"),
+      replacement = stringr::str_c(.$name, "\\1年")
+    )
+  }
+
+devtools::use_data(KSJMetadata_code_year_cols, overwrite = TRUE)
+readr::write_csv(KSJMetadata_code_year_cols,
+                 rprojroot::find_package_root_file("inst/extdata/KSJMetadata_code_year_cols.csv"))
+
+file.copy(rprojroot::find_package_root_file("data/KSJMetadata_code_year_cols.rda"),
+          rprojroot::find_package_root_file("../kokudosuuchi/data/"),
+          overwrite = TRUE)
 ```
+
 
 ```{r}
 html_data <- html_data %>%
@@ -241,7 +257,6 @@ html_data <- bind_rows(html_data[!indices_asterisk, ],
                        html_data_asterisk)
 ```
 
-
 Merge
 -----
 
@@ -251,15 +266,34 @@ First, we delete rows without code from `html_data`. They might be useful for ge
 html_data <- filter(html_data, !is.na(code))
 ```
 
+Excel data has some codes that are ambiguous. Add IDs to each column set so that it can be used afterwards.
+
+```{r}
+excel_data <- excel_data %>%
+  group_by(category) %>%
+  mutate(item_id = cumsum(coalesce(item != lag(item), FALSE))) %>%
+  ungroup() %>%
+  select(identifier = category, item_id, tag, code, name)
+```
+
 Now it's time to join.
 
 ```{r}
-merged_data <- html_data %>%
-  full_join(excel_data, by = c("identifier" = "category",
-                               "name"       = "name")) %>%
-  mutate(code = dplyr::coalesce(code.x, code.y)) %>% 
-  select(identifier, name, tag, code_from_html = code.x, code_from_excel = code.y, code) %>%
-  arrange(identifier, code)
+merged_data_from_html <- html_data %>%
+  left_join(excel_data, by = c("identifier", "name")) %>%
+  select(identifier, name, item_id, tag, code = code.x)
+
+merged_data_from_excel <- excel_data %>%
+  filter(!.data$code %in% !! unique(merged_data_from_html$code)) %>% 
+  left_join(html_data, by = c("identifier", "name")) %>%
+  select(identifier, name, item_id, tag, code = code.x)
+
+merged_data <- bind_rows(
+  html  = merged_data_from_html,
+  excel = merged_data_from_excel,
+  .id = "source"
+) %>%
+  arrange(identifier, item_id, code)
 ```
 
 Note that `merged_data` has more identifiers than data available from API. We may filter unavailable data.
@@ -276,11 +310,10 @@ data(KSJMetadata_description_url)
 identifier_to_url <- setNames(KSJMetadata_description_url$url, KSJMetadata_description_url$identifier)
 
 KSJMetadata_code <- merged_data %>%
-  mutate(source = if_else(!is.na(.data$code_from_html),
+  mutate(source = if_else(.data$source == "HTML",
                           identifier_to_url[.data$identifier],
                           "http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls")) %>%
-  select(-code_from_excel, -code_from_html)
-
+  select(-source)
 ```
 
 
