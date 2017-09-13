@@ -211,7 +211,7 @@ excel_data <- excel_data %>%
 
 \* or ※ means:
 
-* A34: a-d (e is different)
+* A34: a-d (e is different), f-g
 * A35a: a-b (c is different)
 * A35b: a-e (f is different)
 * P22: a-b
@@ -222,18 +222,20 @@ indices_asterisk <- dplyr::coalesce(stringr::str_detect(html_data$code, "\\*|※
 
 # see https://github.com/yutannihilation/kokudosuuchiUtils/issues/17#issuecomment-328083456
 table_for_asterisk <- bind_rows(
-  tibble::tibble(identifier = "A34",  lower_alpha = c("a", "b", "c", "d")),
-  tibble::tibble(identifier = "A35a", lower_alpha = c("a", "b")),
-  tibble::tibble(identifier = "A35b", lower_alpha = c("d", "e")),
-  tibble::tibble(identifier = "P22",  lower_alpha = c("a", "b")),
-  tibble::tibble(identifier = "P23",  lower_alpha = c("a", "b"))
+  tibble::tibble(identifier = "A34",  kome = TRUE,  lower_alpha = c("a", "b", "c", "d")),
+  tibble::tibble(identifier = "A34",  kome = FALSE, lower_alpha = c("f", "g")),
+  tibble::tibble(identifier = "A35a", kome = TRUE,  lower_alpha = c("a", "b")),
+  tibble::tibble(identifier = "A35b", kome = TRUE,  lower_alpha = c("d", "e")),
+  tibble::tibble(identifier = "P22",  kome = FALSE, lower_alpha = c("a", "b")),
+  tibble::tibble(identifier = "P23",  kome = FALSE, lower_alpha = c("a", "b"))
 )
 
 html_data_asterisk <- html_data[indices_asterisk, ] %>%
+  mutate(kome = stringr::str_detect(.data$code, "※")) %>% 
   tidyr::separate(code, into = c("prefix", "number"), sep = "\\*|※") %>% 
-  inner_join(table_for_asterisk, by = "identifier") %>%
+  inner_join(table_for_asterisk, by = c("identifier", "kome")) %>%
   mutate(code = stringr::str_c(.data$prefix, .data$lower_alpha, .data$number)) %>% 
-  select(-prefix, -lower_alpha, -number)
+  select(-prefix, -lower_alpha, -number, -kome)
 
 html_data <- bind_rows(html_data[!indices_asterisk, ],
                        html_data_asterisk)
