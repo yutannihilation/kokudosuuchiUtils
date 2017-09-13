@@ -77,7 +77,7 @@ html_data <- html_data %>%
                   sep = "%NINJA%",
                   fill = "right") %>%
   # clean up codes
-  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)\\*※]", ""),
+  mutate(code = stringr::str_replace_all(code, "[（\\(）\\)]", ""),
          note = stringr::str_trim(note),
          note = dplyr::if_else(note == "", NA_character_, note))
 ```
@@ -152,6 +152,11 @@ html_data <- html_data %>%
 `XXXX` represents year and needs special considerations. We ignore this here.
 
 ```{r}
+# paste this result on kokudosuuchi
+stringr::str_subset(html_data$code, "(?<=[^X])XXXX$") %>% stringr::str_replace("XXXX", "") %>% stringr::str_c(collapse = "|")
+```
+
+```{r}
 html_data <- html_data %>%
   filter(!coalesce(stringr::str_detect(.data$code, "(?<=[^X])XXXX$"), FALSE))
 ```
@@ -202,10 +207,43 @@ excel_data <- excel_data %>%
   filter(!category %in% c("L03-a"))
 ```
 
+#### Extract * and ※ (A34, A35a, A35b, P22, P23)
+
+\* or ※ means:
+
+* A34: a-d (e is different)
+* A35a: a-b (c is different)
+* A35b: a-e (f is different)
+* P22: a-b
+* P23: a-b
+
+```{r}
+indices_asterisk <- dplyr::coalesce(stringr::str_detect(html_data$code, "\\*|※"), FALSE)
+
+# see https://github.com/yutannihilation/kokudosuuchiUtils/issues/17#issuecomment-328083456
+table_for_asterisk <- bind_rows(
+  tibble::tibble(identifier = "A34",  lower_alpha = c("a", "b", "c", "d")),
+  tibble::tibble(identifier = "A35a", lower_alpha = c("a", "b")),
+  tibble::tibble(identifier = "A35b", lower_alpha = c("d", "e")),
+  tibble::tibble(identifier = "P22",  lower_alpha = c("a", "b")),
+  tibble::tibble(identifier = "P23",  lower_alpha = c("a", "b"))
+)
+
+html_data_asterisk <- html_data[indices_asterisk, ] %>%
+  tidyr::separate(code, into = c("prefix", "number"), sep = "\\*|※") %>% 
+  inner_join(table_for_asterisk, by = "identifier") %>%
+  mutate(code = stringr::str_c(.data$prefix, .data$lower_alpha, .data$number)) %>% 
+  select(-prefix, -lower_alpha, -number)
+
+html_data <- bind_rows(html_data[!indices_asterisk, ],
+                       html_data_asterisk)
+```
+
+
 Merge
 -----
 
-First, we delete rows without code from html_data. They might be useful for getting codelist urls, but are not needed here.
+First, we delete rows without code from `html_data`. They might be useful for getting codelist urls, but are not needed here.
 
 ```{r}
 html_data <- filter(html_data, !is.na(code))
