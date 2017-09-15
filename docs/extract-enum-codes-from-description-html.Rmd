@@ -1,0 +1,167 @@
+---
+title: "Extract Enum From HTML Data"
+author: "Hiroaki Yutani"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+```
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+```
+
+Read data
+---------
+
+```{r}
+html_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
+```
+
+Explore data
+------------
+
+```{r}
+html_data %>%
+    filter(stringr::str_detect(.data$type, "列挙型")) %>%
+    select(identifier, code, name, type) %>%
+    mutate_all(funs(stringr::str_replace_all(., "\\s", " "))) %>% 
+    knitr::kable()
+```
+
+
+Extract data
+------------
+
+Collect results into `enum_code`.
+
+```{r}
+enum_code <- list()
+```
+
+Enum type ("列挙型") is written in one of the following formats:
+
+1. `列挙型` (only we can do for this is to ignore)
+2. `列挙型（type1、type2、type3）` (implicitly numbered by sequence of numbers)
+3. `列挙型（type1=1、type2=2、type3=3）`
+4. `列挙型（１：type1, ２：type2、３：type3）`
+5. multiple version of 4.
+
+### Ignore 1.
+
+```{r}
+html_data_enums <- html_data %>%
+    filter(stringr::str_detect(.data$type, "列挙型[^$]"))
+```
+
+Join codes from `KSJMetadata_code`.
+
+```{r}
+html_data_enums <- html_data_enums %>%
+  left_join(KSJMetadata_code, by = c("identifier", "name")) %>%
+  select(identifier, name, code = code.y, type)
+```
+
+`N04` should be ignored, as it is not about the codes in data but ones in colnames.
+
+```{r}
+filter(html_data_enums, is.na(code)) %>%
+  knitr::kable()
+```
+
+### Extract 2. Enum of implicit codes
+
+* A03: have to be translated
+* L01: already translated
+* L02: already translated
+* P03: already translated
+* P22: already translated
+
+```{r}
+html_data_enums %>%
+  filter(!stringr::str_detect(.data$type, "：|:|=")) %>%
+  mutate_all(funs(stringr::str_replace_all(., "\\s", " "))) %>% 
+  knitr::kable()
+```
+
+#### A03
+
+```{r}
+enum_code_type2 <- html_data_enums %>%
+  filter(!stringr::str_detect(.data$type, "：|:|=")) %>%
+  # ignore other than A03
+  filter(.data$identifier == "A03") %>%
+  { setNames(.$type, .$code) } %>%
+  purrr::map(stringr::str_replace, pattern = "^列挙型（(.*)）$", replacement = "\\1") %>%
+  purrr::map(stringr::str_split, pattern = "、") %>%
+  purrr::map(1L) %>%
+  purrr::map(~ setNames(., seq_along(.)))
+```
+
+### Extract 3.
+
+```{r}
+html_data_enums %>%
+  filter(stringr::str_detect(.data$type, "=")) %>%
+  mutate_all(funs(stringr::str_replace_all(., "\\s", " "))) %>% 
+  knitr::kable()
+```
+
+```{r}
+enum_code_type3 <- html_data_enums %>%
+  filter(stringr::str_detect(.data$type, "=")) %>%
+  { setNames(.$type, .$code) } %>%
+  purrr::map(stringr::str_replace, pattern = "^列挙型（(.*)）$", replacement = "\\1") %>%
+  purrr::map(stringr::str_split, pattern = "(?<=\\d)、") %>%
+  purrr::map(1L) %>%
+  purrr::map(function(x) {
+    m <- stringr::str_split_fixed(x, "=", 2)
+    setNames(m[, 1, drop = TRUE], m[, 2, drop = TRUE])
+  })
+```
+
+### Extract 4.
+
+```{r}
+html_data_enums %>%
+  filter(stringr::str_detect(.data$type, ":|：")) %>%
+  mutate_all(funs(stringr::str_replace_all(., "\\s", " "))) %>% 
+  knitr::kable()
+```
+
+As mentioned above, treat `N04` differently.
+
+```{r}
+enum_code_type4 <- html_data_enums %>%
+  mutate(type = stringr::str_replace_all(.data$type, "\\s", "")) %>% 
+  # ignore N04
+  filter(stringr::str_detect(.data$type, ":|："), .data$identifier != "N04") %>%
+  { setNames(.$type, .$code) } %>%
+  purrr::map(stringr::str_replace, pattern = "^列挙型（(.*)）$", replacement = "\\1") %>%
+  purrr::map(stringr::str_split, pattern = "、") %>%
+  purrr::map(1L) %>%
+  purrr::map(function(x) {
+    m <- stringr::str_split_fixed(x, ":|：", 2)
+    setNames(m[, 2, drop = TRUE], m[, 1, drop = TRUE])
+  })
+```
+
+```{r}
+enum_codes_all <- c(enum_code_type2, enum_code_type3, enum_code_type4)
+```
+
+Write data
+----------
+
+```{r}
+devtools::use_data(enum_codes_all, overwrite = TRUE)
+```
+
+```{r, eval=FALSE}
+file.copy(rprojroot::find_package_root_file("data/enum_codes_all.rda"),
+          rprojroot::find_package_root_file("../kokudosuuchi/data/"),
+          overwrite = TRUE)
+```
