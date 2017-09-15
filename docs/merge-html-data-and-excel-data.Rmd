@@ -280,8 +280,8 @@ Now it's time to join.
 
 ```{r}
 merged_data_from_html <- html_data %>%
-  left_join(excel_data, by = c("identifier", "name")) %>%
-  select(identifier, name, item_id, tag, code = code.x)
+  left_join(excel_data, by = c("identifier", "name", "code")) %>%
+  select(identifier, name, item_id, tag, code)
 
 merged_data_from_excel <- excel_data %>%
   filter(!.data$code %in% !! unique(merged_data_from_html$code)) %>% 
