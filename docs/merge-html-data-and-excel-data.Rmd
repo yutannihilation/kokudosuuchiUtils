@@ -158,7 +158,7 @@ KSJMetadata_code_year_cols <- html_data %>%
   {
     tibble::tibble(
       pattern = stringr::str_replace(.$code, "XXXX", "\\(\\\\d{4}\\)"),
-      replacement = stringr::str_c(.$name, "\\1年")
+      replacement = stringr::str_c(.$name, "\\1年度")
     )
   }
 
