@@ -10,15 +10,64 @@ library(kokudosuuchiUtils)
 packageDescription("kokudosuuchiUtils")$Built
 ```
 
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+```
+
 ### Download
 
 ```{r}
 shape_property_table_xls <- fetch_shape_property_table_xls()
 ```
 
+### Extract tilda
+
+Also expand tildas in Excel data. This tilda is `\uff5e`.
+
+```{r}
+indices_tilda <- dplyr::coalesce(stringr::str_detect(shape_property_table_xls$code, "～"), FALSE)
+shape_property_table_xls[indices_tilda, ]
+```
+
+```{r}
+# add rowid to convert afterwords
+data_orig <- tibble::rowid_to_column(shape_property_table_xls, var = "row_order") %>%
+  mutate(row_order = as.numeric(row_order))
+
+# extract tilda
+data_part_tilda <- data_orig[indices_tilda, ] %>%
+  tidyr::extract(code, into = c("prefix", "begin", "end"), regex = "(P11_\\d+)_(\\d+)～(\\d+)") %>%
+  mutate_at(c("begin", "end"), funs(readr::parse_integer)) %>%
+  # fill NAs with appropriate end numbers
+  mutate(end = dplyr::coalesce(.data$end, 30L)) %>% 
+  # expand rows
+  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%d", prefix, seq(begin, end)))) %>%
+  tidyr::unnest(.data$code) %>%
+  # add sequencial numbers to names (e.g. 備考 -> 備考1, 備考2, ...)
+  group_by(category) %>%
+  mutate(name = paste0(name, row_number()),
+         # add sequential numbers to row_order
+         row_order = row_order + row_number() / 10^ceiling(log10(n() + 1))) %>%
+  # we don't need prefix, begin and end anymore
+  select(-(prefix:end))
+```
+
+```{r}
+excel_data <- bind_rows(data_orig[!indices_tilda, ],
+                        data_part_tilda) %>%
+  arrange(row_order) %>%
+  select(-row_order)
+```
+### Re-add category
+
+Merged cells are unreliable except for the top cell of the category. We need to correct toe category
+
+```{r}
+```
+
 ### Save
 
 ```{r, message=FALSE}
-readr::write_csv(shape_property_table_xls,
+readr::write_csv(excel_data,
                  path = rprojroot::find_package_root_file("inst/extdata/shape_property_table_xls.csv"))
 ```

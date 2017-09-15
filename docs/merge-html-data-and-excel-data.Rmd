@@ -138,32 +138,6 @@ html_data <- bind_rows(html_data[!indices_tilda, ],
                        html_data_part_tilda)
 ```
 
-Also expand tildas in Excel data. This tilda is `\uff5e`.
-
-```{r}
-indices_tilda <- dplyr::coalesce(stringr::str_detect(excel_data$code, "～"), FALSE)
-
-# extract tilda
-excel_data_part_tilda <- excel_data[indices_tilda, ] %>%
-  tidyr::extract(code, into = c("prefix", "begin", "end"), regex = "(P11_\\d+)_(\\d+)～(\\d+)") %>%
-  mutate_at(c("begin", "end"), funs(readr::parse_integer)) %>%
-  # fill NAs with appropriate end numbers
-  mutate(end = dplyr::coalesce(.data$end, 30L)) %>% 
-  # expand rows
-  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%d", prefix, seq(begin, end)))) %>%
-  tidyr::unnest(.data$code) %>%
-  # add sequencial numbers to names (e.g. 備考 -> 備考1, 備考2, ...)
-  group_by(category) %>%
-  mutate(name = paste0(name, row_number())) %>%
-  # we don't need prefix, begin and end anymore
-  select(-(prefix:end))
-```
-
-```{r}
-excel_data <- bind_rows(excel_data[!indices_tilda, ],
-                        excel_data_part_tilda)
-```
-
 ### `XX`
 
 `XX` represents prefecture codes. But the codes with this seems only used for layer names, not for property names. So we ignore this here.
@@ -208,7 +182,6 @@ Write intermediate data
 
 ```{r}
 readr::write_csv(html_data, rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
-readr::write_csv(html_data, rprojroot::find_package_root_file("inst/extdata/excel_data.csv"))
 ```
 
 
