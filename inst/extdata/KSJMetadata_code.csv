@@ -46,17 +46,17 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,区域区分,0,Thre
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,区域コード,0,ThreeMajorMetroPlanArea,A03_007
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,備考,0,ThreeMajorMetroPlanArea,A03_008
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,3次メッシュコード,0,ThreeMajorMetroPlanArea,A05_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,保有林（概ね50%以上）,1,ForestandPublicLandMesh,A05_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国有林（概ね50%以上）,1,ForestandPublicLandMesh,A05_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,民有林（概ね50%以上）,1,ForestandPublicLandMesh,A05_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国有地,1,ForestandPublicLandMesh,A05_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,公有地,1,ForestandPublicLandMesh,A05_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国公有地,1,ForestandPublicLandMesh,A05_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号1,1,ForestandPublicLandMesh,A05_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号2,1,ForestandPublicLandMesh,A05_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号3,1,ForestandPublicLandMesh,A05_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号4,1,ForestandPublicLandMesh,A05_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号5,1,ForestandPublicLandMesh,A05_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,保有林（概ね50%以上）,0,ThreeMajorMetroPlanArea,A05_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国有林（概ね50%以上）,0,ThreeMajorMetroPlanArea,A05_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,民有林（概ね50%以上）,0,ThreeMajorMetroPlanArea,A05_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国有地,0,ThreeMajorMetroPlanArea,A05_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,公有地,0,ThreeMajorMetroPlanArea,A05_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,国公有地,0,ThreeMajorMetroPlanArea,A05_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号1,0,ThreeMajorMetroPlanArea,A05_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号2,0,ThreeMajorMetroPlanArea,A05_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号3,0,ThreeMajorMetroPlanArea,A05_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号4,0,ThreeMajorMetroPlanArea,A05_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A05,台帳番号5,0,ThreeMajorMetroPlanArea,A05_012
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A07,重点製備地区コード,0,DesignatedRecreationArea,A07_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A07,都道府県コード,0,DesignatedRecreationArea,A07_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A07,指定年月日,0,DesignatedRecreationArea,A07_003
@@ -102,43 +102,43 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A16,全域に占める�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A16,全域に占める人口集中地区の面積割合,0,DID,A16_010
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A16,国勢調査年度,0,DID,A16_011
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎ID,0,UnderpopulatedArea,A17_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,行政コード,1,UnderpopulatedArea,A17_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,行政コード,0,UnderpopulatedArea,A17_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,都道府県名,0,UnderpopulatedArea,A17_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,支庁名,0,UnderpopulatedArea,A17_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,郡・政令市名,0,UnderpopulatedArea,A17_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,市区町村名,0,UnderpopulatedArea,A17_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎区分コード,0,UnderpopulatedArea,A17_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,指定日,0,UnderpopulatedArea,A17_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,指定事由コード,0,UnderpopulatedArea,A17_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,解除日,0,UnderpopulatedArea,A17_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,解除事由コード,0,UnderpopulatedArea,A17_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎ID,1,UnderpopulatedArea,A17_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,行政区域コード,1,UnderpopulatedArea,A17_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,都道府県名,1,UnderpopulatedArea,A17_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,支庁名,1,UnderpopulatedArea,A17_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,郡・政令市名,1,UnderpopulatedArea,A17_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,支庁・振興局名,1,UnderpopulatedArea,A17_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,郡・政令都市名,1,UnderpopulatedArea,A17_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,市区町村名,1,UnderpopulatedArea,A17_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎区分コード,1,UnderpopulatedArea,A17_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,指定日,1,UnderpopulatedArea,A17_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,指定事由コード,1,UnderpopulatedArea,A17_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,解除日,1,UnderpopulatedArea,A17_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,解除事由コード,1,UnderpopulatedArea,A17_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎ID,2,UnderpopulatedArea,A17_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,行政区域コード,2,UnderpopulatedArea,A17_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,都道府県名,2,UnderpopulatedArea,A17_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,支庁・振興局名,2,UnderpopulatedArea,A17_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,郡・政令都市名,2,UnderpopulatedArea,A17_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,市区町村名,2,UnderpopulatedArea,A17_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,原典市区町村名,2,UnderpopulatedArea,A17_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,旧市町村名,2,UnderpopulatedArea,A17_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎区分コード,2,UnderpopulatedArea,A17_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,原典市区町村名,1,UnderpopulatedArea,A17_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,旧市町村名,1,UnderpopulatedArea,A17_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A17,過疎区分コード,1,UnderpopulatedArea,A17_009
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,半島ID,0,PeninsulasDevelopmentImplementationArea,A18_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,行政コード,1,PeninsulasDevelopmentImplementationArea,A18_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,行政コード,0,PeninsulasDevelopmentImplementationArea,A18_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,都道府県名,0,PeninsulasDevelopmentImplementationArea,A18_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,支庁名,0,PeninsulasDevelopmentImplementationArea,A18_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,郡・政令市名,0,PeninsulasDevelopmentImplementationArea,A18_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,市区町村名,0,PeninsulasDevelopmentImplementationArea,A18_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定地域名,0,PeninsulasDevelopmentImplementationArea,A18_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定日,0,PeninsulasDevelopmentImplementationArea,A18_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,半島ID,1,PeninsulasDevelopmentImplementationArea,A18_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,行政区域コード,1,PeninsulasDevelopmentImplementationArea,A18_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,都道府県名,1,PeninsulasDevelopmentImplementationArea,A18_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,支庁名,1,PeninsulasDevelopmentImplementationArea,A18_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,郡・政令市名,1,PeninsulasDevelopmentImplementationArea,A18_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,支庁・振興局名,1,PeninsulasDevelopmentImplementationArea,A18_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,郡・政令都市名,1,PeninsulasDevelopmentImplementationArea,A18_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,市区町村名,1,PeninsulasDevelopmentImplementationArea,A18_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定地域名,1,PeninsulasDevelopmentImplementationArea,A18_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定日,1,PeninsulasDevelopmentImplementationArea,A18_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,半島ID,2,PeninsulasDevelopmentImplementationArea,A18_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,行政区域コード,2,PeninsulasDevelopmentImplementationArea,A18_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,都道府県名,2,PeninsulasDevelopmentImplementationArea,A18_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,支庁・振興局名,2,PeninsulasDevelopmentImplementationArea,A18_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,郡・政令都市名,2,PeninsulasDevelopmentImplementationArea,A18_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,市区町村名,2,PeninsulasDevelopmentImplementationArea,A18_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,原典市区町村名,2,PeninsulasDevelopmentImplementationArea,A18_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,旧市町村名,2,PeninsulasDevelopmentImplementationArea,A18_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定地域名,2,PeninsulasDevelopmentImplementationArea,A18_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定日,2,PeninsulasDevelopmentImplementationArea,A18_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,原典市区町村名,1,PeninsulasDevelopmentImplementationArea,A18_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,旧市町村名,1,PeninsulasDevelopmentImplementationArea,A18_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定地域名,1,PeninsulasDevelopmentImplementationArea,A18_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A18,指定日,1,PeninsulasDevelopmentImplementationArea,A18_010
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A19,離島ID,0,RemoteIslandDevelopmentImplementationArea,A19_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A19,行政コード,0,RemoteIslandDevelopmentImplementationArea,A19_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A19,都道府県名,0,RemoteIslandDevelopmentImplementationArea,A19_003
@@ -206,22 +206,22 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22-m.html,A22-m,貯雪量,NA,
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22-m.html,A22-m,位置特定レベル,NA,NA,A22_40009
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22-m.html,A22-m,位置特定レベル,NA,NA,A22_500001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌ID,0,ParticularSoilZone,A23_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,行政コード,1,ParticularSoilZone,A23_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,行政コード,0,ParticularSoilZone,A23_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,都道府県名,0,ParticularSoilZone,A23_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,支庁名,0,ParticularSoilZone,A23_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,郡・政令市名,0,ParticularSoilZone,A23_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,市区町村名,0,ParticularSoilZone,A23_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌区分コード,0,ParticularSoilZone,A23_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,指定日,0,ParticularSoilZone,A23_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌ID,1,ParticularSoilZone,A23_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,行政区域コード,1,ParticularSoilZone,A23_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,都道府県名,1,ParticularSoilZone,A23_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,支庁名,1,ParticularSoilZone,A23_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,郡・政令市名,1,ParticularSoilZone,A23_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,支庁・振興局名,1,ParticularSoilZone,A23_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,郡・政令都市名,1,ParticularSoilZone,A23_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,市区町村名,1,ParticularSoilZone,A23_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌区分コード,1,ParticularSoilZone,A23_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,指定日,1,ParticularSoilZone,A23_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌ID,2,ParticularSoilZone,A23_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,行政区域コード,2,ParticularSoilZone,A23_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,都道府県名,2,ParticularSoilZone,A23_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,支庁・振興局名,2,ParticularSoilZone,A23_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,郡・政令都市名,2,ParticularSoilZone,A23_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,市区町村名,2,ParticularSoilZone,A23_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,原典市区町村名,2,ParticularSoilZone,A23_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,旧市町村名,2,ParticularSoilZone,A23_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌区分コード,2,ParticularSoilZone,A23_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,原典市区町村名,1,ParticularSoilZone,A23_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,旧市町村名,1,ParticularSoilZone,A23_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A23,特殊土壌区分コード,1,ParticularSoilZone,A23_009
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A24,振興山村ID,0,DevelopmentMountainVillage,A24_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A24,行政コード,0,DevelopmentMountainVillage,A24_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A24,都道府県名,0,DevelopmentMountainVillage,A24_003
@@ -242,18 +242,18 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A25,特定農山村区�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A25,指定日,0,DesignatedRuralArea,A25_009
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,危険箇所種別,0,SedimentDisasterHazardArea_Surface,A26_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,備考,0,SedimentDisasterHazardArea_Surface,A26_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,危険箇所種別,1,SedimentDisasterHazardArea_Line,A26_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,備考,1,SedimentDisasterHazardArea_Line,A26_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,危険箇所種別,2,SedimentDisasterHazardArea_Point,A26_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,備考,2,SedimentDisasterHazardArea_Point,A26_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,危険箇所種別,0,SedimentDisasterHazardArea_Surface,A26_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,備考,0,SedimentDisasterHazardArea_Surface,A26_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,危険箇所種別,0,SedimentDisasterHazardArea_Surface,A26_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A26,備考,0,SedimentDisasterHazardArea_Surface,A26_006
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,市区町村コード,0,PublicElementarySchool,A27_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,設置主体,0,PublicElementarySchool,A27_002
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,名称,0,PublicElementarySchool,A27_003
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,所在地,0,PublicElementarySchool,A27_004
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,市区町村コード,1,SchoolDistrict,A27_005
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,設置主体,1,SchoolDistrict,A27_006
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,名称,1,SchoolDistrict,A27_007
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,所在地,1,SchoolDistrict,A27_008
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,市区町村コード,0,PublicElementarySchool,A27_005
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,設置主体,0,PublicElementarySchool,A27_006
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,名称,0,PublicElementarySchool,A27_007
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html,A27,所在地,0,PublicElementarySchool,A27_008
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A28,世界自然遺産名称コード,0,WorldNaturalHeritage,A28_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29.html,A29,行政区域コード,NA,NA,A29_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29.html,A29,都道府県名,NA,NA,A29_002
@@ -531,21 +531,21 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A40.html,A40,津波浸水深�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,大潮差,0,Tide,C01_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,小潮差,0,Tide,C01_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,平均高潮間隔,0,Tide,C01_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上げ最大潮流_流向,1,TidalCurrent,C01_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上げ最大潮流_流速,1,TidalCurrent,C01_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,下げ最大潮流_流向,1,TidalCurrent,C01_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,下げ最大潮流_流速,1,TidalCurrent,C01_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,名称,2,MarinaAndMarinePhenomenon,C01_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,施設コード,2,MarinaAndMarinePhenomenon,C01_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,行政コード,2,MarinaAndMarinePhenomenon,C01_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,開設年,2,MarinaAndMarinePhenomenon,C01_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,管理者区分,3,Marina,C01_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,保管艦数_最大,3,Marina,C01_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,保管艦数_現在,3,Marina,C01_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,出航回数,3,Marina,C01_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上架施設,3,Marina,C01_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,管理者区分,4,MarinePhenomenonObservationFacilities,C01_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,観測項目,4,MarinePhenomenonObservationFacilities,C01_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上げ最大潮流_流向,0,Tide,C01_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上げ最大潮流_流速,0,Tide,C01_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,下げ最大潮流_流向,0,Tide,C01_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,下げ最大潮流_流速,0,Tide,C01_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,名称,0,Tide,C01_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,施設コード,0,Tide,C01_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,行政コード,0,Tide,C01_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,開設年,0,Tide,C01_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,管理者区分,0,Tide,C01_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,保管艦数_最大,0,Tide,C01_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,保管艦数_現在,0,Tide,C01_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,出航回数,0,Tide,C01_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,上架施設,0,Tide,C01_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,管理者区分,0,Tide,C01_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C01,観測項目,0,Tide,C01_018
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,種別（１）,0,PortAndHarbor,C02_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,種別（２）,0,PortAndHarbor,C02_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,行政区域コード,0,PortAndHarbor,C02_003
@@ -559,11 +559,11 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,海事機関種別,
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,外郭施設延長,0,PortAndHarbor,C02_011
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,係留施設延長,0,PortAndHarbor,C02_012
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,フェリー便有無,0,PortAndHarbor,C02_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,都道府県コード,1,HarborDistrictBoundary,C02_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾コード,1,HarborDistrictBoundary,C02_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,都道府県コード,2,PortDistrictBoundary,C02_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾・漁港コード_港湾コード,2,PortDistrictBoundary,C02_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾・漁港コード_漁港コード,2,PortDistrictBoundary,C02_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,都道府県コード,0,PortAndHarbor,C02_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾コード,0,PortAndHarbor,C02_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,都道府県コード,0,PortAndHarbor,C02_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾・漁港コード_港湾コード,0,PortAndHarbor,C02_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C02,港湾・漁港コード_漁港コード,0,PortAndHarbor,C02_018
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C04,3次メッシュコード,0,CoastalSeaAreaMesh,C04_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C04,平均水深,0,CoastalSeaAreaMesh,C04_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C04,最浅水深,0,CoastalSeaAreaMesh,C04_003
@@ -813,27 +813,27 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,管理者,0,CoastFa
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,原子炉の基数,0,CoastFacility,C07_006
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,発電所の出力,0,CoastFacility,C07_007
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,敷地面積,0,CoastFacility,C07_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,行政コード,1,TidalStation,C07_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,施設名,1,TidalStation,C07_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,験潮場番号,1,TidalStation,C07_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,所属,1,TidalStation,C07_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,験潮場種類,1,TidalStation,C07_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,観測開始年,1,TidalStation,C07_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,観測基準面標高,1,TidalStation,C07_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,平均海面,1,TidalStation,C07_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,大潮平均高潮面,1,TidalStation,C07_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,大潮平均低潮面,1,TidalStation,C07_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最高潮位,1,TidalStation,C07_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最高潮位観測年月,1,TidalStation,C07_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最低潮位,1,TidalStation,C07_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最低潮位観測年月,1,TidalStation,C07_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,行政コード,2,TidalLimit,C07_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,施設名,2,TidalLimit,C07_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,区域番号,2,TidalLimit,C07_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,水系域コード,2,TidalLimit,C07_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,河川コード,2,TidalLimit,C07_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,種類,2,TidalLimit,C07_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,河口からの距離,2,TidalLimit,C07_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,行政コード,0,CoastFacility,C07_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,施設名,0,CoastFacility,C07_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,験潮場番号,0,CoastFacility,C07_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,所属,0,CoastFacility,C07_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,験潮場種類,0,CoastFacility,C07_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,観測開始年,0,CoastFacility,C07_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,観測基準面標高,0,CoastFacility,C07_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,平均海面,0,CoastFacility,C07_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,大潮平均高潮面,0,CoastFacility,C07_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,大潮平均低潮面,0,CoastFacility,C07_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最高潮位,0,CoastFacility,C07_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最高潮位観測年月,0,CoastFacility,C07_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最低潮位,0,CoastFacility,C07_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,既往最低潮位観測年月,0,CoastFacility,C07_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,行政コード,0,CoastFacility,C07_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,施設名,0,CoastFacility,C07_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,区域番号,0,CoastFacility,C07_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,水系域コード,0,CoastFacility,C07_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,河川コード,0,CoastFacility,C07_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,種類,0,CoastFacility,C07_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C07,河口からの距離,0,CoastFacility,C07_029
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,漁港コード,0,FishingPort,C09_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,漁港名,0,FishingPort,C09_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,行政区域コード,0,FishingPort,C09_003
@@ -844,8 +844,8 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,指定年月日,0,F
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,関係漁業共同組合,0,FishingPort,C09_008
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,外郭施設延長,0,FishingPort,C09_009
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,係留施設延長,0,FishingPort,C09_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,都道府県コード,1,FishingPortBoundary,C09_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,漁港コード,1,FishingPortBoundary,C09_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,都道府県コード,0,FishingPort,C09_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C09,漁港コード,0,FishingPort,C09_012
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C10,県コード,0,AquacultureFacility,C10_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C10,免許番号,0,AquacultureFacility,C10_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C10,種別,0,AquacultureFacility,C10_003
@@ -863,14 +863,14 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,管理者名,0,Fish
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,主要漁種,0,Fish-breedingGroundLine,C11_006
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,施設面積,0,Fish-breedingGroundLine,C11_007
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,水深コード,0,Fish-breedingGroundLine,C11_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,県コード,1,Fish-breedingGroundPoint,C11_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,免許番号,1,Fish-breedingGroundPoint,C11_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,免許年,1,Fish-breedingGroundPoint,C11_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,行政コード,1,Fish-breedingGroundPoint,C11_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,管理者名,1,Fish-breedingGroundPoint,C11_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,主要漁種,1,Fish-breedingGroundPoint,C11_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,施設面積,1,Fish-breedingGroundPoint,C11_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,水深コード,1,Fish-breedingGroundPoint,C11_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,県コード,0,Fish-breedingGroundLine,C11_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,免許番号,0,Fish-breedingGroundLine,C11_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,免許年,0,Fish-breedingGroundLine,C11_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,行政コード,0,Fish-breedingGroundLine,C11_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,管理者名,0,Fish-breedingGroundLine,C11_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,主要漁種,0,Fish-breedingGroundLine,C11_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,施設面積,0,Fish-breedingGroundLine,C11_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C11,水深コード,0,Fish-breedingGroundLine,C11_016
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C12,敷設線・架空線コード,0,SubmarineCableAndAerialCable,C12_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C12,関係県コード,0,SubmarineCableAndAerialCable,C12_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C12,識別コード,0,SubmarineCableAndAerialCable,C12_003
@@ -907,14 +907,14 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,行政コード,0,F
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,権利者名,0,FisheryRightSetLine,C21_006
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,魚種・水産物,0,FisheryRightSetLine,C21_007
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,面積,0,FisheryRightSetLine,C21_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,県コード,1,FisheryRightSetPoint,C21_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,種別,1,FisheryRightSetPoint,C21_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,免許番号,1,FisheryRightSetPoint,C21_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,免許年,1,FisheryRightSetPoint,C21_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,行政コード,1,FisheryRightSetPoint,C21_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,権利者名,1,FisheryRightSetPoint,C21_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,魚種・水産物,1,FisheryRightSetPoint,C21_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,面積,1,FisheryRightSetPoint,C21_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,県コード,0,FisheryRightSetLine,C21_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,種別,0,FisheryRightSetLine,C21_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,免許番号,0,FisheryRightSetLine,C21_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,免許年,0,FisheryRightSetLine,C21_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,行政コード,0,FisheryRightSetLine,C21_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,権利者名,0,FisheryRightSetLine,C21_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,魚種・水産物,0,FisheryRightSetLine,C21_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C21,面積,0,FisheryRightSetLine,C21_016
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C22,県コード,0,MineLot,C22_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C22,区域コード,0,MineLot,C22_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C22,登録番号,0,MineLot,C22_003
@@ -1005,12 +1005,12 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,区域番号,0,AirP
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,2次メッシュコード内区域番号,0,AirPollutionTotalVolumeControlDistrict,C43_004
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,総量規制基準,0,AirPollutionTotalVolumeControlDistrict,C43_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,政令の区域番号,0,AirPollutionTotalVolumeControlDistrict,C43_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,行政域コード,1,WaterContaminationTotalVolumeControlDistrict,C43_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,2次メッシュコード,1,WaterContaminationTotalVolumeControlDistrict,C43_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,区域番号,1,WaterContaminationTotalVolumeControlDistrict,C43_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,2次メッシュコード内区域番号,1,WaterContaminationTotalVolumeControlDistrict,C43_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,総量規制基準,1,WaterContaminationTotalVolumeControlDistrict,C43_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,政令の区域番号,1,WaterContaminationTotalVolumeControlDistrict,C43_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,行政域コード,0,AirPollutionTotalVolumeControlDistrict,C43_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,2次メッシュコード,0,AirPollutionTotalVolumeControlDistrict,C43_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,区域番号,0,AirPollutionTotalVolumeControlDistrict,C43_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,2次メッシュコード内区域番号,0,AirPollutionTotalVolumeControlDistrict,C43_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,総量規制基準,0,AirPollutionTotalVolumeControlDistrict,C43_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C43,政令の区域番号,0,AirPollutionTotalVolumeControlDistrict,C43_012
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C45,都道府県コード,0,CoastFacility2,C45_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C45,種別,0,CoastFacility2,C45_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C45,施設番号,0,CoastFacility2,C45_003
@@ -1487,16 +1487,16 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,行政コード,0,I
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,市区町村名,0,IndustrialSite,L05_004
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,臨海・内陸区分,0,IndustrialSite,L05_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,特記事項,0,IndustrialSite,L05_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,地区名,1,IndustrialComplex,L05_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,事業者主体名,1,IndustrialComplex,L05_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,事業者完了年,1,IndustrialComplex,L05_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,全体開発面積,1,IndustrialComplex,L05_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,工業用地面積,1,IndustrialComplex,L05_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,未利用地面積,1,IndustrialComplex,L05_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,用途地域,1,IndustrialComplex,L05_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業数,1,IndustrialComplex,L05_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業名,1,IndustrialComplex,L05_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,業種,2,IsolatedIndustrialSite,L05_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,地区名,0,IndustrialSite,L05_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,事業者主体名,0,IndustrialSite,L05_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,事業者完了年,0,IndustrialSite,L05_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,全体開発面積,0,IndustrialSite,L05_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,工業用地面積,0,IndustrialSite,L05_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,未利用地面積,0,IndustrialSite,L05_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,用途地域,0,IndustrialSite,L05_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業数,0,IndustrialSite,L05_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業名,0,IndustrialSite,L05_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,業種,0,IndustrialSite,L05_016
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N01,道路種別コード,0,Road,N01_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N01,路線名,0,Road,N01_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N01,線名,0,Road,N01_003
@@ -1505,7 +1505,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,鉄道区分
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,事業者種別,0,Railroad,N02_002
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,路線名,0,Railroad,N02_003
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,運営会社,0,Railroad,N02_004
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,駅名,1,Station,N02_005
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html,N02,駅名,0,Railroad,N02_005
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html,N03,都道府県名,0,AdministrativeBoundary,N03_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html,N03,市区町村名,0,AdministrativeBoundary,N03_004
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N03,成立年月日,0,AdministrativeBoundary,N03_005
@@ -1514,143 +1514,143 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html,N03,行政区域
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html,N03,支庁・振興局名,NA,NA,N03_002
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html,N03,郡・政令都市名,NA,NA,N03_003
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュコード,0,RoadDensityAndLengthMesh_S53,N04_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_左,1,RoadDensityAndLengthMesh,N04_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_上,1,RoadDensityAndLengthMesh,N04_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_右,1,RoadDensityAndLengthMesh,N04_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_下,1,RoadDensityAndLengthMesh,N04_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_左,1,RoadDensityAndLengthMesh,N04_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_上,1,RoadDensityAndLengthMesh,N04_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_右,1,RoadDensityAndLengthMesh,N04_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_下,1,RoadDensityAndLengthMesh,N04_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_左,1,RoadDensityAndLengthMesh,N04_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_上,1,RoadDensityAndLengthMesh,N04_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_右,1,RoadDensityAndLengthMesh,N04_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_下,1,RoadDensityAndLengthMesh,N04_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_左,1,RoadDensityAndLengthMesh,N04_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_上,1,RoadDensityAndLengthMesh,N04_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_右,1,RoadDensityAndLengthMesh,N04_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_下,1,RoadDensityAndLengthMesh,N04_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_左,1,RoadDensityAndLengthMesh,N04_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_上,1,RoadDensityAndLengthMesh,N04_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_右,1,RoadDensityAndLengthMesh,N04_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_下,1,RoadDensityAndLengthMesh,N04_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_左,1,RoadDensityAndLengthMesh,N04_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_上,1,RoadDensityAndLengthMesh,N04_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_右,1,RoadDensityAndLengthMesh,N04_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_下,1,RoadDensityAndLengthMesh,N04_040
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_道路延長,1,RoadDensityAndLengthMesh,N04_041
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_上限値,1,RoadDensityAndLengthMesh,N04_042
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_下限値,1,RoadDensityAndLengthMesh,N04_043
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュコード,2,RoadDensityAndLengthMesh,N04_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュ面積,3,RoadDensityAndLengthMesh,N04_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_左,3,RoadDensityAndLengthMesh,N04_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_上,3,RoadDensityAndLengthMesh,N04_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度上_右,3,RoadDensityAndLengthMesh,N04_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_下,3,RoadDensityAndLengthMesh,N04_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_左,3,RoadDensityAndLengthMesh,N04_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_上,3,RoadDensityAndLengthMesh,N04_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度上_右,3,RoadDensityAndLengthMesh,N04_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_下,3,RoadDensityAndLengthMesh,N04_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_左,3,RoadDensityAndLengthMesh,N04_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_上,3,RoadDensityAndLengthMesh,N04_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度上_右,3,RoadDensityAndLengthMesh,N04_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_下,3,RoadDensityAndLengthMesh,N04_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_左,3,RoadDensityAndLengthMesh,N04_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_上,3,RoadDensityAndLengthMesh,N04_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度上_右,3,RoadDensityAndLengthMesh,N04_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_下,3,RoadDensityAndLengthMesh,N04_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_左,3,RoadDensityAndLengthMesh,N04_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_上,3,RoadDensityAndLengthMesh,N04_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度上_右,3,RoadDensityAndLengthMesh,N04_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_下,3,RoadDensityAndLengthMesh,N04_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_左,3,RoadDensityAndLengthMesh,N04_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_上,3,RoadDensityAndLengthMesh,N04_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度上_右,3,RoadDensityAndLengthMesh,N04_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_下,3,RoadDensityAndLengthMesh,N04_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路延長_実延長,3,RoadDensityAndLengthMesh,N04_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路延長_1k㎡当り,3,RoadDensityAndLengthMesh,N04_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,平面直角座標系（１９系区分）,3,RoadDensityAndLengthMesh,N04_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュコード,4,RoadDensityAndLengthMesh_H22,N04_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュの実面積,4,RoadDensityAndLengthMesh_H22,N04_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_040
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_041
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_042
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_043
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_044
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_045
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_046
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_047
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_048
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_049
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_050
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_左,4,RoadDensityAndLengthMesh_H22,N04_051
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_上,4,RoadDensityAndLengthMesh_H22,N04_052
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_右,4,RoadDensityAndLengthMesh_H22,N04_053
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_下,4,RoadDensityAndLengthMesh_H22,N04_054
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路延長_実延長,4,RoadDensityAndLengthMesh_H22,N04_055
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路延長_1k㎡当り,4,RoadDensityAndLengthMesh_H22,N04_056
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員11.0m以上_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5～11.0m以上_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員2.5～5.5m以上_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5～2.5m以上_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員1.5m未満_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_左,0,RoadDensityAndLengthMesh_S53,N04_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_上,0,RoadDensityAndLengthMesh_S53,N04_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_右,0,RoadDensityAndLengthMesh_S53,N04_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路密度_下,0,RoadDensityAndLengthMesh_S53,N04_040
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_道路延長,0,RoadDensityAndLengthMesh_S53,N04_041
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_上限値,0,RoadDensityAndLengthMesh_S53,N04_042
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,合計_道路延長_下限値,0,RoadDensityAndLengthMesh_S53,N04_043
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュコード,1,RoadDensityAndLengthMesh,N04_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュ面積,1,RoadDensityAndLengthMesh,N04_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_左,1,RoadDensityAndLengthMesh,N04_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_上,1,RoadDensityAndLengthMesh,N04_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度上_右,1,RoadDensityAndLengthMesh,N04_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路密度_下,1,RoadDensityAndLengthMesh,N04_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_左,1,RoadDensityAndLengthMesh,N04_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_上,1,RoadDensityAndLengthMesh,N04_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度上_右,1,RoadDensityAndLengthMesh,N04_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路密度_下,1,RoadDensityAndLengthMesh,N04_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_左,1,RoadDensityAndLengthMesh,N04_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_上,1,RoadDensityAndLengthMesh,N04_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度上_右,1,RoadDensityAndLengthMesh,N04_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路密度_下,1,RoadDensityAndLengthMesh,N04_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_左,1,RoadDensityAndLengthMesh,N04_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_上,1,RoadDensityAndLengthMesh,N04_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度上_右,1,RoadDensityAndLengthMesh,N04_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路密度_下,1,RoadDensityAndLengthMesh,N04_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_左,1,RoadDensityAndLengthMesh,N04_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_上,1,RoadDensityAndLengthMesh,N04_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度上_右,1,RoadDensityAndLengthMesh,N04_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路密度_下,1,RoadDensityAndLengthMesh,N04_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員（未調査）_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_左,1,RoadDensityAndLengthMesh,N04_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_上,1,RoadDensityAndLengthMesh,N04_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度上_右,1,RoadDensityAndLengthMesh,N04_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路密度_下,1,RoadDensityAndLengthMesh,N04_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路延長_実延長,1,RoadDensityAndLengthMesh,N04_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計_道路延長_1k㎡当り,1,RoadDensityAndLengthMesh,N04_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,平面直角座標系（１９系区分）,1,RoadDensityAndLengthMesh,N04_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュコード,2,RoadDensityAndLengthMesh_H22,N04_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,3次メッシュの実面積,2,RoadDensityAndLengthMesh_H22,N04_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員25.0m以上 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員19.5m以上25.0m未満 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上19.5m未満 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員13.0m（11.0m）以上で幅員不明 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員5.5m以上13.0m（11.0m）未満 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）以上5.5m未満 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_040
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_041
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_042
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_043
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員3.0m（2.5m）未満 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_044
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_045
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_046
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_047
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_048
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_049
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員未調査 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_050
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_左,2,RoadDensityAndLengthMesh_H22,N04_051
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_上,2,RoadDensityAndLengthMesh_H22,N04_052
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_右,2,RoadDensityAndLengthMesh_H22,N04_053
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路密度_下,2,RoadDensityAndLengthMesh_H22,N04_054
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路延長_実延長,2,RoadDensityAndLengthMesh_H22,N04_055
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,N04,幅員合計 道路延長_1k㎡当り,2,RoadDensityAndLengthMesh_H22,N04_056
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-v1_3.html,N05,事業者種別,NA,NA,N05_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-v1_3.html,N05,路線名,NA,NA,N05_002
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-v1_3.html,N05,運営会社,NA,NA,N05_003
@@ -2849,98 +2849,52 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-帰宅ト�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-合計トリップ数,0,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_034
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,全トリップ数,0,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,都市圏,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,調査年度,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,発生集中,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,ゾーンコード,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_040
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_041
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_042
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_043
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_044
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_045
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_046
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,全トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_047
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,調査年度,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,発ゾーンコード,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,着ゾーンコード,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_011
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_012
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_013
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_014
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_015
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_016
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_017
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_018
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_019
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_020
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_021
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_022
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_023
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_040
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-出勤トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_041
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-登校トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_042
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-自由トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_043
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-業務トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_044
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-帰宅トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_045
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-合計トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_046
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,全トリップ数,2,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_047
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,調査年度,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,発生集中,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,ゾーンコード,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,鉄道-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,バス-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自動車-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,二輪-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,自転車-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,徒歩-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_040
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-出勤トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_041
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-登校トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_042
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-自由トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_043
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-業務トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_044
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-帰宅トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_045
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,その他-合計トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_046
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-a,全トリップ数,1,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_047
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,都市圏,0,PersonTripODAmount,S05b_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,調査年度,0,PersonTripODAmount,S05b_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,発ゾーンコード,0,PersonTripODAmount,S05b_003
@@ -2977,6 +2931,52 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-帰宅ト�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-合計トリップ数,0,PersonTripODAmount,S05b_034
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,全トリップ数,0,PersonTripODAmount,S05b_035
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,都市圏,1,PersonTripODAmount,S05b_001
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,調査年度,1,PersonTripODAmount,S05b_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,発ゾーンコード,1,PersonTripODAmount,S05b_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,着ゾーンコード,1,PersonTripODAmount,S05b_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-出勤トリップ数,1,PersonTripODAmount,S05b_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-登校トリップ数,1,PersonTripODAmount,S05b_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-自由トリップ数,1,PersonTripODAmount,S05b_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-業務トリップ数,1,PersonTripODAmount,S05b_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-帰宅トリップ数,1,PersonTripODAmount,S05b_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,鉄道-合計トリップ数,1,PersonTripODAmount,S05b_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-出勤トリップ数,1,PersonTripODAmount,S05b_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-登校トリップ数,1,PersonTripODAmount,S05b_012
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-自由トリップ数,1,PersonTripODAmount,S05b_013
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-業務トリップ数,1,PersonTripODAmount,S05b_014
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-帰宅トリップ数,1,PersonTripODAmount,S05b_015
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,バス-合計トリップ数,1,PersonTripODAmount,S05b_016
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-出勤トリップ数,1,PersonTripODAmount,S05b_017
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-登校トリップ数,1,PersonTripODAmount,S05b_018
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-自由トリップ数,1,PersonTripODAmount,S05b_019
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-業務トリップ数,1,PersonTripODAmount,S05b_020
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-帰宅トリップ数,1,PersonTripODAmount,S05b_021
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自動車-合計トリップ数,1,PersonTripODAmount,S05b_022
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-出勤トリップ数,1,PersonTripODAmount,S05b_023
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-登校トリップ数,1,PersonTripODAmount,S05b_024
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-自由トリップ数,1,PersonTripODAmount,S05b_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-業務トリップ数,1,PersonTripODAmount,S05b_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-帰宅トリップ数,1,PersonTripODAmount,S05b_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,二輪-合計トリップ数,1,PersonTripODAmount,S05b_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-出勤トリップ数,1,PersonTripODAmount,S05b_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-登校トリップ数,1,PersonTripODAmount,S05b_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-自由トリップ数,1,PersonTripODAmount,S05b_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-業務トリップ数,1,PersonTripODAmount,S05b_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-帰宅トリップ数,1,PersonTripODAmount,S05b_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,自転車-合計トリップ数,1,PersonTripODAmount,S05b_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-出勤トリップ数,1,PersonTripODAmount,S05b_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-登校トリップ数,1,PersonTripODAmount,S05b_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-自由トリップ数,1,PersonTripODAmount,S05b_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-業務トリップ数,1,PersonTripODAmount,S05b_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-帰宅トリップ数,1,PersonTripODAmount,S05b_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,徒歩-合計トリップ数,1,PersonTripODAmount,S05b_040
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-出勤トリップ数,1,PersonTripODAmount,S05b_041
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-登校トリップ数,1,PersonTripODAmount,S05b_042
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-自由トリップ数,1,PersonTripODAmount,S05b_043
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-業務トリップ数,1,PersonTripODAmount,S05b_044
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-帰宅トリップ数,1,PersonTripODAmount,S05b_045
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,その他-合計トリップ数,1,PersonTripODAmount,S05b_046
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-b,全トリップ数,1,PersonTripODAmount,S05b_047
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,調査年度,0,CommutersPerStation_KeihanshinUrbanArea,S05c_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,駅コード,0,CommutersPerStation_KeihanshinUrbanArea,S05c_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,運営会社,0,CommutersPerStation_KeihanshinUrbanArea,S05c_003
@@ -3001,39 +3001,39 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_二輪,0,C
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_徒歩,0,CommutersPerStation_KeihanshinUrbanArea,S05c_022
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_その他,0,CommutersPerStation_KeihanshinUrbanArea,S05c_023
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_合計,0,CommutersPerStation_KeihanshinUrbanArea,S05c_024
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,調査年度,1,CommutersPerStation_TokyoUrbanArea,S05c_025
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,駅コード,1,CommutersPerStation_TokyoUrbanArea,S05c_026
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,駅名,1,CommutersPerStation_TokyoUrbanArea,S05c_027
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_路線バス・都電,1,CommutersPerStation_TokyoUrbanArea,S05c_028
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_乗用車,1,CommutersPerStation_TokyoUrbanArea,S05c_029
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_軽乗用車,1,CommutersPerStation_TokyoUrbanArea,S05c_030
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_貨物自動車・軽貨物車,1,CommutersPerStation_TokyoUrbanArea,S05c_031
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自家用バス・貸切りバス,1,CommutersPerStation_TokyoUrbanArea,S05c_032
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_タクシー・ハイヤー,1,CommutersPerStation_TokyoUrbanArea,S05c_033
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自動二輪車,1,CommutersPerStation_TokyoUrbanArea,S05c_034
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_原動機付き自転車,1,CommutersPerStation_TokyoUrbanArea,S05c_035
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自転車,1,CommutersPerStation_TokyoUrbanArea,S05c_036
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_徒歩,1,CommutersPerStation_TokyoUrbanArea,S05c_037
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_航空機,1,CommutersPerStation_TokyoUrbanArea,S05c_038
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_船舶,1,CommutersPerStation_TokyoUrbanArea,S05c_039
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_その他,1,CommutersPerStation_TokyoUrbanArea,S05c_040
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_不明,1,CommutersPerStation_TokyoUrbanArea,S05c_041
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_合計,1,CommutersPerStation_TokyoUrbanArea,S05c_042
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_路線バス・都電,1,CommutersPerStation_TokyoUrbanArea,S05c_043
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_乗用車,1,CommutersPerStation_TokyoUrbanArea,S05c_044
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_軽乗用車,1,CommutersPerStation_TokyoUrbanArea,S05c_045
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_貨物自動車・軽貨物車,1,CommutersPerStation_TokyoUrbanArea,S05c_046
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自家用バス・貸切りバス,1,CommutersPerStation_TokyoUrbanArea,S05c_047
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_タクシー・ハイヤー,1,CommutersPerStation_TokyoUrbanArea,S05c_048
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自動二輪車,1,CommutersPerStation_TokyoUrbanArea,S05c_049
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_原動機付き自転車,1,CommutersPerStation_TokyoUrbanArea,S05c_050
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自転車,1,CommutersPerStation_TokyoUrbanArea,S05c_051
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_徒歩,1,CommutersPerStation_TokyoUrbanArea,S05c_052
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_航空機,1,CommutersPerStation_TokyoUrbanArea,S05c_053
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_船舶,1,CommutersPerStation_TokyoUrbanArea,S05c_054
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_その他,1,CommutersPerStation_TokyoUrbanArea,S05c_055
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_不明,1,CommutersPerStation_TokyoUrbanArea,S05c_056
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_合計,1,CommutersPerStation_TokyoUrbanArea,S05c_057
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,調査年度,0,CommutersPerStation_KeihanshinUrbanArea,S05c_025
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,駅コード,0,CommutersPerStation_KeihanshinUrbanArea,S05c_026
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,駅名,0,CommutersPerStation_KeihanshinUrbanArea,S05c_027
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_路線バス・都電,0,CommutersPerStation_KeihanshinUrbanArea,S05c_028
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_乗用車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_029
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_軽乗用車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_030
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_貨物自動車・軽貨物車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_031
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自家用バス・貸切りバス,0,CommutersPerStation_KeihanshinUrbanArea,S05c_032
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_タクシー・ハイヤー,0,CommutersPerStation_KeihanshinUrbanArea,S05c_033
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自動二輪車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_034
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_原動機付き自転車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_035
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_自転車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_036
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_徒歩,0,CommutersPerStation_KeihanshinUrbanArea,S05c_037
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_航空機,0,CommutersPerStation_KeihanshinUrbanArea,S05c_038
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_船舶,0,CommutersPerStation_KeihanshinUrbanArea,S05c_039
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_その他,0,CommutersPerStation_KeihanshinUrbanArea,S05c_040
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_不明,0,CommutersPerStation_KeihanshinUrbanArea,S05c_041
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,乗車_合計,0,CommutersPerStation_KeihanshinUrbanArea,S05c_042
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_路線バス・都電,0,CommutersPerStation_KeihanshinUrbanArea,S05c_043
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_乗用車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_044
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_軽乗用車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_045
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_貨物自動車・軽貨物車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_046
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自家用バス・貸切りバス,0,CommutersPerStation_KeihanshinUrbanArea,S05c_047
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_タクシー・ハイヤー,0,CommutersPerStation_KeihanshinUrbanArea,S05c_048
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自動二輪車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_049
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_原動機付き自転車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_050
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_自転車,0,CommutersPerStation_KeihanshinUrbanArea,S05c_051
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_徒歩,0,CommutersPerStation_KeihanshinUrbanArea,S05c_052
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_航空機,0,CommutersPerStation_KeihanshinUrbanArea,S05c_053
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_船舶,0,CommutersPerStation_KeihanshinUrbanArea,S05c_054
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_その他,0,CommutersPerStation_KeihanshinUrbanArea,S05c_055
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_不明,0,CommutersPerStation_KeihanshinUrbanArea,S05c_056
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-c,降車_合計,0,CommutersPerStation_KeihanshinUrbanArea,S05c_057
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,調査年度,0,CargoRegionFlow,S05d_001
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,発ゾーンコード,0,CargoRegionFlow,S05d_002
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,着ゾーンコード,0,CargoRegionFlow,S05d_003
@@ -3076,24 +3076,24 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動�
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車_特種品トン数,0,CargoRegionFlow,S05d_041
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車_その他トン数,0,CargoRegionFlow,S05d_042
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車_合計トン数,0,CargoRegionFlow,S05d_043
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,調査年度,1,PassengerRegionFlow,S05d_044
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,発ゾーンコード,1,PassengerRegionFlow,S05d_045
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,着ゾーンコード,1,PassengerRegionFlow,S05d_046
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ定期旅客数,1,PassengerRegionFlow,S05d_047
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ定期外旅客数,1,PassengerRegionFlow,S05d_048
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ合計旅客数,1,PassengerRegionFlow,S05d_049
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄定期旅客数,1,PassengerRegionFlow,S05d_050
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄定期外旅客数,1,PassengerRegionFlow,S05d_051
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄合計旅客数,1,PassengerRegionFlow,S05d_052
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,乗合バス旅客数,1,PassengerRegionFlow,S05d_053
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,貸切バス旅客数,1,PassengerRegionFlow,S05d_054
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自家用バス旅客数,1,PassengerRegionFlow,S05d_055
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,営業用乗用車旅客数,1,PassengerRegionFlow,S05d_056
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自家用乗用車旅客数,1,PassengerRegionFlow,S05d_057
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車合計旅客数,1,PassengerRegionFlow,S05d_058
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,旅客船旅客数,1,PassengerRegionFlow,S05d_059
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,航空旅客数,1,PassengerRegionFlow,S05d_060
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,全機関旅客数,1,PassengerRegionFlow,S05d_061
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,調査年度,0,CargoRegionFlow,S05d_044
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,発ゾーンコード,0,CargoRegionFlow,S05d_045
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,着ゾーンコード,0,CargoRegionFlow,S05d_046
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ定期旅客数,0,CargoRegionFlow,S05d_047
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ定期外旅客数,0,CargoRegionFlow,S05d_048
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,ＪＲ合計旅客数,0,CargoRegionFlow,S05d_049
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄定期旅客数,0,CargoRegionFlow,S05d_050
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄定期外旅客数,0,CargoRegionFlow,S05d_051
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,民鉄合計旅客数,0,CargoRegionFlow,S05d_052
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,乗合バス旅客数,0,CargoRegionFlow,S05d_053
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,貸切バス旅客数,0,CargoRegionFlow,S05d_054
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自家用バス旅客数,0,CargoRegionFlow,S05d_055
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,営業用乗用車旅客数,0,CargoRegionFlow,S05d_056
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自家用乗用車旅客数,0,CargoRegionFlow,S05d_057
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車合計旅客数,0,CargoRegionFlow,S05d_058
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,旅客船旅客数,0,CargoRegionFlow,S05d_059
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,航空旅客数,0,CargoRegionFlow,S05d_060
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,全機関旅客数,0,CargoRegionFlow,S05d_061
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-v2_2.html,S05-d,自動車_金属・工業品トン数,NA,NA,S05d_037
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-e,都市圏,0,PersonTripZone,S05e_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,S05-e,行政コード,0,PersonTripZone,S05e_002
@@ -3164,16 +3164,16 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W04-a,湖沼コード9,
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W04-b,1/10細分メッシュコード,0,LakeSubdivisionMes,W04b_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W04-b,陸湖沼コード,0,LakeSubdivisionMes,W04b_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,水系域,0,River,W05_001
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川コード,0,Stream,W05_002
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,区間種別,0,Stream,W05_003
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川名,0,Stream,W05_004
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,原典資料種別,0,Stream,W05_005
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流下方向判定,0,Stream,W05_006
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川始点,0,Stream,W05_007
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川終点,0,Stream,W05_008
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流路始点,0,Stream,W05_009
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流路終点,0,Stream,W05_010
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,標高,0,RiverNode,W05_011
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川コード,0,River,W05_002
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,区間種別,0,River,W05_003
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川名,0,River,W05_004
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,原典資料種別,0,River,W05_005
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流下方向判定,0,River,W05_006
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川始点,0,River,W05_007
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川終点,0,River,W05_008
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流路始点,0,River,W05_009
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流路終点,0,River,W05_010
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,標高,0,River,W05_011
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W06,3次メッシュコード,0,FlowPassageExtensionMesh,W06_001
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W06,水系域コード,0,FlowPassageExtensionMesh,W06_002
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W06,河川コード,0,FlowPassageExtensionMesh,W06_003
