@@ -315,6 +315,19 @@ KSJMetadata_code <- merged_data %>%
 ```
 
 
+Verify
+------
+
+Currently, kokudosuuchi's code assumes that different `item_id`s have different numbers of colnames. If some row appears by the following code, I have to rethink...
+
+```{r}
+KSJMetadata_code %>%
+  group_by(identifier) %>%
+  filter(any(duplicated(code))) %>%
+  count(identifier, item_id) %>%
+  filter(any(duplicated(n)))
+```
+
 Write data
 ----------
 
