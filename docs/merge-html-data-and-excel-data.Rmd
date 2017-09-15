@@ -285,7 +285,6 @@ merged_data_from_html <- html_data %>%
 
 merged_data_from_excel <- excel_data %>%
   filter(!.data$code %in% !! unique(merged_data_from_html$code)) %>% 
-  left_join(html_data, by = c("identifier", "name")) %>%
   select(identifier, name, item_id, tag, code = code.x)
 
 merged_data <- bind_rows(
