@@ -58,11 +58,31 @@ excel_data <- bind_rows(data_orig[!indices_tilda, ],
   arrange(row_order) %>%
   select(-row_order)
 ```
-### Re-add category
+
+### Workaround for S05-b
+
+```{r}
+excel_data <- excel_data %>%
+  mutate(category = if_else(stringr::str_detect(.data$code, "^S05b"), "S05-b", .data$category))
+```
+
+### Add item_id and re-fill item and tag
 
 Merged cells are unreliable except for the top cell of the category. We need to correct toe category
 
 ```{r}
+excel_data <- excel_data %>%
+  tidyr::extract(code, into = c("prefix", "num"), regex = "^([A-Z]\\d+[^_]+)_([\\d_]+)$", remove = FALSE) %>%
+  mutate(num = readr::parse_number(stringr::str_replace(num, "_", ".")),
+         is_sequential_code = coalesce(num > lag(num) & prefix == lag(prefix), TRUE),
+         is_sequential_category = coalesce(category == lag(category), TRUE),
+         is_start_of_different_item = !is_sequential_code | !is_sequential_category) %>% 
+  group_by(category) %>% 
+  mutate(item_id = cumsum(is_start_of_different_item)) %>%
+  group_by(category, item_id) %>%
+  mutate(item = first(item), tag = first(tag)) %>%
+  ungroup() %>% 
+  select(category, item, tag, code, name, notes)
 ```
 
 ### Save

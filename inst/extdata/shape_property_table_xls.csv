@@ -46,17 +46,17 @@ A03,三大都市圏計画区域,ThreeMajorMetroPlanArea,A03_006,区域区分,NA
 A03,三大都市圏計画区域,ThreeMajorMetroPlanArea,A03_007,区域コード,NA
 A03,三大都市圏計画区域,ThreeMajorMetroPlanArea,A03_008,備考,NA
 A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_001,3次メッシュコード,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_002,保有林（概ね50%以上）,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_003,国有林（概ね50%以上）,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_004,民有林（概ね50%以上）,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_005,国有地,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_006,公有地,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_007,国公有地,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_008,台帳番号1,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_009,台帳番号2,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_010,台帳番号3,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_011,台帳番号4,NA
-A05,森林・国公有地メッシュ,ForestandPublicLandMesh,A05_012,台帳番号5,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_002,保有林（概ね50%以上）,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_003,国有林（概ね50%以上）,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_004,民有林（概ね50%以上）,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_005,国有地,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_006,公有地,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_007,国公有地,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_008,台帳番号1,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_009,台帳番号2,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_010,台帳番号3,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_011,台帳番号4,NA
+A05,三大都市圏計画区域,ThreeMajorMetroPlanArea,A05_012,台帳番号5,NA
 A07,リゾート法指定地域,DesignatedRecreationArea,A07_001,重点製備地区コード,NA
 A07,リゾート法指定地域,DesignatedRecreationArea,A07_002,都道府県コード,NA
 A07,リゾート法指定地域,DesignatedRecreationArea,A07_003,指定年月日,NA
@@ -102,16 +102,16 @@ A16,人口集中区域,DID,A16_009,全域に占める人口集中地区の人口
 A16,人口集中区域,DID,A16_010,全域に占める人口集中地区の面積割合,NA
 A16,人口集中区域,DID,A16_011,国勢調査年度,NA
 A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_001,過疎ID,NA
-A17,過疎地域,UnderpopulatedArea,A17_002,行政コード,NA
-A17,過疎地域,UnderpopulatedArea,A17_003,都道府県名,NA
-A17,過疎地域,UnderpopulatedArea,A17_004,支庁名,NA
-A17,過疎地域,UnderpopulatedArea,A17_005,郡・政令市名,NA
-A17,過疎地域,UnderpopulatedArea,A17_006,市区町村名,NA
-A17,過疎地域,UnderpopulatedArea,A17_007,過疎区分コード,NA
-A17,過疎地域,UnderpopulatedArea,A17_008,指定日,NA
-A17,過疎地域,UnderpopulatedArea,A17_009,指定事由コード,NA
-A17,過疎地域,UnderpopulatedArea,A17_010,解除日,NA
-A17,過疎地域,UnderpopulatedArea,A17_011,解除事由コード,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_002,行政コード,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_003,都道府県名,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_004,支庁名,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_005,郡・政令市名,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_006,市区町村名,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_007,過疎区分コード,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_008,指定日,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_009,指定事由コード,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_010,解除日,NA
+A17,過疎地域（平成19年以前）,UnderpopulatedArea,A17_011,解除事由コード,NA
 A17,過疎地域（平成28年）,UnderpopulatedArea,A17_001,過疎ID,NA
 A17,過疎地域（平成28年）,UnderpopulatedArea,A17_002,行政区域コード,NA
 A17,過疎地域（平成28年）,UnderpopulatedArea,A17_003,都道府県名,NA
@@ -122,13 +122,13 @@ A17,過疎地域（平成28年）,UnderpopulatedArea,A17_007,原典市区町村�
 A17,過疎地域（平成28年）,UnderpopulatedArea,A17_008,旧市町村名,NA
 A17,過疎地域（平成28年）,UnderpopulatedArea,A17_009,過疎区分コード,NA
 A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_001,半島ID,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_002,行政コード,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_003,都道府県名,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_004,支庁名,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_005,郡・政令市名,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_006,市区町村名,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_007,指定地域名,NA
-A18,半島振興対策実施地域,PeninsulasDevelopmentImplementationArea,A18_008,指定日,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_002,行政コード,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_003,都道府県名,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_004,支庁名,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_005,郡・政令市名,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_006,市区町村名,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_007,指定地域名,NA
+A18,半島振興対策実施地域（平成19年以前）,PeninsulasDevelopmentImplementationArea,A18_008,指定日,NA
 A18,半島振興対策実施地域（平成28年）,PeninsulasDevelopmentImplementationArea,A18_001,半島ID,NA
 A18,半島振興対策実施地域（平成28年）,PeninsulasDevelopmentImplementationArea,A18_002,行政区域コード,NA
 A18,半島振興対策実施地域（平成28年）,PeninsulasDevelopmentImplementationArea,A18_003,都道府県名,NA
@@ -178,13 +178,13 @@ A22,豪雪地帯,HeavySnowfallArea,A22_008,指定日,NA
 A22,豪雪地帯,HeavySnowfallArea,A22_009,指定事由コード,NA
 A22,豪雪地帯,HeavySnowfallArea,A22_010,解除日,NA
 A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_001,特殊土壌ID,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_002,行政コード,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_003,都道府県名,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_004,支庁名,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_005,郡・政令市名,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_006,市区町村名,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_007,特殊土壌区分コード,NA
-A23,特殊土壌地帯,ParticularSoilZone,A23_008,指定日,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_002,行政コード,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_003,都道府県名,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_004,支庁名,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_005,郡・政令市名,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_006,市区町村名,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_007,特殊土壌区分コード,NA
+A23,特殊土壌地帯（平成19年以前）,ParticularSoilZone,A23_008,指定日,NA
 A23,特殊土壌地帯（平成28年）,ParticularSoilZone,A23_001,特殊土壌ID,NA
 A23,特殊土壌地帯（平成28年）,ParticularSoilZone,A23_002,行政区域コード,NA
 A23,特殊土壌地帯（平成28年）,ParticularSoilZone,A23_003,都道府県名,NA
@@ -214,37 +214,37 @@ A25,特定農山村地域,DesignatedRuralArea,A25_008,特定農山村区分コ�
 A25,特定農山村地域,DesignatedRuralArea,A25_009,指定日,NA
 A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_001,危険箇所種別,NA
 A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_002,備考,NA
-A26,土砂災害危険箇所（線）,SedimentDisasterHazardArea_Line,A26_003,危険箇所種別,NA
-A26,土砂災害危険箇所（線）,SedimentDisasterHazardArea_Line,A26_004,備考,NA
-A26,土砂災害危険箇所（点）,SedimentDisasterHazardArea_Point,A26_005,危険箇所種別,NA
-A26,土砂災害危険箇所（点）,SedimentDisasterHazardArea_Point,A26_006,備考,NA
+A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_003,危険箇所種別,NA
+A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_004,備考,NA
+A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_005,危険箇所種別,NA
+A26,土砂災害危険箇所（面）,SedimentDisasterHazardArea_Surface,A26_006,備考,NA
 A27,公立小学校,PublicElementarySchool,A27_001,市区町村コード,NA
 A27,公立小学校,PublicElementarySchool,A27_002,設置主体,NA
 A27,公立小学校,PublicElementarySchool,A27_003,名称,NA
 A27,公立小学校,PublicElementarySchool,A27_004,所在地,NA
-A27,通学区域,SchoolDistrict,A27_005,市区町村コード,NA
-A27,通学区域,SchoolDistrict,A27_006,設置主体,NA
-A27,通学区域,SchoolDistrict,A27_007,名称,NA
-A27,通学区域,SchoolDistrict,A27_008,所在地,NA
+A27,公立小学校,PublicElementarySchool,A27_005,市区町村コード,NA
+A27,公立小学校,PublicElementarySchool,A27_006,設置主体,NA
+A27,公立小学校,PublicElementarySchool,A27_007,名称,NA
+A27,公立小学校,PublicElementarySchool,A27_008,所在地,NA
 A28,世界自然遺産,WorldNaturalHeritage,A28_001,世界自然遺産名称コード,NA
 C01,潮汐・海洋施設（潮汐）,Tide,C01_001,大潮差,NA
 C01,潮汐・海洋施設（潮汐）,Tide,C01_002,小潮差,NA
 C01,潮汐・海洋施設（潮汐）,Tide,C01_003,平均高潮間隔,NA
-C01,潮汐・海洋施設（潮流）,TidalCurrent,C01_004,上げ最大潮流_流向,NA
-C01,潮汐・海洋施設（潮流）,TidalCurrent,C01_005,上げ最大潮流_流速,NA
-C01,潮汐・海洋施設（潮流）,TidalCurrent,C01_006,下げ最大潮流_流向,NA
-C01,潮汐・海洋施設（潮流）,TidalCurrent,C01_007,下げ最大潮流_流速,NA
-C01,潮汐・海洋施設（マリーナ・海象）,MarinaAndMarinePhenomenon,C01_008,名称,NA
-C01,潮汐・海洋施設（マリーナ・海象）,MarinaAndMarinePhenomenon,C01_009,施設コード,NA
-C01,潮汐・海洋施設（マリーナ・海象）,MarinaAndMarinePhenomenon,C01_010,行政コード,NA
-C01,潮汐・海洋施設（マリーナ・海象）,MarinaAndMarinePhenomenon,C01_011,開設年,NA
-C01,潮汐・海洋施設（マリーナ）,Marina,C01_012,管理者区分,NA
-C01,潮汐・海洋施設（マリーナ）,Marina,C01_013,保管艦数_最大,NA
-C01,潮汐・海洋施設（マリーナ）,Marina,C01_014,保管艦数_現在,NA
-C01,潮汐・海洋施設（マリーナ）,Marina,C01_015,出航回数,NA
-C01,潮汐・海洋施設（マリーナ）,Marina,C01_016,上架施設,NA
-C01,潮汐・海洋施設（海象観測施設）,MarinePhenomenonObservationFacilities,C01_017,管理者区分,NA
-C01,潮汐・海洋施設（海象観測施設）,MarinePhenomenonObservationFacilities,C01_018,観測項目,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_004,上げ最大潮流_流向,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_005,上げ最大潮流_流速,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_006,下げ最大潮流_流向,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_007,下げ最大潮流_流速,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_008,名称,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_009,施設コード,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_010,行政コード,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_011,開設年,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_012,管理者区分,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_013,保管艦数_最大,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_014,保管艦数_現在,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_015,出航回数,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_016,上架施設,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_017,管理者区分,NA
+C01,潮汐・海洋施設（潮汐）,Tide,C01_018,観測項目,NA
 C04,沿岸海域メッシュ,CoastalSeaAreaMesh,C04_001,3次メッシュコード,NA
 C04,沿岸海域メッシュ,CoastalSeaAreaMesh,C04_002,平均水深,NA
 C04,沿岸海域メッシュ,CoastalSeaAreaMesh,C04_003,最浅水深,NA
@@ -494,27 +494,27 @@ C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_005,�
 C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_006,原子炉の基数,NA
 C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_007,発電所の出力,NA
 C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_008,敷地面積,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_009,行政コード,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_010,施設名,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_011,験潮場番号,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_012,所属,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_013,験潮場種類,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_014,観測開始年,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_015,観測基準面標高,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_016,平均海面,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_017,大潮平均高潮面,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_018,大潮平均低潮面,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_019,既往最高潮位,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_020,既往最高潮位観測年月,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_021,既往最低潮位,NA
-C07,海岸施設・感潮限界（験潮場）,TidalStation,C07_022,既往最低潮位観測年月,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_023,行政コード,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_024,施設名,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_025,区域番号,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_026,水系域コード,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_027,河川コード,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_028,種類,NA
-C07,海岸施設・感潮限界（感潮限界）,TidalLimit,C07_029,河口からの距離,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_009,行政コード,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_010,施設名,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_011,験潮場番号,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_012,所属,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_013,験潮場種類,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_014,観測開始年,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_015,観測基準面標高,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_016,平均海面,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_017,大潮平均高潮面,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_018,大潮平均低潮面,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_019,既往最高潮位,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_020,既往最高潮位観測年月,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_021,既往最低潮位,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_022,既往最低潮位観測年月,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_023,行政コード,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_024,施設名,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_025,区域番号,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_026,水系域コード,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_027,河川コード,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_028,種類,NA
+C07,海岸施設・感潮限界（海岸利用施設）,CoastFacility,C07_029,河口からの距離,NA
 C09,漁港,FishingPort,C09_001,漁港コード,NA
 C09,漁港,FishingPort,C09_002,漁港名,NA
 C09,漁港,FishingPort,C09_003,行政区域コード,NA
@@ -525,8 +525,8 @@ C09,漁港,FishingPort,C09_007,指定年月日,NA
 C09,漁港,FishingPort,C09_008,関係漁業共同組合,NA
 C09,漁港,FishingPort,C09_009,外郭施設延長,NA
 C09,漁港,FishingPort,C09_010,係留施設延長,NA
-C09,漁港区域界,FishingPortBoundary,C09_011,都道府県コード,NA
-C09,漁港区域界,FishingPortBoundary,C09_012,漁港コード,NA
+C09,漁港,FishingPort,C09_011,都道府県コード,NA
+C09,漁港,FishingPort,C09_012,漁港コード,NA
 C10,増養殖施設,AquacultureFacility,C10_001,県コード,NA
 C10,増養殖施設,AquacultureFacility,C10_002,免許番号,NA
 C10,増養殖施設,AquacultureFacility,C10_003,種別,NA
@@ -544,14 +544,14 @@ C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_005,管理者名,NA
 C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_006,主要漁種,NA
 C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_007,施設面積,NA
 C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_008,水深コード,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_009,県コード,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_010,免許番号,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_011,免許年,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_012,行政コード,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_013,管理者名,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_014,主要漁種,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_015,施設面積,NA
-C11,漁礁（漁礁地点）,Fish-breedingGroundPoint,C11_016,水深コード,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_009,県コード,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_010,免許番号,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_011,免許年,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_012,行政コード,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_013,管理者名,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_014,主要漁種,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_015,施設面積,NA
+C11,漁礁（漁礁位置）,Fish-breedingGroundLine,C11_016,水深コード,NA
 C12,海底敷設線・架空線,SubmarineCableAndAerialCable,C12_001,敷設線・架空線コード,NA
 C12,海底敷設線・架空線,SubmarineCableAndAerialCable,C12_002,関係県コード,NA
 C12,海底敷設線・架空線,SubmarineCableAndAerialCable,C12_003,識別コード,NA
@@ -588,14 +588,14 @@ C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_
 C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_006,権利者名,NA
 C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_007,魚種・水産物,NA
 C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_008,面積,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_009,県コード,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_010,種別,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_011,免許番号,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_012,免許年,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_013,行政コード,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_014,権利者名,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_015,魚種・水産物,NA
-C21,漁業権設定区域（漁業権設定地点）,FisheryRightSetPoint,C21_016,面積,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_009,県コード,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_010,種別,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_011,免許番号,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_012,免許年,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_013,行政コード,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_014,権利者名,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_015,魚種・水産物,NA
+C21,漁業権設定区域（漁業権設定区域線）,FisheryRightSetLine,C21_016,面積,NA
 C22,鉱区,MineLot,C22_001,県コード,NA
 C22,鉱区,MineLot,C22_002,区域コード,NA
 C22,鉱区,MineLot,C22_003,登録番号,NA
@@ -666,17 +666,17 @@ C43,"大気汚染・水質汚濁総量規制地域
 C43,"大気汚染・水質汚濁総量規制地域
 （大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_006,政令の区域番号,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_007,行政域コード,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_007,行政域コード,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_008,2次メッシュコード,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_008,2次メッシュコード,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_009,区域番号,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_009,区域番号,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_010,2次メッシュコード内区域番号,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_010,2次メッシュコード内区域番号,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_011,総量規制基準,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_011,総量規制基準,NA
 C43,"大気汚染・水質汚濁総量規制地域
-（水質汚濁総量規制地域）",WaterContaminationTotalVolumeControlDistrict,C43_012,政令の区域番号,NA
+（大気汚染総量規制地域）",AirPollutionTotalVolumeControlDistrict,C43_012,政令の区域番号,NA
 C45,海岸利用施設,CoastFacility2,C45_001,都道府県コード,NA
 C45,海岸利用施設,CoastFacility2,C45_002,種別,NA
 C45,海岸利用施設,CoastFacility2,C45_003,施設番号,NA
@@ -1266,16 +1266,16 @@ L05,工業用地,IndustrialSite,L05_003,行政コード,NA
 L05,工業用地,IndustrialSite,L05_004,市区町村名,NA
 L05,工業用地,IndustrialSite,L05_005,臨海・内陸区分,NA
 L05,工業用地,IndustrialSite,L05_006,特記事項,NA
-L05,工業団地,IndustrialComplex,L05_007,地区名,NA
-L05,工業団地,IndustrialComplex,L05_008,事業者主体名,NA
-L05,工業団地,IndustrialComplex,L05_009,事業者完了年,NA
-L05,工業団地,IndustrialComplex,L05_010,全体開発面積,NA
-L05,工業団地,IndustrialComplex,L05_011,工業用地面積,NA
-L05,工業団地,IndustrialComplex,L05_012,未利用地面積,NA
-L05,工業団地,IndustrialComplex,L05_013,用途地域,NA
-L05,工業団地,IndustrialComplex,L05_014,立地企業数,NA
-L05,工業団地,IndustrialComplex,L05_015,立地企業名,NA
-L05,単独工業用地,IsolatedIndustrialSite,L05_016,業種,NA
+L05,工業用地,IndustrialSite,L05_007,地区名,NA
+L05,工業用地,IndustrialSite,L05_008,事業者主体名,NA
+L05,工業用地,IndustrialSite,L05_009,事業者完了年,NA
+L05,工業用地,IndustrialSite,L05_010,全体開発面積,NA
+L05,工業用地,IndustrialSite,L05_011,工業用地面積,NA
+L05,工業用地,IndustrialSite,L05_012,未利用地面積,NA
+L05,工業用地,IndustrialSite,L05_013,用途地域,NA
+L05,工業用地,IndustrialSite,L05_014,立地企業数,NA
+L05,工業用地,IndustrialSite,L05_015,立地企業名,NA
+L05,工業用地,IndustrialSite,L05_016,業種,NA
 C02,港湾,PortAndHarbor,C02_001,種別（１）,NA
 C02,港湾,PortAndHarbor,C02_002,種別（２）,NA
 C02,港湾,PortAndHarbor,C02_003,行政区域コード,NA
@@ -1289,11 +1289,11 @@ C02,港湾,PortAndHarbor,C02_010,海事機関種別,NA
 C02,港湾,PortAndHarbor,C02_011,外郭施設延長,NA
 C02,港湾,PortAndHarbor,C02_012,係留施設延長,NA
 C02,港湾,PortAndHarbor,C02_013,フェリー便有無,NA
-C02,港湾区域界,HarborDistrictBoundary,C02_014,都道府県コード,NA
-C02,港湾区域界,HarborDistrictBoundary,C02_015,港湾コード,NA
-C02,港域界,PortDistrictBoundary,C02_016,都道府県コード,NA
-C02,港域界,PortDistrictBoundary,C02_017,港湾・漁港コード_港湾コード,NA
-C02,港域界,PortDistrictBoundary,C02_018,港湾・漁港コード_漁港コード,NA
+C02,港湾,PortAndHarbor,C02_014,都道府県コード,NA
+C02,港湾,PortAndHarbor,C02_015,港湾コード,NA
+C02,港湾,PortAndHarbor,C02_016,都道府県コード,NA
+C02,港湾,PortAndHarbor,C02_017,港湾・漁港コード_港湾コード,NA
+C02,港湾,PortAndHarbor,C02_018,港湾・漁港コード_漁港コード,NA
 C23,海岸線,Coastline,C23_001,行政区域コード,NA
 C23,海岸線,Coastline,C23_002,所管官庁,NA
 C23,海岸線,Coastline,C23_003,海岸保全区域番号,NA
@@ -1329,7 +1329,7 @@ N02,鉄道,Railroad,N02_001,鉄道区分,NA
 N02,鉄道,Railroad,N02_002,事業者種別,NA
 N02,鉄道,Railroad,N02_003,路線名,NA
 N02,鉄道,Railroad,N02_004,運営会社,NA
-N02,駅,Station,N02_005,駅名,NA
+N02,鉄道,Railroad,N02_005,駅名,NA
 N03,行政区域,AdministrativeBoundary,N03_001,都道府県名,NA
 N03,行政区域,AdministrativeBoundary,N03_002,支庁名,NA
 N03,行政区域,AdministrativeBoundary,N03_003,郡政令都市,NA
@@ -1338,87 +1338,87 @@ N03,行政区域,AdministrativeBoundary,N03_005,成立年月日,NA
 N03,行政区域,AdministrativeBoundary,N03_006,消滅年月日,NA
 N03,行政区域,AdministrativeBoundary,N03_007,行政区域コード,NA
 N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_001,3次メッシュコード,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_002,幅員11.0m以上_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_003,幅員11.0m以上_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_004,幅員11.0m以上_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_005,幅員11.0m以上_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_006,幅員11.0m以上_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_007,幅員11.0m以上_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_008,幅員11.0m以上_道路延長_下限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_009,幅員5.5～11.0m以上_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_010,幅員5.5～11.0m以上_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_011,幅員5.5～11.0m以上_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_012,幅員5.5～11.0m以上_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_013,幅員5.5～11.0m以上_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_014,幅員5.5～11.0m以上_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_015,幅員5.5～11.0m以上_道路延長_下限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_016,幅員2.5～5.5m以上_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_017,幅員2.5～5.5m以上_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_018,幅員2.5～5.5m以上_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_019,幅員2.5～5.5m以上_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_020,幅員2.5～5.5m以上_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_021,幅員2.5～5.5m以上_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_022,幅員2.5～5.5m以上_道路延長_下限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_023,幅員1.5～2.5m以上_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_024,幅員1.5～2.5m以上_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_025,幅員1.5～2.5m以上_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_026,幅員1.5～2.5m以上_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_027,幅員1.5～2.5m以上_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_028,幅員1.5～2.5m以上_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_029,幅員1.5～2.5m以上_道路延長_下限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_030,幅員1.5m未満_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_031,幅員1.5m未満_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_032,幅員1.5m未満_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_033,幅員1.5m未満_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_034,幅員1.5m未満_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_035,幅員1.5m未満_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_036,幅員1.5m未満_道路延長_下限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_037,合計_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_038,合計_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_039,合計_道路密度_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_040,合計_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_041,合計_道路延長_道路延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_042,合計_道路延長_上限値,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_043,合計_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_002,幅員11.0m以上_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_003,幅員11.0m以上_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_004,幅員11.0m以上_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_005,幅員11.0m以上_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_006,幅員11.0m以上_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_007,幅員11.0m以上_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_008,幅員11.0m以上_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_009,幅員5.5～11.0m以上_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_010,幅員5.5～11.0m以上_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_011,幅員5.5～11.0m以上_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_012,幅員5.5～11.0m以上_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_013,幅員5.5～11.0m以上_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_014,幅員5.5～11.0m以上_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_015,幅員5.5～11.0m以上_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_016,幅員2.5～5.5m以上_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_017,幅員2.5～5.5m以上_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_018,幅員2.5～5.5m以上_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_019,幅員2.5～5.5m以上_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_020,幅員2.5～5.5m以上_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_021,幅員2.5～5.5m以上_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_022,幅員2.5～5.5m以上_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_023,幅員1.5～2.5m以上_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_024,幅員1.5～2.5m以上_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_025,幅員1.5～2.5m以上_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_026,幅員1.5～2.5m以上_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_027,幅員1.5～2.5m以上_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_028,幅員1.5～2.5m以上_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_029,幅員1.5～2.5m以上_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_030,幅員1.5m未満_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_031,幅員1.5m未満_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_032,幅員1.5m未満_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_033,幅員1.5m未満_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_034,幅員1.5m未満_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_035,幅員1.5m未満_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_036,幅員1.5m未満_道路延長_下限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_037,合計_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_038,合計_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_039,合計_道路密度_右,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_040,合計_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_041,合計_道路延長_道路延長,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_042,合計_道路延長_上限値,NA
+N04,"道路密度・道路延長メッシュ(53, 昭和53年度）",RoadDensityAndLengthMesh_S53,N04_043,合計_道路延長_下限値,NA
 N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_001,3次メッシュコード,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_002,3次メッシュ面積,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_003,幅員13.0m（11.0m）以上_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_004,幅員13.0m（11.0m）以上_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_005,幅員13.0m（11.0m）以上_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_006,幅員13.0m（11.0m）以上_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_007,幅員13.0m（11.0m）以上_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_008,幅員13.0m（11.0m）以上_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_009,幅員5.5m以上13.0m（11.0m）未満_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_010,幅員5.5m以上13.0m（11.0m）未満_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_011,幅員5.5m以上13.0m（11.0m）未満_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_012,幅員5.5m以上13.0m（11.0m）未満_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_013,幅員5.5m以上13.0m（11.0m）未満_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_014,幅員5.5m以上13.0m（11.0m）未満_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_015,幅員3.0m（2.5m）以上5.5m未満_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_016,幅員3.0m（2.5m）以上5.5m未満_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_017,幅員3.0m（2.5m）以上5.5m未満_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_018,幅員3.0m（2.5m）以上5.5m未満_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_019,幅員3.0m（2.5m）以上5.5m未満_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_020,幅員3.0m（2.5m）以上5.5m未満_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_021,幅員3.0m（2.5m）未満_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_022,幅員3.0m（2.5m）未満_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_023,幅員3.0m（2.5m）未満_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_024,幅員3.0m（2.5m）未満_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_025,幅員3.0m（2.5m）未満_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_026,幅員3.0m（2.5m）未満_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_027,幅員（未調査）_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_028,幅員（未調査）_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_029,幅員（未調査）_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_030,幅員（未調査）_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_031,幅員（未調査）_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_032,幅員（未調査）_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_033,幅員合計_道路密度_左,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_034,幅員合計_道路密度_上,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_035,幅員合計_道路密度上_右,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_036,幅員合計_道路密度_下,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_037,幅員合計_道路延長_実延長,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_038,幅員合計_道路延長_1k㎡当り,NA
-N04,"道路密度・道路延長メッシュ(53, 14, 15, 16 昭和53年度, 平成14～16年度）",RoadDensityAndLengthMesh,N04_039,平面直角座標系（１９系区分）,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_002,3次メッシュ面積,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_003,幅員13.0m（11.0m）以上_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_004,幅員13.0m（11.0m）以上_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_005,幅員13.0m（11.0m）以上_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_006,幅員13.0m（11.0m）以上_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_007,幅員13.0m（11.0m）以上_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_008,幅員13.0m（11.0m）以上_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_009,幅員5.5m以上13.0m（11.0m）未満_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_010,幅員5.5m以上13.0m（11.0m）未満_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_011,幅員5.5m以上13.0m（11.0m）未満_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_012,幅員5.5m以上13.0m（11.0m）未満_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_013,幅員5.5m以上13.0m（11.0m）未満_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_014,幅員5.5m以上13.0m（11.0m）未満_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_015,幅員3.0m（2.5m）以上5.5m未満_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_016,幅員3.0m（2.5m）以上5.5m未満_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_017,幅員3.0m（2.5m）以上5.5m未満_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_018,幅員3.0m（2.5m）以上5.5m未満_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_019,幅員3.0m（2.5m）以上5.5m未満_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_020,幅員3.0m（2.5m）以上5.5m未満_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_021,幅員3.0m（2.5m）未満_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_022,幅員3.0m（2.5m）未満_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_023,幅員3.0m（2.5m）未満_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_024,幅員3.0m（2.5m）未満_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_025,幅員3.0m（2.5m）未満_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_026,幅員3.0m（2.5m）未満_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_027,幅員（未調査）_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_028,幅員（未調査）_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_029,幅員（未調査）_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_030,幅員（未調査）_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_031,幅員（未調査）_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_032,幅員（未調査）_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_033,幅員合計_道路密度_左,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_034,幅員合計_道路密度_上,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_035,幅員合計_道路密度上_右,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_036,幅員合計_道路密度_下,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_037,幅員合計_道路延長_実延長,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_038,幅員合計_道路延長_1k㎡当り,NA
+N04,"道路密度・道路延長メッシュ(14, 15, 16 平成14～16年度）",RoadDensityAndLengthMesh,N04_039,平面直角座標系（１９系区分）,NA
 N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndLengthMesh_H22,N04_001,3次メッシュコード,NA
 N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndLengthMesh_H22,N04_002,3次メッシュの実面積,NA
 N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndLengthMesh_H22,N04_003,幅員25.0m以上 道路密度_左,NA
@@ -1476,16 +1476,16 @@ N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndL
 N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndLengthMesh_H22,N04_055,幅員合計 道路延長_実延長,NA
 N04,道路密度・道路延長メッシュ(10 平成22年度）,RoadDensityAndLengthMesh_H22,N04_056,幅員合計 道路延長_1k㎡当り,NA
 W05,河川,River,W05_001,水系域,NA
-W05,河川,Stream,W05_002,河川コード,NA
-W05,河川,Stream,W05_003,区間種別,NA
-W05,河川,Stream,W05_004,河川名,NA
-W05,河川,Stream,W05_005,原典資料種別,NA
-W05,河川,Stream,W05_006,流下方向判定,NA
-W05,河川,Stream,W05_007,河川始点,NA
-W05,河川,Stream,W05_008,河川終点,NA
-W05,河川,Stream,W05_009,流路始点,NA
-W05,河川,Stream,W05_010,流路終点,NA
-W05,河川,RiverNode,W05_011,標高,NA
+W05,河川,River,W05_002,河川コード,NA
+W05,河川,River,W05_003,区間種別,NA
+W05,河川,River,W05_004,河川名,NA
+W05,河川,River,W05_005,原典資料種別,NA
+W05,河川,River,W05_006,流下方向判定,NA
+W05,河川,River,W05_007,河川始点,NA
+W05,河川,River,W05_008,河川終点,NA
+W05,河川,River,W05_009,流路始点,NA
+W05,河川,River,W05_010,流路終点,NA
+W05,河川,River,W05_011,標高,NA
 W09,湖沼,Lake,W09_001,湖沼名,NA
 W09,湖沼,Lake,W09_002,行政区域コード,NA
 W09,湖沼,Lake,W09_003,最大水深,NA
@@ -2370,52 +2370,98 @@ S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_Concen
 S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035,全トリップ数,NA
 S05-a,"交通流動量_パーソントリップ発生・集中量
 （平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_001,都市圏,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_002,調査年度,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_003,発生集中,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_004,ゾーンコード,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_005,鉄道-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_006,鉄道-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_007,鉄道-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_008,鉄道-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_009,鉄道-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_010,鉄道-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_011,バス-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_012,バス-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_013,バス-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_014,バス-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_015,バス-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_016,バス-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_017,自動車-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_018,自動車-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_019,自動車-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_020,自動車-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_021,自動車-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_022,自動車-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_023,二輪-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_024,二輪-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_025,二輪-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_026,二輪-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_027,二輪-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_028,二輪-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_029,自転車-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_030,自転車-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_031,自転車-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_032,自転車-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_033,自転車-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_034,自転車-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035,徒歩-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_036,徒歩-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_037,徒歩-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_038,徒歩-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_039,徒歩-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_040,徒歩-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_041,その他-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_042,その他-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_043,その他-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_044,その他-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_045,その他-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_046,その他-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_047,全トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_002,調査年度,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_003,発生集中,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_004,ゾーンコード,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_005,鉄道-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_006,鉄道-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_007,鉄道-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_008,鉄道-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_009,鉄道-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_010,鉄道-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_011,バス-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_012,バス-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_013,バス-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_014,バス-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_015,バス-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_016,バス-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_017,自動車-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_018,自動車-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_019,自動車-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_020,自動車-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_021,自動車-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_022,自動車-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_023,二輪-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_024,二輪-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_025,二輪-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_026,二輪-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_027,二輪-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_028,二輪-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_029,自転車-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_030,自転車-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_031,自転車-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_032,自転車-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_033,自転車-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_034,自転車-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_035,徒歩-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_036,徒歩-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_037,徒歩-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_038,徒歩-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_039,徒歩-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_040,徒歩-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_041,その他-出勤トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_042,その他-登校トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_043,その他-自由トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_044,その他-業務トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_045,その他-帰宅トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_046,その他-合計トリップ数,NA
+S05-a,"交通流動量_パーソントリップ発生・集中量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05a_047,全トリップ数,NA
 S05-b,交通流動量_パーソントリップOD量,PersonTripODAmount,S05b_001,都市圏,NA
 S05-b,交通流動量_パーソントリップOD量,PersonTripODAmount,S05b_002,調査年度,NA
 S05-b,交通流動量_パーソントリップOD量,PersonTripODAmount,S05b_003,発ゾーンコード,NA
@@ -2453,52 +2499,98 @@ S05-b,交通流動量_パーソントリップOD量,PersonTripODAmount,S05b_034,
 S05-b,交通流動量_パーソントリップOD量,PersonTripODAmount,S05b_035,全トリップ数,NA
 S05-b,"交通流動量_パーソントリップOD量
 （平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_001,都市圏,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_002,調査年度,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_003,発ゾーンコード,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_004,着ゾーンコード,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_005,鉄道-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_006,鉄道-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_007,鉄道-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_008,鉄道-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_009,鉄道-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_010,鉄道-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_011,バス-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_012,バス-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_013,バス-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_014,バス-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_015,バス-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_016,バス-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_017,自動車-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_018,自動車-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_019,自動車-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_020,自動車-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_021,自動車-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_022,自動車-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_023,二輪-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_024,二輪-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_025,二輪-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_026,二輪-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_027,二輪-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_028,二輪-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_029,自転車-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_030,自転車-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_031,自転車-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_032,自転車-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_033,自転車-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_034,自転車-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_035,徒歩-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_036,徒歩-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_037,徒歩-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_038,徒歩-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_039,徒歩-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_040,徒歩-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_041,その他-出勤トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_042,その他-登校トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_043,その他-自由トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_044,その他-業務トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_045,その他-帰宅トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_046,その他-合計トリップ数,NA
-S05-a,交通流動量_パーソントリップ発生・集中量,Occurred_ConcentratedTrafficVolumeOfPersonTrip,S05b_047,全トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_002,調査年度,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_003,発ゾーンコード,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_004,着ゾーンコード,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_005,鉄道-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_006,鉄道-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_007,鉄道-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_008,鉄道-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_009,鉄道-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_010,鉄道-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_011,バス-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_012,バス-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_013,バス-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_014,バス-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_015,バス-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_016,バス-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_017,自動車-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_018,自動車-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_019,自動車-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_020,自動車-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_021,自動車-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_022,自動車-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_023,二輪-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_024,二輪-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_025,二輪-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_026,二輪-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_027,二輪-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_028,二輪-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_029,自転車-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_030,自転車-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_031,自転車-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_032,自転車-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_033,自転車-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_034,自転車-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_035,徒歩-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_036,徒歩-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_037,徒歩-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_038,徒歩-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_039,徒歩-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_040,徒歩-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_041,その他-出勤トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_042,その他-登校トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_043,その他-自由トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_044,その他-業務トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_045,その他-帰宅トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_046,その他-合計トリップ数,NA
+S05-b,"交通流動量_パーソントリップOD量
+（平成24年度作成データ、原典資料：平成22年近畿圏パーソントリップ調査）",PersonTripODAmount,S05b_047,全トリップ数,NA
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_001,調査年度,NA
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_002,駅コード,NA
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_003,運営会社,NA
@@ -2523,39 +2615,39 @@ S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStatio
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_022,降車_徒歩,NA
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_023,降車_その他,NA
 S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_024,降車_合計,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_025,調査年度,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_026,駅コード,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_027,駅名,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_028,乗車_路線バス・都電,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_029,乗車_乗用車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_030,乗車_軽乗用車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_031,乗車_貨物自動車・軽貨物車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_032,乗車_自家用バス・貸切りバス,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_033,乗車_タクシー・ハイヤー,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_034,乗車_自動二輪車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_035,乗車_原動機付き自転車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_036,乗車_自転車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_037,乗車_徒歩,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_038,乗車_航空機,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_039,乗車_船舶,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_040,乗車_その他,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_041,乗車_不明,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_042,乗車_合計,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_043,降車_路線バス・都電,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_044,降車_乗用車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_045,降車_軽乗用車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_046,降車_貨物自動車・軽貨物車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_047,降車_自家用バス・貸切りバス,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_048,降車_タクシー・ハイヤー,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_049,降車_自動二輪車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_050,降車_原動機付き自転車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_051,降車_自転車,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_052,降車_徒歩,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_053,降車_航空機,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_054,降車_船舶,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_055,降車_その他,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_056,降車_不明,NA
-S05-c,交通流動量_駅別乗降数（東京都市圏）,CommutersPerStation_TokyoUrbanArea,S05c_057,降車_合計,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_025,調査年度,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_026,駅コード,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_027,駅名,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_028,乗車_路線バス・都電,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_029,乗車_乗用車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_030,乗車_軽乗用車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_031,乗車_貨物自動車・軽貨物車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_032,乗車_自家用バス・貸切りバス,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_033,乗車_タクシー・ハイヤー,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_034,乗車_自動二輪車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_035,乗車_原動機付き自転車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_036,乗車_自転車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_037,乗車_徒歩,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_038,乗車_航空機,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_039,乗車_船舶,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_040,乗車_その他,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_041,乗車_不明,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_042,乗車_合計,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_043,降車_路線バス・都電,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_044,降車_乗用車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_045,降車_軽乗用車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_046,降車_貨物自動車・軽貨物車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_047,降車_自家用バス・貸切りバス,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_048,降車_タクシー・ハイヤー,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_049,降車_自動二輪車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_050,降車_原動機付き自転車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_051,降車_自転車,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_052,降車_徒歩,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_053,降車_航空機,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_054,降車_船舶,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_055,降車_その他,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_056,降車_不明,NA
+S05-c,交通流動量_駅別乗降数（京阪神都市圏）,CommutersPerStation_KeihanshinUrbanArea,S05c_057,降車_合計,NA
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_001,調査年度,NA
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_002,発ゾーンコード,NA
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_003,着ゾーンコード,NA
@@ -2599,24 +2691,24 @@ S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_040,自動車_�
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_041,自動車_特種品トン数,NA
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_042,自動車_その他トン数,NA
 S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_043,自動車_合計トン数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_044,調査年度,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_045,発ゾーンコード,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_046,着ゾーンコード,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_047,ＪＲ定期旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_048,ＪＲ定期外旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_049,ＪＲ合計旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_050,民鉄定期旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_051,民鉄定期外旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_052,民鉄合計旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_053,乗合バス旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_054,貸切バス旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_055,自家用バス旅客数,←平成22年度のデータではこの属性項目はない
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_056,営業用乗用車旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_057,自家用乗用車旅客数,←平成22年度のデータではこの属性項目はない
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_058,自動車合計旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_059,旅客船旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_060,航空旅客数,NA
-S05-d,交通流動量_旅客地域流動量,PassengerRegionFlow,S05d_061,全機関旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_044,調査年度,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_045,発ゾーンコード,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_046,着ゾーンコード,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_047,ＪＲ定期旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_048,ＪＲ定期外旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_049,ＪＲ合計旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_050,民鉄定期旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_051,民鉄定期外旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_052,民鉄合計旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_053,乗合バス旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_054,貸切バス旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_055,自家用バス旅客数,←平成22年度のデータではこの属性項目はない
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_056,営業用乗用車旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_057,自家用乗用車旅客数,←平成22年度のデータではこの属性項目はない
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_058,自動車合計旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_059,旅客船旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_060,航空旅客数,NA
+S05-d,交通流動量_貨物地域流動量,CargoRegionFlow,S05d_061,全機関旅客数,NA
 S05-e,交通流動量_パーソントリップゾーン,PersonTripZone,S05e_001,都市圏,NA
 S05-e,交通流動量_パーソントリップゾーン,PersonTripZone,S05e_002,行政コード,NA
 S05-e,交通流動量_パーソントリップゾーン,PersonTripZone,S05e_003,調査年度,NA
