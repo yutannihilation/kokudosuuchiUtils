@@ -150,7 +150,7 @@ excel_data_part_tilda <- excel_data[indices_tilda, ] %>%
   # fill NAs with appropriate end numbers
   mutate(end = dplyr::coalesce(.data$end, 30L)) %>% 
   # expand rows
-  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%03d", prefix, seq(begin, end)))) %>%
+  mutate(code = purrr::pmap(., function(prefix, begin, end, ...) sprintf("%s_%d", prefix, seq(begin, end)))) %>%
   tidyr::unnest(.data$code) %>%
   # add sequencial numbers to names (e.g. 備考 -> 備考1, 備考2, ...)
   group_by(category) %>%
