@@ -212,7 +212,7 @@ enum_codes_all <- c(
 Write data
 ----------
 
-```{r}
+```{r, message=FALSE}
 devtools::use_data(enum_codes_all, overwrite = TRUE)
 ```
 

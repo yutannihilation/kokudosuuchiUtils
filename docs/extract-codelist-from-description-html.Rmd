@@ -31,7 +31,7 @@ codelist <- codelist %>%
 Explore data
 ------------
 
-Duplicated data:
+Check duplicated data:
 
 ```{r}
 codelist %>%
@@ -41,7 +41,7 @@ codelist %>%
   knitr::kable()
 ```
 
-Except for S12, ignore them as they are ambiguous:
+Ignore ambiguous codes:
 
 ```{r}
 codelist <- codelist %>%
@@ -175,14 +175,24 @@ result_4cols <- result %>%
 
 codelist_codes_all <- c(result_2cols,
                         result_3cols,
-                        result_DistributionCd,
+                        list("DistributionCd.html" = result_DistributionCd),
                         result_4cols)
+```
+
+```{r}
+KSJMetadata_code_correspondence_tables <- c(codelist_codes_all,
+                                            enum_codes_all)
 ```
 
 Write data
 ----------
 
+```{r, message=FALSE}
+devtools::use_data(KSJMetadata_code_correspondence_tables, overwrite = TRUE)
+```
+
 ```{r}
-KSJMetadata_codelist <- c(codelist_codes_all,
-                          enum_codes_all)
+file.copy(rprojroot::find_package_root_file("data/KSJMetadata_code_correspondence_tables.rda"),
+          rprojroot::find_package_root_file("../kokudosuuchi/data/"),
+          overwrite = TRUE)
 ```

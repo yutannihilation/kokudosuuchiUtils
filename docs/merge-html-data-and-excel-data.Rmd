@@ -161,7 +161,9 @@ KSJMetadata_code_year_cols <- html_data %>%
       replacement = stringr::str_c(.$name, "\\1年度")
     )
   }
+```
 
+```{r, message=FALSE}
 devtools::use_data(KSJMetadata_code_year_cols, overwrite = TRUE)
 readr::write_csv(KSJMetadata_code_year_cols,
                  rprojroot::find_package_root_file("inst/extdata/KSJMetadata_code_year_cols.csv"))
@@ -386,7 +388,7 @@ KSJMetadata_code %>%
 Write data
 ----------
 
-```{r}
+```{r, message=FALSE}
 devtools::use_data(KSJMetadata_code, overwrite = TRUE)
 readr::write_csv(KSJMetadata_code, rprojroot::find_package_root_file("inst/extdata/KSJMetadata_code.csv"))
 ```
