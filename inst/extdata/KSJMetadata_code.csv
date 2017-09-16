@@ -1573,7 +1573,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L03-b,細分メッシ�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L03-b,土地利用種別,0,LandUseSubdivisionMesh,L03b_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,工業用地ID,0,IndustrialSite,L05_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,工業用地名,0,IndustrialSite,L05_002,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,行政コード,0,IndustrialSite,L05_003,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,行政コード,0,IndustrialSite,L05_003,AdminAreaCd.html
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,市区町村名,0,IndustrialSite,L05_004,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,臨海・内陸区分,0,IndustrialSite,L05_005,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,特記事項,0,IndustrialSite,L05_006,NA
@@ -1583,7 +1583,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,事業者完了年,
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,全体開発面積,0,IndustrialSite,L05_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,工業用地面積,0,IndustrialSite,L05_011,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,未利用地面積,0,IndustrialSite,L05_012,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,用途地域,0,IndustrialSite,L05_013,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,用途地域,0,IndustrialSite,L05_013,useDistrict.html
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業数,0,IndustrialSite,L05_014,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,立地企業名,0,IndustrialSite,L05_015,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L05,業種,0,IndustrialSite,L05_016,NA

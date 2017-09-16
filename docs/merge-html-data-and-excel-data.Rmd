@@ -343,6 +343,19 @@ merged_data_w_enum <- merged_data_w_codelist %>%
   mutate(correspondence_table = if_else(.data$code %in% names(enum_codes_all), .data$code, .data$correspondence_table))
 ```
 
+Join codelist manually
+----------------------
+
+```{r}
+merged_data_manually <- merged_data_w_enum %>%
+  mutate(correspondence_table = case_when(
+    .data$code == "L05_003" ~ "AdminAreaCd.html",
+    .data$code == "L05_013" ~ "useDistrict.html",
+    TRUE ~ .data$correspondence_table))
+```
+
+
+
 Join source URLs
 ----------------
 
@@ -350,15 +363,11 @@ Join source URLs
 data(KSJMetadata_description_url)
 identifier_to_url <- setNames(KSJMetadata_description_url$url, KSJMetadata_description_url$identifier)
 
-KSJMetadata_code <- merged_data_w_codelist %>%
+KSJMetadata_code <- merged_data_manually %>%
   mutate(source = if_else(.data$source == "html",
                           identifier_to_url[.data$identifier],
                           "http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls"))
 ```
-
-Join codelist manually
-----------------------
-
 
 
 Verify
