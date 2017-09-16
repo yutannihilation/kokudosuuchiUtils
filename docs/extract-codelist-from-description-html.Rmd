@@ -35,7 +35,7 @@ Duplicated data:
 
 ```{r}
 codelist %>%
-  add_count(source, text) %>%
+  add_count(identifier, link_label) %>%
   filter(n > 2) %>%
   mutate_all(funs(stringr::str_replace_all(., "\\s", ""))) %>%
   knitr::kable()
@@ -45,46 +45,43 @@ Except for S12, ignore them as they are ambiguous:
 
 ```{r}
 codelist <- codelist %>%
-  filter(!.data$url %in% c("http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_syuto.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_cyubu.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_kinki.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_syuto.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_cyubu.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_kinki.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
-                          "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html"
-                          ))
+  filter(!.data$url_fullname %in% c(
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_syuto.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_cyubu.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_kinki.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_syuto.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_cyubu.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_kinki.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html"
+    ))
 ```
 
-Join identifiers.
+Write `codelist` to a file so that it can be joined to `KSJMetadata_code`
 
 ```{r}
-codelist_w_identifier <- left_join(
-  mutate(codelist, source = stringr::str_replace(source, "^datalist-", "")),
-  mutate(KSJMetadata_description_url, source = basename(url)) %>% select(source, identifier),
-  by = "source"
-) %>%
-  mutate(text = stringr::str_replace_all(text, "\\s", "")) %>%
-  select(-name)
+readr::write_csv(codelist, rprojroot::find_package_root_file("inst/extdata/codelist.csv"))
+```
 
+```{r}
 html_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
 
 code_and_texts <- left_join(
@@ -94,11 +91,11 @@ code_and_texts <- left_join(
 
 code_and_url <- inner_join(
   code_and_texts,
-  codelist_w_identifier,
+  mutate(codelist, text = stringr::str_replace_all(text, "\\s", "")),
   by = c("identifier", "text")
 ) %>%
   # AirportCatCd..html has two dots; tools::file_path_sans_ext() is a bit troublesome here.
-  transmute(code, name, codelist_basename = basename(url))
+  select(code, name, text, codelist_basename = url_basename)
 ```
 
 ### Read codelist

@@ -224,7 +224,8 @@ Do some workaround again and again...
 
 ### L05
 
-For L05, data from HTML is wrong; they are `L01_...`, but should be `L05_...`. So remove this from `html_data` and use data from Excel.
+For L05, data from HTML is wrong; they are `L01_...`, but should be `L05_...`. Moreovere, `L01_007` should be 地区名, not 事業主体名.
+So remove this from `html_data` and use data from Excel.
 
 * http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L05.html
 
@@ -233,6 +234,10 @@ html_data <- html_data %>%
     filter(!.data$identifier %in% c("L05"))
 ```
 
+Compensations:
+
+* `L05_003`: 行政コード
+* `L05_013`: 用途地域コード
 
 ### P03, P12
 
@@ -248,19 +253,35 @@ excel_data <- excel_data %>%
 
 ### L03-a
 
-`L03-a` already have human-readable names, and cannot be translated automatically as there are several versions of sets of codes. So we ignore it here.
+The website does not describe `L03-a` code per code. Note that, the codes in `L03-a` are ambiguous and cannot be determined.
 
 ```{r}
 html_data <- html_data %>%
     filter(!.data$identifier %in% c("L03-a"))
-excel_data <- excel_data %>%
-  filter(!category %in% c("L03-a"))
 ```
 
 Merge
 -----
 
 First, we delete rows without code from `html_data`. They might be useful for getting codelist urls, but are not needed here.
+
+Before removing the rows, extract texts so that we can join this later.
+
+```{r}
+codelist <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/codelist.csv")) %>%
+  mutate(text = stringr::str_replace_all(text, "\\s", ""))
+
+html_data_text <- select(html_data, identifier, name, text = type) %>%
+  filter(.data$text %in% !! codelist$text) %>% 
+  distinct(identifier, name, text) %>%
+  # These are ambiguous as the translation depends on the year.
+  filter(!(.data$identifier == "S05-c" & .data$name %in% c("駅コード", "駅名"))) %>%
+  filter(!(.data$identifier == "S05-d" & .data$name %in% c("着ゾーンコード", "発ゾーンコード")))
+
+# confirm theare are no duplicated rows
+count(html_data_text, identifier, name, sort = TRUE) %>%
+  filter(n > 1)
+```
 
 ```{r}
 html_data <- filter(html_data, !is.na(code))
@@ -281,11 +302,13 @@ Now it's time to join.
 ```{r}
 merged_data_from_html <- html_data %>%
   left_join(excel_data, by = c("identifier", "name", "code")) %>%
-  select(identifier, name, item_id, tag, code)
+  select(identifier, name, item_id, tag, code, text = type)
 
 merged_data_from_excel <- excel_data %>%
   filter(!.data$code %in% !! unique(merged_data_from_html$code)) %>% 
-  select(identifier, name, item_id, tag, code)
+  select(identifier, name, item_id, tag, code) %>%
+  # try to merge texts
+  left_join(html_data_text, by = c("identifier", "name"))
 
 merged_data <- bind_rows(
   html  = merged_data_from_html,
@@ -301,6 +324,18 @@ Note that `merged_data` has more identifiers than data available from API. We ma
 unique(merged_data$identifier)
 ```
 
+Join codelist
+-------------
+
+```{r}
+merged_data_w_codelist <- merged_data %>% 
+  left_join(codelist, by = c("identifier", "text")) %>%
+  select(source, identifier, name, item_id, tag, code, codelist = url_basename)
+```
+
+Join enums
+----------
+
 Join source URLs
 ----------------
 
@@ -308,7 +343,7 @@ Join source URLs
 data(KSJMetadata_description_url)
 identifier_to_url <- setNames(KSJMetadata_description_url$url, KSJMetadata_description_url$identifier)
 
-KSJMetadata_code <- merged_data %>%
+KSJMetadata_code <- merged_data_w_codelist %>%
   mutate(source = if_else(.data$source == "html",
                           identifier_to_url[.data$identifier],
                           "http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls"))
@@ -318,7 +353,7 @@ KSJMetadata_code <- merged_data %>%
 Verify
 ------
 
-Currently, kokudosuuchi's code assumes that different `item_id`s have different numbers of colnames. If some row appears by the following code, I have to rethink...
+Currently, kokudosuuchi's code assumes that different `item_id`s have different numbers of colnames. `L03-a` is my headache.
 
 ```{r}
 KSJMetadata_code %>%
