@@ -62,18 +62,24 @@ extract_codelist_urls <- function(html_file) {
 
   a_nodeset_list <- purrr::map(td_nodeset, rvest::html_nodes, xpath = "./a")
 
-  url <- purrr::map(a_nodeset_list, rvest::html_attr, "href")
-  name <- purrr::map(a_nodeset_list, rvest::html_text)
+  url_relative <- purrr::map(a_nodeset_list, rvest::html_attr, "href")
+  link_label <- purrr::map(a_nodeset_list, rvest::html_text)
 
-  tibble::tibble(text, url, name) %>%
+  tibble::tibble(text, url_relative, link_label) %>%
     tidyr::unnest() %>%
-    dplyr::filter(stringr::str_detect(url, "codelist")) %>%
-    dplyr::mutate(url = sprintf("http://nlftp.mlit.go.jp/ksj/gml/codelist/%s", basename(.data$url)))
+    dplyr::filter(stringr::str_detect(url_relative, "codelist")) %>%
+    dplyr::mutate(
+      url_basename = basename(.data$url_relative),
+      url_fullname = sprintf("http://nlftp.mlit.go.jp/ksj/gml/codelist/%s", .data$url_basename)
+    ) %>%
+    dplyr::select(-.data$url_relative)
 }
 
 #' @export
 extract_all_codelist_urls <- function() {
   datalist_files <- list.files(HTML_DIR, pattern = "datalist-.*\\.html", full.names = TRUE)
-  datalist_files <- rlang::set_names(datalist_files, basename(datalist_files))
-  purrr::map_dfr(datalist_files, extract_codelist_urls, .id = "source")
+  corresp <- rlang::set_names(KSJMetadata_description_url$identifier,
+                              sprintf("datalist-%s", basename(KSJMetadata_description_url$url)))
+  datalist_files <- rlang::set_names(datalist_files, corresp[basename(datalist_files)])
+  purrr::map_dfr(datalist_files, extract_codelist_urls, .id = "identifier")
 }

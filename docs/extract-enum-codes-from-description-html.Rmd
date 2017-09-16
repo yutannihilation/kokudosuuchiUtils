@@ -21,8 +21,8 @@ Read data
 html_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
 ```
 
-Explore data
-------------
+Extract enum from 列挙型
+------------------------
 
 ```{r}
 html_data %>%
@@ -32,9 +32,6 @@ html_data %>%
     knitr::kable()
 ```
 
-
-Extract data
-------------
 
 Collect results into `enum_code`.
 
@@ -149,14 +146,73 @@ enum_code_type4 <- html_data_enums %>%
   })
 ```
 
+Extract enum from コードリスト
+-----------------------------
+
 ```{r}
-enum_codes_all <- c(enum_code_type2, enum_code_type3, enum_code_type4)
+html_data %>%
+    filter(stringr::str_detect(.data$type, "コードリスト.*[:=：＝]")) %>%
+    select(identifier, code, name, type) %>%
+    mutate_all(funs(stringr::str_replace_all(., "\\s", " "))) %>% 
+    knitr::kable()
+```
+
+```{r}
+html_data_psuedo_enums_num_first <- html_data %>%
+  filter(stringr::str_detect(.data$type, "コードリスト.*\\d[:=：＝]"))
+
+html_data_psuedo_enums_code_first <- html_data %>%
+  filter(stringr::str_detect(.data$type, "コードリスト.*[:=：＝]\\d"))
+
+enum_code_psuedo_num_first <- html_data_psuedo_enums_num_first$type %>%
+  stringi::stri_trans_nfkc() %>%
+  stringr::str_replace_all(c(
+    "^コードリスト型?(「都市計画決定コード」)?" = "",
+    "※.*$" = "",
+    "^\\(|\\)$" = ""
+    )
+  ) %>%
+  # workaround for P24_011
+  stringr::str_replace_all("(?<!^)(\\d)(?=:)", "、\\1") %>%
+  stringr::str_split("、") %>%
+  purrr::map(function(x) {
+    m <- stringr::str_split_fixed(x, "[:=]", 2)
+    setNames(m[, 2, drop = TRUE], m[, 1, drop = TRUE])
+  }) %>%
+  setNames(html_data_psuedo_enums_num_first$code)
+
+enum_code_psuedo_code_first <- html_data_psuedo_enums_code_first$type %>%
+  stringi::stri_trans_nfkc() %>%
+  stringr::str_replace_all(c(
+    "^コードリスト型?(\\(種別コード\\)|「種別コード」)?" = "",
+    "^\\(|\\)$" = ""
+    )
+  ) %>%
+  # workaround for P24_011
+  stringr::str_replace_all("(?<!^)(\\d)(?=:)", "、\\1") %>%
+  stringr::str_split("、") %>%
+  purrr::map(function(x) {
+    m <- stringr::str_split_fixed(x, "[:=]", 2)
+    setNames(m[, 1, drop = TRUE], m[, 2, drop = TRUE])
+  }) %>%
+  setNames(html_data_psuedo_enums_code_first$code)
+```
+
+
+```{r}
+enum_codes_all <- c(
+  enum_code_type2,
+  enum_code_type3, 
+  enum_code_type4,
+  enum_code_psuedo_code_first,
+  enum_code_psuedo_num_first
+)
 ```
 
 Write data
 ----------
 
-```{r}
+```{r, message=FALSE}
 devtools::use_data(enum_codes_all, overwrite = TRUE)
 ```
 

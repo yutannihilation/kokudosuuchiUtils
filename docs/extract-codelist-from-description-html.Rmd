@@ -1,0 +1,198 @@
+---
+title: "Extract Code From HTML Data"
+author: "Hiroaki Yutani"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(kokudosuuchiUtils)
+packageDescription("kokudosuuchiUtils")$Built
+```
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+```
+
+Read data
+---------
+
+```{r}
+codelist <- extract_all_codelist_urls()
+```
+
+Remove garbages:
+
+```{r}
+codelist <- codelist %>% 
+  filter(!stringr::str_detect(.data$text, "GML形式|各データのメタデータについては、"))
+```
+
+Explore data
+------------
+
+Check duplicated data:
+
+```{r}
+codelist %>%
+  add_count(identifier, link_label) %>%
+  filter(n > 2) %>%
+  mutate_all(funs(stringr::str_replace_all(., "\\s", ""))) %>%
+  knitr::kable()
+```
+
+Ignore ambiguous codes:
+
+```{r}
+codelist <- codelist %>%
+  filter(!.data$url_fullname %in% c(
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_syuto.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_cyubu.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionTypeCd_kinki.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_syuto.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_cyubu.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/SectionCd_kinki.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-77.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-88.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-YY.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaZoneCd.html", 
+    "http://nlftp.mlit.go.jp/ksj/gml/codelist/ChukyoAreaZoneCd.html"
+    ))
+```
+
+Write `codelist` to a file so that it can be joined to `KSJMetadata_code`
+
+```{r}
+readr::write_csv(codelist, rprojroot::find_package_root_file("inst/extdata/codelist.csv"))
+```
+
+```{r}
+html_data <- readr::read_csv(rprojroot::find_package_root_file("inst/extdata/html_data.csv"))
+
+code_and_texts <- left_join(
+  KSJMetadata_code,
+  html_data %>% select(identifier, name, text = type)
+)
+
+code_and_url <- inner_join(
+  code_and_texts,
+  mutate(codelist, text = stringr::str_replace_all(text, "\\s", "")),
+  by = c("identifier", "text")
+) %>%
+  # AirportCatCd..html has two dots; tools::file_path_sans_ext() is a bit troublesome here.
+  select(code, name, text, codelist_basename = url_basename)
+```
+
+### Read codelist
+
+```{r}
+codelist_basenames <- unique(code_and_url$codelist_basename) %>% 
+  # TODO: thsese codes are ambiguous
+  purrr::discard(. %in% c("PubFacAdminCd.html",
+                          "PubFacMiclassCd_wf.html",
+                          "WelfareFacMiclassCd.html"))
+
+read_one_code <- function(codelist_basename, encoding) {
+  xml2::read_html(file.path(
+    rprojroot::find_package_root_file("downloaded_html"),
+    glue::glue("codelist-{codelist_basename}")
+  ), encoding = encoding) %>%
+    rvest::html_node(css = 'table[border="1"]') %>%
+    rvest::html_table(fill = TRUE)
+}
+
+x <- purrr::map2(purrr::set_names(codelist_basenames),
+                 dplyr::if_else(codelist_basenames %in% c("CodeOfPhenomenon.html", "CodeOfZone_h27.html",
+                                                          "CodeOfUnSpecification.html", "RiverCodeCd.html"),
+                                "UTF-8",
+                                "CP932"),
+                 purrr::safely(read_one_code))
+# confirm no errors
+names(purrr::discard(x, ~ is.null(.$error)))
+
+result <- purrr::map(x, "result")
+```
+
+
+```{r}
+result_2cols <- result %>%
+  purrr::keep(~ncol(.) == 2L) %>%
+  purrr::map(filter, !is.na(X1)) %>%
+  purrr::map(~ `colnames<-`(.[-1, ], .[1, ])) %>%
+  purrr::map(function(x){
+    nm_col <- colnames(x)
+    idx_code <- grep("コード", nm_col)[1]
+    idx_name <- setdiff(1:2, idx_code)
+    purrr::set_names(
+      x[[idx_name]],
+      x[[idx_code]]
+    )
+})
+
+result_3cols <- result %>%
+  purrr::keep(~ncol(.) == 3L) %>%
+  purrr::map(filter, !is.na(X1)) %>%
+  purrr::map(~ `colnames<-`(.[-1, ], .[1, ])) %>%
+  purrr::map(function(x){
+    nm_col <- colnames(x)
+    idx_code <- grep("コード", nm_col)[1]
+    idx_name <- grep("説明|内容|^ゾーン$|^駅名$|^駅の名称$|^対象施設$|区分$", nm_col)[1]
+    purrr::set_names(
+      x[[idx_name]],
+      x[[idx_code]]
+    )
+})
+
+result_DistributionCd <- result[["DistributionCd.html"]] %>%
+  slice(-1) %>%
+  {purrr::set_names(.[[3]], .[[2]])}
+
+result_4cols <- result %>%
+  purrr::keep(~ncol(.) == 4L) %>%
+  { purrr::discard(., names(.) == "DistributionCd.html") } %>%
+  purrr::map(slice, -1) %>%
+  purrr::map(function(x){
+    d <- bind_rows(`colnames<-`(x[, 1:2], c("code", "name")),
+                   `colnames<-`(x[, 3:4], c("code", "name"))) %>%
+      filter(.data$code != "")
+    purrr::set_names(d[["name"]], d[["code"]])
+})
+
+codelist_codes_all <- c(result_2cols,
+                        result_3cols,
+                        list("DistributionCd.html" = result_DistributionCd),
+                        result_4cols)
+```
+
+```{r}
+KSJMetadata_code_correspondence_tables <- c(codelist_codes_all,
+                                            enum_codes_all)
+```
+
+Write data
+----------
+
+```{r, message=FALSE}
+devtools::use_data(KSJMetadata_code_correspondence_tables, overwrite = TRUE)
+```
+
+```{r}
+file.copy(rprojroot::find_package_root_file("data/KSJMetadata_code_correspondence_tables.rda"),
+          rprojroot::find_package_root_file("../kokudosuuchi/data/"),
+          overwrite = TRUE)
+```

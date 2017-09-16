@@ -1,0 +1,218 @@
+identifier,text,link_label,url_basename,url_fullname
+A09,コードリスト「都道府県コード」　,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A09,コードリスト「支庁区分コード」　,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A09,コードリスト「都市地域区分コード」　,都市地域区分コード,UrbanPlanningAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/UrbanPlanningAreaCd.html
+A10,コードリスト「都道府県コード」　,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A10,コードリスト「支庁区分コード」　,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A10,コードリスト「自然公園地域区分コード」　,自然公園地域区分コード,NaturalParkAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/NaturalParkAreaCd.html
+A11,コードリスト「都道府県コード」　,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A11,コードリスト「支庁区分コード」　,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A11,コードリスト「自然保全地域区分コード」　,自然保全地域区分コード,NatureConservationAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/NatureConservationAreaCd.html
+A12,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A12,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A12,コードリスト「農業地域区分コード」,農業地域区分コード,AgriculturalAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AgriculturalAreaCd.html
+A13,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A13,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A13,コードリスト「森林地域区分コード」,森林地域区分コード,ForestAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ForestAreaCd.html
+A15,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A16,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A17,コードリスト「過疎区分コード」,過疎区分コード,KasoCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/KasoCd.html
+A19,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A19,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A19,コードリスト「離島区分コード」,離島区分コード,RitoCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RitoCd.html
+A20,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A20,コードリスト「支庁区分コード,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A21,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A21,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A22-m,コードリスト「位置特定レベル」,位置特定レベル,PosSpecificLevel.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PosSpecificLevel.html
+A22-m,コードリスト「集計単位フラグ」,集計単位フラグ,AggregateUnitFlag.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AggregateUnitFlag.html
+A22-m,コードリスト「集計単位フラグ」,集計単位フラグ,AggregateUnitFlag.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AggregateUnitFlag.html
+A22-m,コードリスト「位置特定レベル」,位置特定レベル,PosSpecificLevel.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PosSpecificLevel.html
+A22,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A22,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A22,コードリスト「豪雪区分コード」,豪雪区分コード,GosetsuCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/GosetsuCd.html
+A23,コードリスト「特殊土壌区分コード」,特殊土壌区分コード,TokusyudojyoCd-v3_0.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/TokusyudojyoCd-v3_0.html
+A24,コードリスト「都道府県コード」　,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A24,コードリスト「支庁区分コード」,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A25,コードリスト「都道府県コード」　,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A25,コードリスト「支庁区分コード」　,支庁区分コード,SubprefectureNameCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SubprefectureNameCd.html
+A25,コードリスト「特定農山村地域区分コード」　,特定農山村地域区分コード,NousansonCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/NousansonCd.html
+A26,コードリスト「危険箇所種別コード」　,危険箇所種別コード,SedimentDisastersProneAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SedimentDisastersProneAreaCd.html
+A27,コードリスト「行政コード」　,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A27,コードリスト「行政コード」　,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A28,コードリスト「世界自然遺産コード」,世界自然遺産コード,WorldHeritageCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/WorldHeritageCd.html
+A29,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A29,コードリスト「用途地域分類コード」,用途地域分類コード,UseDistrictCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/UseDistrictCd.html
+A31,コードリスト型（浸水深ランクコード）,浸水深ランクコード,WaterDepthCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/WaterDepthCd.html
+A31,コードリスト型（作成種別コード）,作成種別コード,CreatingTypeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CreatingTypeCd.html
+A32,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A32,コードリスト「行政コード」　,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A33,コードリスト「現象種別コード」　,現象種別コード,CodeOfPhenomenon.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CodeOfPhenomenon.html
+A33,コードリスト「区域コード」　,区域コード,CodeOfZone_h27.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CodeOfZone_h27.html
+A33,コードリスト「都道府県コード」　,都道府県コード,PrefCdA33.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCdA33.html
+A33,コードリスト「特別警戒区域未指定コード」　,特別警戒区域未指定コード,CodeOfUnSpecification.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CodeOfUnSpecification.html
+A35a,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35a,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A35a,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35a,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A35b,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35b,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A35b,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35b,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A35c,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35c,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A35c,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+A35c,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A37,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+A37,コードリスト「集計単位フラグ」,集計単位フラグ,AggUnitFlagEmerTransCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AggUnitFlagEmerTransCd.html
+A38,コードリスト「設定フラグ」,設定フラグ,SettingFlag.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SettingFlag.html
+A39,不燃領域率定義コード,不燃領域率定義コード,CodeNoncombustibleCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CodeNoncombustibleCd.html
+A39,防災再開発促進地区指定コード,防災再開発促進地区指定コード,CodeDesignationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CodeDesignationCd.html
+C02,コードリスト「港湾種別（1）コード」,港湾種別（1）コード,ClassHarbor1Cd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ClassHarbor1Cd.html
+C02,コードリスト「港湾種別（2）コード」,港湾種別（2）コード,ClassHarbor2Cd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ClassHarbor2Cd.html
+C02,コードリスト「港湾管理者区分コード」,港湾管理者区分コード,AdminHarborCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminHarborCd.html
+C02,コードリスト「海事機関種別コード」,海事機関種別コード,MaritimeOrgCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/MaritimeOrgCd.html
+C02,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+C02,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+C09,コードリスト「漁港種別コード」,漁港種別コード,ClassFishPortCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ClassFishPortCd.html
+C09,コードリスト「漁業管理者区分コード」,漁業管理者区分コード,FishPortAdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/FishPortAdminCd.html
+C09,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+C23,コードリスト「所管官庁コード」　,所管官庁コード,AdminSeaLineCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminSeaLineCd.html
+C23,コードリスト「海岸保全区域・海岸管理者コード」　,海岸保全区域・海岸管理者コード,AdminConAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminConAreaCd.html
+C28,コードリスト「空港種別コード」,空港種別コード,InstallAirPortCd-v2_3.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstallAirPortCd-v2_3.html
+C28,コードリスト「設置者・管理者コード」,設置者・管理者コード,InstallAdminCd-v2_3.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstallAdminCd-v2_3.html
+C28,コードリスト「設置者・管理者コード」,設置者・管理者コード,InstallAdminCd-v2_3.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstallAdminCd-v2_3.html
+C28,コードリスト「定期便の有無コード」,定期便の有無コード,RegularFlightCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RegularFlightCd.html
+G08,参照資料コード,参照資料コード,ReferenceDataCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ReferenceDataCd.html
+L01,コードリスト「見出し番号」　,見出し番号,IndexNumL01-v1_1.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/IndexNumL01-v1_1.html
+L01,コードリスト「見出し番号」,見出し番号,IndexNumL01-v1_1.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/IndexNumL01-v1_1.html
+L01,コードリスト「選定状況」,選定状況,SelectLandStatus-v1_1.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SelectLandStatus-v1_1.html
+L02,コードリスト「見出し番号」,見出し番号,IndexNumL02-v2_2.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/IndexNumL02-v2_2.html
+L02,コードリスト「見出し番号」,見出し番号,IndexNumL02-v2_2.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/IndexNumL02-v2_2.html
+L02,コードリスト「選定状況」,選定状況,SelectLandStatus-v2_2.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SelectLandStatus-v2_2.html
+L03-b-u,コードリスト「土地利用種別」土地利用種別,土地利用種別,LandUseCd-09-u.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/LandUseCd-09-u.html
+L05,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+L05,コードリスト「用途地域コード」,用途地域コード,useDistrict.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/useDistrict.html
+N02,コードリスト「鉄道区分コード」,鉄道区分コード,RailwayClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayClassCd.html
+N02,コードリスト「事業者種別コード」,事業者種別コード,InstitutionTypeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstitutionTypeCd.html
+N05,コードリスト「事業者種別コード」,事業者種別コード,RailwayClass2Cd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayClass2Cd.html
+N05,コードリスト「変遷IDコード」,変遷IDコード,RailwayTransitionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayTransitionCd.html
+N06,コードリスト「変遷IDコード」,変遷IDコード,HighwayTransitionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/HighwayTransitionCd.html
+N06,コードリスト「路線種別コード」,路線種別コード,HighwayCatCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/HighwayCatCd.html
+N06,コードリスト「供用状況コード」,供用状況コード,HighwayUseCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/HighwayUseCd.html
+N06,コードリスト「変遷IDコード」,変遷IDコード,HighwayTransitionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/HighwayTransitionCd.html
+N06,コードリスト「接合部種別コード」,接合部種別コード,HighwayConCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/HighwayConCd.html
+N07,コードリスト「バス区分コード」,バス区分コード,BusClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/BusClassCd.html
+N08,コードリスト「空港種別コード」,空港種別コード,AirportCatCd..html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AirportCatCd..html
+N08,コードリスト「設置者・管理者コード」,設置者・管理者コード,InstallAdminCd-v2_3.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstallAdminCd-v2_3.html
+N08,コードリスト「設置者・管理者コード」,設置者・管理者コード,InstallAdminCd-v2_3.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstallAdminCd-v2_3.html
+N08,コードリスト「定期便コード」,定期便コード,RegularFlightCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RegularFlightCd.html
+N08,コードリスト「ジェット化コード」,ジェット化コード,AirJetCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AirJetCd.html
+N08,コードリスト「供用状況コード」,供用状況コード,AirportUseCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AirportUseCd.html
+N08,コードリスト「変遷IDコード」,変遷IDコード,AirportTransitionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AirportTransitionCd.html
+N08,コードリスト「供用状況コード」,供用状況コード,AirportUseCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AirportUseCd.html
+N10,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+N10,コードリスト「緊急輸送道路区分コード」,緊急輸送道路区分コード,UrgentRoadCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/UrgentRoadCd.html
+N10,コードリスト「道路種別コード」,道路種別コード,RoadCategoryCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RoadCategoryCd.html
+N11,コードリスト「航空法分類コード」,航空法分類コード,AviationActCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AviationActCd.html
+N11,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+P02,コードリスト「公共施設大分類コード」,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P02,コードリスト「公共施設小分類コード」,公共施設小分類コード,PubFacMiclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMiclassCd.html
+P02,コードリスト「公共施設管理者コード」,公共施設管理者コード,PubFacAdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacAdminCd.html
+P03,コードリスト型「工事中コード」,工事中コード,underConstruction.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/underConstruction.html
+P03,"コードリスト型
+      火力原動力コード",火力原動力コード,ThermalPowerEngine.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ThermalPowerEngine.html
+P03,"コードリスト型
+      炉型コード",炉型コード,FurnaceType.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/FurnaceType.html
+P03,"コードリスト型
+      バイオマス発電種別コード",バイオマス発電種別コード,BiomassType.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/BiomassType.html
+P04,コードリスト「医療機関分類コード」,医療機関分類コード,MedClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/MedClassCd.html
+P04,コードリスト「開設者分類コード」,開設者分類コード,EstClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/EstClassCd.html
+P05,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P05,コードリスト「施設分類コード」,施設分類コード,PubOfficeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubOfficeCd.html
+P07,コードリスト「燃料店舗分類コード」,燃料店舗分類コード,FuelStoreCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/FuelStoreCd.html
+P11,コードリスト「バス区分コード」,バス区分コード,BusClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/BusClassCd.html
+P12,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+P12,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P12,コードリスト「観光資源分類コード」,観光資源分類コード,tourismResourceCategoryCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/tourismResourceCategoryCd.html
+P13,コードリスト「公園種別コード」,公園種別コード,CityParkCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CityParkCd.html
+P14,コードリスト「公共施設大分類コード」,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P14,コードリスト「公共施設小分類コード」,公共施設小分類コード,PubFacMiclassCd_wf.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMiclassCd_wf.html
+P14,コードリスト「福祉施設細分類コード」,福祉施設細分類コード,WelfareFacMiclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/WelfareFacMiclassCd.html
+P14,コードリスト「管理者コード」の第2.0版を参照,管理者コード,PubFacAdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacAdminCd.html
+P15,コードリスト「施設種別コード」,施設種別コード,FacilitiesClassificationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/FacilitiesClassificationCd.html
+P16,数値型(Decimal)コードリスト「主体コードリスト」,主体コードリスト,ResearchInstitutionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/ResearchInstitutionCd.html
+P18,コードリスト「種別コード」,種別コード,PoliceStationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PoliceStationCd.html
+P19,コードリスト「類型コード」,類型コード,NaturalsceneCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/NaturalsceneCd.html
+P19,コードリスト「自然景観資源分類コード」,自然景観資源分類コード,NaturalfeatureCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/NaturalfeatureCd.html
+P26,コードリスト型「行政コード」 ,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P26,コードリスト型「事業手法コード」 ,事業手法コード,BusinessTechCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/BusinessTechCd.html
+P27,コードリスト型「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P27,コードリスト型「公共施設大分類コード」 ,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P27,コードリスト型「公共施設小分類コード」,公共施設小分類コード,PubFacMinclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMinclassCd.html
+P27,コードリスト型「文化施設分類コード」 ,文化施設分類コード,CultureFacCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/CultureFacCd.html
+P27,コードリスト型「管理者コード」,管理者コード,AdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminCd.html
+P28,コードリスト型「行政コード」 ,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P28,コードリスト型「公共施設大分類コード」 ,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P28,コードリスト型「公共施設小分類コード」 ,公共施設小分類コード,PubFacMinclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMinclassCd.html
+P28,コードリスト型「国・都道府県の機関分類コード」  ,国・都道府県の機関分類コード,FacClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/FacClassCd.html
+P28,コードリスト型「管理者コード」,管理者コード,AdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminCd.html
+P29,コードリスト型「行政コード」 ,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P29,コードリスト型「公共施設大分類コード」 ,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P29,コードリスト型「公共施設小分類コード」 ,公共施設小分類コード,PubFacMinclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMinclassCd.html
+P29,コードリスト型「学校分類コード」,学校分類コード,SchoolClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SchoolClassCd.html
+P29,コードリスト型「管理者コード」,管理者コード,AdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminCd.html
+P30,コードリスト型「行政コード」 ,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P30,コードリスト型「公共施設大分類コード」 ,公共施設大分類コード,PubFacMaclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html
+P30,コードリスト型「公共施設小分類コード」,公共施設小分類コード,PubFacMinclassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMinclassCd.html
+P30,コードリスト型「郵便局分類コード」,郵便局分類コード,postOfficeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/postOfficeCd.html
+P30,コードリスト型「管理者コード」,管理者コード,AdminCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminCd.html
+P31,コードリスト「種別コード」,種別コード,DistributionCenterCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/DistributionCenterCd.html
+P31,コードリスト「分類コード」,分類コード,DistributionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/DistributionCd.html
+P31,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+P31,コードリスト「事業者分類コード」,事業者分類コード,EntrepreneurCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/EntrepreneurCd.html
+P32,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+P32,コードリスト「種別大区分コード」,種別大区分コード,LargeClassificationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/LargeClassificationCd.html
+P32,コードリスト「種別小区分コード」,種別小区分コード,SmallClassificationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/SmallClassificationCd.html
+P32,コードリスト「代表点区分コード」,代表点区分コード,PointClassificationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PointClassificationCd.html
+P33,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P33,コードリスト「都道府県コード」,都道府県コード,PrefCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PrefCd.html
+P33,コードリスト「施設区分コード」,施設区分コード,facilityTypeCode.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/facilityTypeCode.html
+P33,"コードリスト「公民館の種別コード」
+※公民館以外の施設の場合、「-1」とする。 
+",公民館の種別コード,communityCenterType.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/communityCenterType.html
+P33,コードリスト「代表点区分コード」,代表点区分コード,pointClassificationCode.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/pointClassificationCode.html
+P34,コードリスト「行政コード」,行政コード,AdminAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/AdminAreaCd.html
+P34,コードリスト「施設分類コード」,施設分類コード,PubOfficeClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubOfficeClassCd.html
+S05-a,コードリスト「都市圏コード」　,都市圏コード,PTAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PTAreaCd.html
+S05-a,コードリスト「発生集中コード」　,発生集中コード,TripGenerationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/TripGenerationCd.html
+S05-b,コードリスト「都市圏コード」,都市圏コード,PTAreaCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PTAreaCd.html
+S05-c,コードリスト「東京都市圏駅コード」,東京都市圏駅コード,TokyoAreaStationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/TokyoAreaStationCd.html
+S05-c,コードリスト「近畿圏H12年度駅コード」「近畿圏H22年度駅コード」,近畿圏H12年度駅コード,KeihanshinAreaStationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/KeihanshinAreaStationCd.html
+S05-c,コードリスト「近畿圏H12年度駅コード」「近畿圏H22年度駅コード」,近畿圏H22年度駅コード,KinkiAreaStationCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/KinkiAreaStationCd.html
+S05-d,コードリスト「旅客地域流動ゾーンコード」　,旅客地域流動ゾーンコード,RyokakuZoneCD.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RyokakuZoneCD.html
+S05-d,コードリスト「貨物地域流動ゾーンコード」,貨物地域流動ゾーンコード,KamotsuZoneCD.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/KamotsuZoneCD.html
+S10a,整数型（Integer）（大分類項目）,大分類項目,PortRouteCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PortRouteCd.html
+S10a,整数型（Integer）（中分類項目）,中分類項目,PortRouteCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/PortRouteCd.html
+S12,コードリスト（鉄道区分コード）,鉄道区分コード,RailwayClassCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayClassCd.html
+S12,コードリスト（事業者種別コード）,事業者種別コード,InstitutionTypeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/InstitutionTypeCd.html
+S12,コードリスト（重複コード）,重複コード,RailwayDuplicateCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayDuplicateCd.html
+S12,コードリスト（データ有無コード）,データ有無コード,RailwayExistenceCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayExistenceCd.html
+S12,コードリスト（重複コード）,重複コード,RailwayDuplicateCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayDuplicateCd.html
+S12,コードリスト（データ有無コード）,データ有無コード,RailwayExistenceCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayExistenceCd.html
+S12,コードリスト（重複コード）,重複コード,RailwayDuplicateCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayDuplicateCd.html
+S12,コードリスト（データ有無コード）,データ有無コード,RailwayExistenceCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayExistenceCd.html
+S12,コードリスト（重複コード）,重複コード,RailwayDuplicateCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayDuplicateCd.html
+S12,コードリスト（データ有無コード）,データ有無コード,RailwayExistenceCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayExistenceCd.html
+S12,コードリスト（重複コード）,重複コード,RailwayDuplicateCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayDuplicateCd.html
+S12,コードリスト（データ有無コード）,データ有無コード,RailwayExistenceCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RailwayExistenceCd.html
+W01,コードリスト「ダム形式コード」,ダム形式コード,DamTypeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/DamTypeCd.html
+W01,コードリスト「ダム目的コード」,ダム目的コード,DamPurposeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/DamPurposeCd.html
+W01,コードリスト「ダム事業者コード」,ダム事業者コード,DamInstitutionCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/DamInstitutionCd.html
+W01,コードリスト「位置情報精度コード」,位置情報精度コード,LocationAccuracyCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/LocationAccuracyCd.html
+W05,コードリスト「水系域コード種別」,水系域コード種別,WaterSystemCodeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/WaterSystemCodeCd.html
+W05,コードリスト「河川コード種別」,河川コード種別,RiverCodeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RiverCodeCd.html
+W05,コードリスト「原典資料種別コード」,原典資料種別コード,OriginalDataCodeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/OriginalDataCodeCd.html
+W07,整数型（Integer）水系域コード種別」,水系域コード種別,WaterSystemCodeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/WaterSystemCodeCd.html
+W07,"整数型（Integer）
+「河川コード種別」",河川コード種別,RiverCodeCd.html,http://nlftp.mlit.go.jp/ksj/gml/codelist/RiverCodeCd.html
