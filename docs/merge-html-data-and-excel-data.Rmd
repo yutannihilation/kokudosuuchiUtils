@@ -330,11 +330,18 @@ Join codelist
 ```{r}
 merged_data_w_codelist <- merged_data %>% 
   left_join(codelist, by = c("identifier", "text")) %>%
-  select(source, identifier, name, item_id, tag, code, codelist = url_basename)
+  select(source, identifier, name, item_id, tag, code, correspondence_table = url_basename)
 ```
 
 Join enums
 ----------
+
+If data is included in codelist
+
+```{r}
+merged_data_w_enum <- merged_data_w_codelist %>%
+  mutate(correspondence_table = if_else(.data$code %in% names(enum_codes_all), .data$code, .data$correspondence_table))
+```
 
 Join source URLs
 ----------------
@@ -348,6 +355,10 @@ KSJMetadata_code <- merged_data_w_codelist %>%
                           identifier_to_url[.data$identifier],
                           "http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls"))
 ```
+
+Join codelist manually
+----------------------
+
 
 
 Verify

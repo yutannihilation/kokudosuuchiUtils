@@ -1,4 +1,4 @@
-source,identifier,name,item_id,tag,code,codelist
+source,identifier,name,item_id,tag,code,correspondence_table
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A02-a,3次メッシュコード,0,DesignatedAreaTertiaryMesh,A02a_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A02-a,3次メッシュ面積,0,DesignatedAreaTertiaryMesh,A02a_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A02-a,農業地域の面積,0,DesignatedAreaTertiaryMesh,A02a_003,NA
@@ -41,7 +41,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,行政区域コー�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,都道府県名,0,ThreeMajorMetroPlanArea,A03_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,郡市名,0,ThreeMajorMetroPlanArea,A03_003,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,区町村名,0,ThreeMajorMetroPlanArea,A03_004,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,陸水等区分,0,ThreeMajorMetroPlanArea,A03_005,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,陸水等区分,0,ThreeMajorMetroPlanArea,A03_005,A03_005
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,区域区分,0,ThreeMajorMetroPlanArea,A03_006,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,区域コード,0,ThreeMajorMetroPlanArea,A03_007,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,A03,備考,0,ThreeMajorMetroPlanArea,A03_008,NA
@@ -970,7 +970,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,設置者,0,
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,設置者,0,Airport,C28_006,InstallAdminCd-v2_3.html
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,管理者,0,Airport,C28_007,InstallAdminCd-v2_3.html
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,管理者,0,Airport,C28_007,InstallAdminCd-v2_3.html
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,特定飛行場の指定状況,0,Airport,C28_008,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,特定飛行場の指定状況,0,Airport,C28_008,C28_008
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,運用時間（開始）,0,Airport,C28_009,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,運用時間（終了）,0,Airport,C28_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,定期便の有無,0,Airport,C28_011,RegularFlightCd.html
@@ -979,7 +979,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C28,年間閉鎖日,0,S
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C28,標点,0,Airport,C28_101,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C28,ターミナルビル,0,Airport,C28_102,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,C28,調査内容,0,Airport,C28_103,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,供用中・建設中の区別,NA,NA,C28_004,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,供用中・建設中の区別,NA,NA,C28_004,C28_004
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,滑走路延長,NA,NA,C28_012,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,滑走路幅,NA,NA,C28_013,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-v2_4.html,C28,１日あたりの着陸回数,NA,NA,C28_015,NA
@@ -1129,11 +1129,11 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,3次メッシ
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,平均標高,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最高標高,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_003,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最低標高,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_004,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最低標高コード,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_005,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最低標高コード,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_005,G04a_005
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最大傾斜角度,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_006,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最大傾斜方向,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_007,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最大傾斜方向,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_007,G04a_007
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最小傾斜角度,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_008,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最小傾斜方向,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_009,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,最小傾斜方向,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_009,G04a_009
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html,G04-a,平均傾斜角度,0,ElevationAnsSlopeAngleTeriaryMesh,G04a_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,G04-b,細分メッシュコード,0,ElevationAndSlopeAngleSubdivisionMesh,G04b_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,G04-b,標高値,0,ElevationAndSlopeAngleSubdivisionMesh,G04b_002,NA
@@ -1146,21 +1146,21 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,4次メッシ
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,平均標高,0,ElevationAndSlopeAngleFourthMesh,G04c_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最高標高,0,ElevationAndSlopeAngleFourthMesh,G04c_003,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最低標高,0,ElevationAndSlopeAngleFourthMesh,G04c_004,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最低標高コード,0,ElevationAndSlopeAngleFourthMesh,G04c_005,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最低標高コード,0,ElevationAndSlopeAngleFourthMesh,G04c_005,G04c_005
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最大傾斜角度,0,ElevationAndSlopeAngleFourthMesh,G04c_006,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最大傾斜方向,0,ElevationAndSlopeAngleFourthMesh,G04c_007,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最大傾斜方向,0,ElevationAndSlopeAngleFourthMesh,G04c_007,G04c_007
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最小傾斜角度,0,ElevationAndSlopeAngleFourthMesh,G04c_008,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最小傾斜方向,0,ElevationAndSlopeAngleFourthMesh,G04c_009,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,最小傾斜方向,0,ElevationAndSlopeAngleFourthMesh,G04c_009,G04c_009
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html,G04-c,平均傾斜角度,0,ElevationAndSlopeAngleFourthMesh,G04c_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,5次メッシュコード,0,ElevationAndSlopeAngleFifthMesh,G04d_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,平均標高,0,ElevationAndSlopeAngleFifthMesh,G04d_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最高標高,0,ElevationAndSlopeAngleFifthMesh,G04d_003,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最低標高,0,ElevationAndSlopeAngleFifthMesh,G04d_004,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最低標高コード,0,ElevationAndSlopeAngleFifthMesh,G04d_005,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最低標高コード,0,ElevationAndSlopeAngleFifthMesh,G04d_005,G04d_005
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最大傾斜角度,0,ElevationAndSlopeAngleFifthMesh,G04d_006,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最大傾斜方向,0,ElevationAndSlopeAngleFifthMesh,G04d_007,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最大傾斜方向,0,ElevationAndSlopeAngleFifthMesh,G04d_007,G04d_007
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最小傾斜角度,0,ElevationAndSlopeAngleFifthMesh,G04d_008,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最小傾斜方向,0,ElevationAndSlopeAngleFifthMesh,G04d_009,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,最小傾斜方向,0,ElevationAndSlopeAngleFifthMesh,G04d_009,G04d_009
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html,G04-d,平均傾斜角度,0,ElevationAndSlopeAngleFifthMesh,G04d_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,G05,3次メッシュコード,0,LandClassificationMesh,G05_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,G05,地形分類,0,LandClassificationMesh,G05_002,NA
@@ -1220,7 +1220,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,供給施設有無�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,供給施設有無（下水）,0,LandPrice,L01_026,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,形状,0,LandPrice,L01_027,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,間口比率,0,LandPrice,L01_028,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,奥行比率,0,LandPrice,L01_029,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,奥行比率,0,LandPrice,L01_029,L01_029
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,地上階層,0,LandPrice,L01_030,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,地下階層,0,LandPrice,L01_031,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,前面道路状況,0,LandPrice,L01_032,NA
@@ -1234,7 +1234,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,交通施設との�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,周辺の土地利用の状況,0,LandPrice,L01_040,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,駅名,0,LandPrice,L01_041,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,駅からの距離,0,LandPrice,L01_042,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,法規制,0,LandPrice,L01_043,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,法規制,0,LandPrice,L01_043,L01_043
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,建ぺい率,0,LandPrice,L01_044,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,容積率,0,LandPrice,L01_045,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,共通地点,0,LandPrice,L01_046,NA
@@ -1365,7 +1365,7 @@ PrefectureLandPriceResearch",L01_027,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,駅からの距離,1,"LandPrice
 PrefectureLandPriceResearch",L01_028,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,法規制,1,"LandPrice
-PrefectureLandPriceResearch",L01_029,NA
+PrefectureLandPriceResearch",L01_029,L01_029
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,建ぺい率,1,"LandPrice
 PrefectureLandPriceResearch",L01_030,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L01,容積率,1,"LandPrice
@@ -1400,7 +1400,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,供給施設有無�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,供給施設有無（下水）,0,PrefectureLandPriceResearch,L02_026,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,駅名,0,PrefectureLandPriceResearch,L02_027,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,駅からの距離,0,PrefectureLandPriceResearch,L02_028,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,法規制,0,PrefectureLandPriceResearch,L02_029,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,法規制,0,PrefectureLandPriceResearch,L02_029,L02_029
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,建ぺい率,0,PrefectureLandPriceResearch,L02_030,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,容積率,0,PrefectureLandPriceResearch,L02_031,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,基準地コード_見出し番号,1,PrefectureLandPriceResearch,L02_001,IndexNumL02-v2_2.html
@@ -1433,7 +1433,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,供給施設有無�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,供給施設有無（下水）,1,PrefectureLandPriceResearch,L02_026,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,形状区分,1,PrefectureLandPriceResearch,L02_027,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,間口比率,1,PrefectureLandPriceResearch,L02_028,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,奥行比率,1,PrefectureLandPriceResearch,L02_029,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,奥行比率,1,PrefectureLandPriceResearch,L02_029,L02_029
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,地上階層,1,PrefectureLandPriceResearch,L02_030,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,地下階層,1,PrefectureLandPriceResearch,L02_031,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,前面道路区分,1,PrefectureLandPriceResearch,L02_032,NA
@@ -1445,7 +1445,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,側道の方位区�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,周辺の土地利用の状況,1,PrefectureLandPriceResearch,L02_038,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,駅名,1,PrefectureLandPriceResearch,L02_039,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,駅からの距離,1,PrefectureLandPriceResearch,L02_040,NA
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,法規制,1,PrefectureLandPriceResearch,L02_041,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,法規制,1,PrefectureLandPriceResearch,L02_041,L02_041
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,建ぺい率,1,PrefectureLandPriceResearch,L02_042,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,容積率,1,PrefectureLandPriceResearch,L02_043,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,L02,共通地点,1,PrefectureLandPriceResearch,L02_044,NA
@@ -2002,7 +2002,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,所在地都道�
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,所在地市区町村名,NA,NA,P13_006,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,供用開始年,NA,NA,P13_007,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,供用済面積,NA,NA,P13_008,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,都市計画決定,NA,NA,P13_009,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,都市計画決定,NA,NA,P13_009,P13_009
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html,P13,備考,NA,NA,P13_010,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14.html,P14,都道府県名,NA,NA,P14_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14.html,P14,市区町村名,NA,NA,P14_002,NA
@@ -2076,7 +2076,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P16.html,P16,備考11,NA,NA,P1
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P16.html,P16,備考12,NA,NA,P16_026,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,名称,NA,NA,P17_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,行政コード,NA,NA,P17_002,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,種別コード,NA,NA,P17_003,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,種別コード,NA,NA,P17_003,P17_003
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,所在地,NA,NA,P17_004,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,名称,NA,NA,P17_005,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html,P17,管轄範囲1,NA,NA,P17_006,NA
@@ -2150,7 +2150,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html,P20,収容人数,NA,N
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html,P20,施設規模,NA,NA,P20_006,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,事業主体,NA,NA,P21a-001,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,事業名称,NA,NA,P21a-002,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,種別,NA,NA,P21a-003,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,種別,NA,NA,P21a-003,P21a-003
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,給水人口,NA,NA,P21a-004,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,日最大給水量,NA,NA,P21a-005,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html,P21,事業主体,NA,NA,P21b-001,NA
@@ -2215,7 +2215,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,直売所有り,N
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,直営レストラン有り,NA,NA,P24_008,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,農林漁業体験民宿有り,NA,NA,P24_009,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,市民農園有り,NA,NA,P24_010,NA
-http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,原典コード,NA,NA,P24_011,NA
+http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,原典コード,NA,NA,P24_011,P24_011
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html,P24,URL,NA,NA,P24_012,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P26.html,P26,都道府県名,NA,NA,P26_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P26.html,P26,市区町村名,NA,NA,P26_002,NA
@@ -3298,7 +3298,7 @@ http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W04-b,1/10細分メッ�
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W04-b,陸湖沼コード,0,LakeSubdivisionMes,W04b_002,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,水系域,0,River,W05_001,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川コード,0,River,W05_002,RiverCodeCd.html
-http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,区間種別,0,River,W05_003,NA
+http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,区間種別,0,River,W05_003,W05_003
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,河川名,0,River,W05_004,NA
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,原典資料種別,0,River,W05_005,OriginalDataCodeCd.html
 http://nlftp.mlit.go.jp/ksj/gml/shape_property_table.xls,W05,流下方向判定,0,River,W05_006,NA
